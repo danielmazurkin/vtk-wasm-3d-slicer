@@ -1,0 +1,147 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"IO/MINC/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4156,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"IO/MINC/vtkMINC.h",
+				"IO/MINC/vtkMINCImageAttributes.h",
+				"IO/MINC/vtkMINCImageReader.h",
+				"IO/MINC/vtkMINCImageWriter.h",
+				"IO/MINC/vtkMNIObjectReader.h",
+				"IO/MINC/vtkMNIObjectWriter.h",
+				"IO/MINC/vtkMNITagPointReader.h",
+				"IO/MINC/vtkMNITagPointWriter.h",
+				"IO/MINC/vtkMNITransformReader.h",
+				"IO/MINC/vtkMNITransformWriter.h",
+				"cmake-build-debug/IO/MINC/vtkIOMINCModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkIOMINC-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkIOMINC-9.2.so.9.2",
+				"lib/libvtkIOMINC-9.2.so.1"
+			],
+			"targetId" : "IOMINC::@19309271f5741cf663fe",
+			"targetIndex" : 66,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkIOMINC-9.2.so"
+			],
+			"targetId" : "IOMINC::@19309271f5741cf663fe",
+			"targetIndex" : 66,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "licenses",
+			"destination" : "share/licenses/VTK/vtkIOMINC",
+			"paths" : 
+			[
+				"IO/MINC/Copyright.txt"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "IO/MINC",
+		"source" : "IO/MINC"
+	}
+}

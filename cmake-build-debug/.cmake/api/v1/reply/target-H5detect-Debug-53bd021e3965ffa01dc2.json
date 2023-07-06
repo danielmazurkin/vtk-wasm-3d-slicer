@@ -1,0 +1,150 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/vtkH5detect"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"ThirdParty/hdf5/vtkhdf5/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1067,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1069,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1068,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "  -std=c99   -Og -ftrapv -fno-common -fmessage-length=0 -g -fPIE -fdiagnostics-color=always"
+				},
+				{
+					"fragment" : "-std=gnu99"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_LARGEFILE_SOURCE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_POSIX_C_SOURCE=200809L"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/danil/vtk_new/ThirdParty/hdf5/vtkhdf5/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/hdf5/vtkhdf5/src"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "H5detect::@ccfa84d3cdf9596c143f",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-std=c99   -Og -ftrapv -fno-common -fmessage-length=0 -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-lc  -Wl,-lc",
+				"role" : "flags"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "H5detect",
+	"nameOnDisk" : "vtkH5detect",
+	"paths" : 
+	{
+		"build" : "ThirdParty/hdf5/vtkhdf5/src",
+		"source" : "ThirdParty/hdf5/vtkhdf5/src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/hdf5/vtkhdf5/src/H5detect.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

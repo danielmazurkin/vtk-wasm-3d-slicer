@@ -1,0 +1,8 @@
+/home/danil/vtk_new/Imaging/Stencil/vtkImageStencil.h;vtkImagingStencil
+/home/danil/vtk_new/Imaging/Stencil/vtkImageStencilToImage.h;vtkImagingStencil
+/home/danil/vtk_new/Imaging/Stencil/vtkImageToImageStencil.h;vtkImagingStencil
+/home/danil/vtk_new/Imaging/Stencil/vtkImplicitFunctionToImageStencil.h;vtkImagingStencil
+/home/danil/vtk_new/Imaging/Stencil/vtkLassoStencilSource.h;vtkImagingStencil
+/home/danil/vtk_new/Imaging/Stencil/vtkPolyDataToImageStencil.h;vtkImagingStencil
+/home/danil/vtk_new/Imaging/Stencil/vtkROIStencilSource.h;vtkImagingStencil
+/home/danil/vtk_new/cmake-build-debug/Imaging/Stencil/vtkImagingStencilModule.h;vtkImagingStencil

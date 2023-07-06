@@ -1,0 +1,247 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Filters/Core/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 132,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Filters/Core/vtk3DLinearGridCrinkleExtractor.h",
+				"Filters/Core/vtk3DLinearGridPlaneCutter.h",
+				"Filters/Core/vtkAppendArcLength.h",
+				"Filters/Core/vtkAppendCompositeDataLeaves.h",
+				"Filters/Core/vtkAppendDataSets.h",
+				"Filters/Core/vtkAppendFilter.h",
+				"Filters/Core/vtkAppendPolyData.h",
+				"Filters/Core/vtkAppendSelection.h",
+				"Filters/Core/vtkArrayCalculator.h",
+				"Filters/Core/vtkArrayRename.h",
+				"Filters/Core/vtkAssignAttribute.h",
+				"Filters/Core/vtkAttributeDataToFieldDataFilter.h",
+				"Filters/Core/vtkAttributeDataToTableFilter.h",
+				"Filters/Core/vtkBinCellDataFilter.h",
+				"Filters/Core/vtkBinnedDecimation.h",
+				"Filters/Core/vtkCellCenters.h",
+				"Filters/Core/vtkCellDataToPointData.h",
+				"Filters/Core/vtkCenterOfMass.h",
+				"Filters/Core/vtkCleanPolyData.h",
+				"Filters/Core/vtkClipPolyData.h",
+				"Filters/Core/vtkCompositeCutter.h",
+				"Filters/Core/vtkCompositeDataProbeFilter.h",
+				"Filters/Core/vtkConnectivityFilter.h",
+				"Filters/Core/vtkConstrainedSmoothingFilter.h",
+				"Filters/Core/vtkContour3DLinearGrid.h",
+				"Filters/Core/vtkContourFilter.h",
+				"Filters/Core/vtkContourGrid.h",
+				"Filters/Core/vtkContourHelper.h",
+				"Filters/Core/vtkConvertToMultiBlockDataSet.h",
+				"Filters/Core/vtkConvertToPartitionedDataSetCollection.h",
+				"Filters/Core/vtkConvertToPolyhedra.h",
+				"Filters/Core/vtkCutter.h",
+				"Filters/Core/vtkDataObjectGenerator.h",
+				"Filters/Core/vtkDataObjectToDataSetFilter.h",
+				"Filters/Core/vtkDataSetEdgeSubdivisionCriterion.h",
+				"Filters/Core/vtkDataSetToDataObjectFilter.h",
+				"Filters/Core/vtkDecimatePolylineFilter.h",
+				"Filters/Core/vtkDecimatePro.h",
+				"Filters/Core/vtkDelaunay2D.h",
+				"Filters/Core/vtkDelaunay3D.h",
+				"Filters/Core/vtkEdgeSubdivisionCriterion.h",
+				"Filters/Core/vtkElevationFilter.h",
+				"Filters/Core/vtkExecutionTimer.h",
+				"Filters/Core/vtkExplicitStructuredGridCrop.h",
+				"Filters/Core/vtkExplicitStructuredGridToUnstructuredGrid.h",
+				"Filters/Core/vtkExtractCells.h",
+				"Filters/Core/vtkExtractCellsAlongPolyLine.h",
+				"Filters/Core/vtkExtractEdges.h",
+				"Filters/Core/vtkFeatureEdges.h",
+				"Filters/Core/vtkFieldDataToAttributeDataFilter.h",
+				"Filters/Core/vtkFlyingEdges2D.h",
+				"Filters/Core/vtkFlyingEdges3D.h",
+				"Filters/Core/vtkFlyingEdgesPlaneCutter.h",
+				"Filters/Core/vtkGlyph2D.h",
+				"Filters/Core/vtkGlyph3D.h",
+				"Filters/Core/vtkGridSynchronizedTemplates3D.h",
+				"Filters/Core/vtkHedgeHog.h",
+				"Filters/Core/vtkHull.h",
+				"Filters/Core/vtkHyperTreeGridProbeFilter.h",
+				"Filters/Core/vtkIdFilter.h",
+				"Filters/Core/vtkImageAppend.h",
+				"Filters/Core/vtkImageDataToExplicitStructuredGrid.h",
+				"Filters/Core/vtkImplicitPolyDataDistance.h",
+				"Filters/Core/vtkImplicitProjectOnPlaneDistance.h",
+				"Filters/Core/vtkMarchingCubes.h",
+				"Filters/Core/vtkMarchingSquares.h",
+				"Filters/Core/vtkMaskFields.h",
+				"Filters/Core/vtkMaskPoints.h",
+				"Filters/Core/vtkMaskPolyData.h",
+				"Filters/Core/vtkMassProperties.h",
+				"Filters/Core/vtkMergeDataObjectFilter.h",
+				"Filters/Core/vtkMergeFields.h",
+				"Filters/Core/vtkMergeFilter.h",
+				"Filters/Core/vtkMoleculeAppend.h",
+				"Filters/Core/vtkMultiObjectMassProperties.h",
+				"Filters/Core/vtkPackLabels.h",
+				"Filters/Core/vtkPassThrough.h",
+				"Filters/Core/vtkPlaneCutter.h",
+				"Filters/Core/vtkPointDataToCellData.h",
+				"Filters/Core/vtkPolyDataConnectivityFilter.h",
+				"Filters/Core/vtkPolyDataEdgeConnectivityFilter.h",
+				"Filters/Core/vtkPolyDataNormals.h",
+				"Filters/Core/vtkPolyDataPlaneClipper.h",
+				"Filters/Core/vtkPolyDataPlaneCutter.h",
+				"Filters/Core/vtkPolyDataTangents.h",
+				"Filters/Core/vtkPolyDataToUnstructuredGrid.h",
+				"Filters/Core/vtkProbeFilter.h",
+				"Filters/Core/vtkQuadricClustering.h",
+				"Filters/Core/vtkQuadricDecimation.h",
+				"Filters/Core/vtkRearrangeFields.h",
+				"Filters/Core/vtkRectilinearSynchronizedTemplates.h",
+				"Filters/Core/vtkRemoveDuplicatePolys.h",
+				"Filters/Core/vtkRemoveUnusedPoints.h",
+				"Filters/Core/vtkResampleToImage.h",
+				"Filters/Core/vtkResampleWithDataSet.h",
+				"Filters/Core/vtkReverseSense.h",
+				"Filters/Core/vtkSimpleElevationFilter.h",
+				"Filters/Core/vtkSmoothPolyDataFilter.h",
+				"Filters/Core/vtkSphereTreeFilter.h",
+				"Filters/Core/vtkStructuredDataPlaneCutter.h",
+				"Filters/Core/vtkStaticCleanPolyData.h",
+				"Filters/Core/vtkStaticCleanUnstructuredGrid.h",
+				"Filters/Core/vtkStreamerBase.h",
+				"Filters/Core/vtkStreamingTessellator.h",
+				"Filters/Core/vtkStripper.h",
+				"Filters/Core/vtkStructuredGridAppend.h",
+				"Filters/Core/vtkStructuredGridOutlineFilter.h",
+				"Filters/Core/vtkSurfaceNets2D.h",
+				"Filters/Core/vtkSurfaceNets3D.h",
+				"Filters/Core/vtkSynchronizedTemplates2D.h",
+				"Filters/Core/vtkSynchronizedTemplates3D.h",
+				"Filters/Core/vtkSynchronizedTemplatesCutter3D.h",
+				"Filters/Core/vtkTensorGlyph.h",
+				"Filters/Core/vtkThreshold.h",
+				"Filters/Core/vtkThresholdPoints.h",
+				"Filters/Core/vtkTransposeTable.h",
+				"Filters/Core/vtkTriangleFilter.h",
+				"Filters/Core/vtkTriangleMeshPointNormals.h",
+				"Filters/Core/vtkTubeBender.h",
+				"Filters/Core/vtkTubeFilter.h",
+				"Filters/Core/vtkUnstructuredGridQuadricDecimation.h",
+				"Filters/Core/vtkUnstructuredGridToExplicitStructuredGrid.h",
+				"Filters/Core/vtkVectorDot.h",
+				"Filters/Core/vtkVectorNorm.h",
+				"Filters/Core/vtkVoronoi2D.h",
+				"Filters/Core/vtkWindowedSincPolyDataFilter.h",
+				"cmake-build-debug/Filters/Core/vtkFiltersCoreModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkFiltersCore-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkFiltersCore-9.2.so.9.2",
+				"lib/libvtkFiltersCore-9.2.so.1"
+			],
+			"targetId" : "FiltersCore::@19486ed090774a79ee2d",
+			"targetIndex" : 16,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkFiltersCore-9.2.so"
+			],
+			"targetId" : "FiltersCore::@19486ed090774a79ee2d",
+			"targetIndex" : 16,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Filters/Core",
+		"source" : "Filters/Core"
+	}
+}

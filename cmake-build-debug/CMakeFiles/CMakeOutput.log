@@ -1,0 +1,3578 @@
+The system is: Linux - 5.4.0-113-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/danil/vtk_new/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/danil/vtk_new/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-G0C1NF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_f74d7 && [1/2] Building C object CMakeFiles/cmTC_f74d7.dir/CMakeCCompilerABI.c.o
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f74d7.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_f74d7.dir/CMakeCCompilerABI.c.o -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccs7nhKC.s
+GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: c0c95c0b4209efec1c1892d5ff24030b
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f74d7.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_f74d7.dir/CMakeCCompilerABI.c.o /tmp/ccs7nhKC.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f74d7.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+[2/2] Linking C executable cmTC_f74d7
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f74d7' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWYIq2S.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f74d7 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_f74d7.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f74d7' '-mtune=generic' '-march=x86-64'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-G0C1NF]
+  ignore line: []
+  ignore line: [Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_f74d7 && [1/2] Building C object CMakeFiles/cmTC_f74d7.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f74d7.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_f74d7.dir/CMakeCCompilerABI.c.o -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccs7nhKC.s]
+  ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: c0c95c0b4209efec1c1892d5ff24030b]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f74d7.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_f74d7.dir/CMakeCCompilerABI.c.o /tmp/ccs7nhKC.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f74d7.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [[2/2] Linking C executable cmTC_f74d7]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f74d7' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWYIq2S.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f74d7 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_f74d7.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccWYIq2S.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f74d7] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_f74d7.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8VjBNG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_3a3bf && [1/2] Building CXX object CMakeFiles/cmTC_3a3bf.dir/CMakeCXXCompilerABI.cpp.o
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_3a3bf.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_3a3bf.dir/CMakeCXXCompilerABI.cpp.o -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccc4FlwC.s
+GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 65fe925b83d3956b533de4aaba7dace0
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_3a3bf.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_3a3bf.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccc4FlwC.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_3a3bf.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+[2/2] Linking CXX executable cmTC_3a3bf
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3a3bf' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccv1iN2U.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_3a3bf /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_3a3bf.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3a3bf' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/9]
+    add: [/usr/include/x86_64-linux-gnu/c++/9]
+    add: [/usr/include/c++/9/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/9] ==> [/usr/include/c++/9]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/9] ==> [/usr/include/x86_64-linux-gnu/c++/9]
+  collapse include dir [/usr/include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8VjBNG]
+  ignore line: []
+  ignore line: [Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_3a3bf && [1/2] Building CXX object CMakeFiles/cmTC_3a3bf.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_3a3bf.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_3a3bf.dir/CMakeCXXCompilerABI.cpp.o -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccc4FlwC.s]
+  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 65fe925b83d3956b533de4aaba7dace0]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_3a3bf.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_3a3bf.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccc4FlwC.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_3a3bf.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [[2/2] Linking CXX executable cmTC_3a3bf]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3a3bf' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccv1iN2U.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_3a3bf /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_3a3bf.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccv1iN2U.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_3a3bf] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_3a3bf.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test HAVE_GCC_ERROR_RETURN_TYPE succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ufwIqG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_d4626 && [1/2] Building CXX object CMakeFiles/cmTC_d4626.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_d4626
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test VTK_REQUIRE_LARGE_FILE_SUPPORT succeeded with the following compile output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Tmo7oD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_6915d && [1/2] Building CXX object CMakeFiles/cmTC_6915d.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_6915d
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+#define _LARGEFILE_SOURCE
+#define _LARGE_FILES
+#define _FILE_OFFSET_BITS 64
+#include <cassert>
+#include <cstdio>
+#include <sys/stat.h>
+#include <sys/types.h>
+
+int main(int, char** argv)
+{
+  // check that off_t can hold 2^63 - 1 and perform basic operations...
+#define OFF_T_64 (((off_t)1 << 62) - 1 + ((off_t)1 << 62))
+  if (OFF_T_64 % 2147483647 != 1)
+    return 1;
+
+  // stat breaks on SCO OpenServer
+  struct stat buf;
+  stat(argv[0], &buf);
+  if (!S_ISREG(buf.st_mode))
+    return 2;
+
+  FILE* file = fopen(argv[0], "r");
+  off_t offset = ftello(file);
+  fseek(file, offset, SEEK_CUR);
+  fclose(file);
+  return 0;
+}
+
+
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_VISIBILITY succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HUyihF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_6a195 && [1/2] Building CXX object CMakeFiles/cmTC_6a195.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_6a195
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uTSwjG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_88f94 && [1/2] Building CXX object CMakeFiles/cmTC_88f94.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_88f94
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5pBZcE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_dc34c && [1/2] Building CXX object CMakeFiles/cmTC_dc34c.dir/src.cxx.o
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5pBZcE/src.cxx: In function ‘int main()’:
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5pBZcE/src.cxx:2:34: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
+    2 |     int main() { return somefunc();}
+      |                                  ^
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5pBZcE/src.cxx:1:37: note: declared here
+    1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
+      |                                     ^~~~~~~~
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5pBZcE/src.cxx:2:34: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
+    2 |     int main() { return somefunc();}
+      |                                  ^
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5pBZcE/src.cxx:1:37: note: declared here
+    1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
+      |                                     ^~~~~~~~
+[2/2] Linking CXX executable cmTC_dc34c
+
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}
+
+Checking whether wstring is available compiled with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_653c3 && [1/2] Building CXX object CMakeFiles/cmTC_653c3.dir/kwsysPlatformTestsCXX.cxx.o
+[2/2] Linking CXX executable cmTC_653c3
+
+
+
+Checking whether C compiler has ptrdiff_t in stddef.h compiled with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_1894a && [1/2] Building C object CMakeFiles/cmTC_1894a.dir/kwsysPlatformTestsC.c.o
+[2/2] Linking C executable cmTC_1894a
+
+
+
+Checking whether C compiler has ssize_t in unistd.h compiled with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_f7dbb && [1/2] Building C object CMakeFiles/cmTC_f7dbb.dir/kwsysPlatformTestsC.c.o
+[2/2] Linking C executable cmTC_f7dbb
+
+
+
+Checking whether C compiler has clock_gettime compiled with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_4c706 && [1/2] Building C object CMakeFiles/cmTC_4c706.dir/kwsysPlatformTestsC.c.o
+[2/2] Linking C executable cmTC_4c706
+
+
+
+Checking whether CXX compiler has setenv compiled with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_f2e09 && [1/2] Building CXX object CMakeFiles/cmTC_f2e09.dir/kwsysPlatformTestsCXX.cxx.o
+[2/2] Linking CXX executable cmTC_f2e09
+
+
+
+Checking whether CXX compiler has unsetenv compiled with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_17508 && [1/2] Building CXX object CMakeFiles/cmTC_17508.dir/kwsysPlatformTestsCXX.cxx.o
+[2/2] Linking CXX executable cmTC_17508
+
+
+
+Checking whether CXX compiler has utimes compiled with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_a2c6a && [1/2] Building CXX object CMakeFiles/cmTC_a2c6a.dir/kwsysPlatformTestsCXX.cxx.o
+[2/2] Linking CXX executable cmTC_a2c6a
+
+
+
+Checking whether CXX compiler has utimensat compiled with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_17b03 && [1/2] Building CXX object CMakeFiles/cmTC_17b03.dir/kwsysPlatformTestsCXX.cxx.o
+[2/2] Linking CXX executable cmTC_17b03
+
+
+
+Checking whether CXX compiler struct stat has st_mtim member compiled with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_4a3fd && [1/2] Building CXX object CMakeFiles/cmTC_4a3fd.dir/kwsysPlatformTestsCXX.cxx.o
+[2/2] Linking CXX executable cmTC_4a3fd
+
+
+
+Determining if files sys/types.h;ifaddrs.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kml8LC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_7aa15 && [1/2] Building C object CMakeFiles/cmTC_7aa15.dir/KWSYS_SYS_HAS_IFADDRS_H.c.o
+[2/2] Linking C executable cmTC_7aa15
+
+
+
+Checking whether CXX compiler has rlimit64 compiled with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_cc317 && [1/2] Building CXX object CMakeFiles/cmTC_cc317.dir/kwsysPlatformTestsCXX.cxx.o
+[2/2] Linking CXX executable cmTC_cc317
+
+
+
+Determining if the include file execinfo.h exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-SeEpdD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_aede7 && [1/2] Building CXX object CMakeFiles/cmTC_aede7.dir/CheckIncludeFile.cxx.o
+[2/2] Linking CXX executable cmTC_aede7
+
+
+
+Checking whether backtrace works with this C++ compiler compiled with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_75cd8 && [1/2] Building CXX object CMakeFiles/cmTC_75cd8.dir/kwsysPlatformTestsCXX.cxx.o
+[2/2] Linking CXX executable cmTC_75cd8
+
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bxTQEE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_016a0 && [1/2] Building CXX object CMakeFiles/cmTC_016a0.dir/CheckIncludeFile.cxx.o
+[2/2] Linking CXX executable cmTC_016a0
+
+
+
+Checking whether dladdr works with this C++ compiler compiled with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_46649 && [1/2] Building CXX object CMakeFiles/cmTC_46649.dir/kwsysPlatformTestsCXX.cxx.o
+[2/2] Linking CXX executable cmTC_46649
+
+
+
+Determining if the include file cxxabi.h exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-CpmlvG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_16e7e && [1/2] Building CXX object CMakeFiles/cmTC_16e7e.dir/CheckIncludeFile.cxx.o
+[2/2] Linking CXX executable cmTC_16e7e
+
+
+
+Checking whether cxxabi works with this C++ compiler compiled with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_5f1fd && [1/2] Building CXX object CMakeFiles/cmTC_5f1fd.dir/kwsysPlatformTestsCXX.cxx.o
+[2/2] Linking CXX executable cmTC_5f1fd
+
+
+
+Checking whether CXX compiler has getloadavg compiled with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_4c535 && [1/2] Building CXX object CMakeFiles/cmTC_4c535.dir/kwsysPlatformTestsCXX.cxx.o
+[2/2] Linking CXX executable cmTC_4c535
+
+
+
+Checking whether <ext/stdio_filebuf.h> is available compiled with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_3a253 && [1/2] Building CXX object CMakeFiles/cmTC_3a253.dir/kwsysPlatformTestsCXX.cxx.o
+[2/2] Linking CXX executable cmTC_3a253
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lhXBRF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_0db50 && [1/2] Building C object CMakeFiles/cmTC_0db50.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_0db50
+
+
+
+Determining if the C++ compiler supports __atomic_add_fetch builtin completed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/Common/Core/CMakeTmp/Sync/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_f72a7 && [1/2] Building CXX object CMakeFiles/cmTC_f72a7.dir/vtkTestSyncBuiltins.cxx.o
+[2/2] Linking CXX executable cmTC_f72a7
+
+
+Performing C++ SOURCE FILE Test VTK_HAS_STD_ISNAN succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-PngJYC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_bd216 && [1/2] Building CXX object CMakeFiles/cmTC_bd216.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_bd216
+
+
+Source file was:
+/* CHECK_CXX_EXPRESSION_COMPILES */
+#include <cmath>
+
+int main()
+{
+  static_cast<void>(std::isnan(0.0));
+
+  return 0;
+}
+
+
+Performing C++ SOURCE FILE Test VTK_HAS_STD_ISINF succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-60PNzE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_69744 && [1/2] Building CXX object CMakeFiles/cmTC_69744.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_69744
+
+
+Source file was:
+/* CHECK_CXX_EXPRESSION_COMPILES */
+#include <cmath>
+
+int main()
+{
+  static_cast<void>(std::isinf(0.0));
+
+  return 0;
+}
+
+
+Performing C++ SOURCE FILE Test VTK_HAS_STD_ISFINITE succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Xe6XKF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_129c3 && [1/2] Building CXX object CMakeFiles/cmTC_129c3.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_129c3
+
+
+Source file was:
+/* CHECK_CXX_EXPRESSION_COMPILES */
+#include <cmath>
+
+int main()
+{
+  static_cast<void>(std::isfinite(0.0));
+
+  return 0;
+}
+
+
+Determining if the isnan exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-eH2waE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_ec7b7 && [1/2] Building C object CMakeFiles/cmTC_ec7b7.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ec7b7
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isnan
+  return ((int*)(&isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isinf exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TeNjOG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_3816d && [1/2] Building C object CMakeFiles/cmTC_3816d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_3816d
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isinf
+  return ((int*)(&isinf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isfinite exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jRFEID
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_d44f0 && [1/2] Building C object CMakeFiles/cmTC_d44f0.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d44f0
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isfinite
+  return ((int*)(&isfinite))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the finite exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9YXZ5C
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_d0770 && [1/2] Building C object CMakeFiles/cmTC_d0770.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d0770
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef finite
+  return ((int*)(&finite))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file fenv.h exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Wv5RQD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_96def && [1/2] Building C object CMakeFiles/cmTC_96def.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_96def
+
+
+
+Determining if the feenableexcept exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1REAAC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_207a7 && [1/2] Building C object CMakeFiles/cmTC_207a7.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_207a7
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef feenableexcept
+  return ((int*)(&feenableexcept))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file cxxabi.h exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YAXw0D
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_ff809 && [1/2] Building CXX object CMakeFiles/cmTC_ff809.dir/CheckIncludeFile.cxx.o
+[2/2] Linking CXX executable cmTC_ff809
+
+
+
+Determining if the abi::__cxa_demangle exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IOCwPE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_a785e && [1/2] Building CXX object CMakeFiles/cmTC_a785e.dir/CheckSymbolExists.cxx.o
+[2/2] Linking CXX executable cmTC_a785e
+
+
+File CheckSymbolExists.cxx:
+/* */
+#include <cxxabi.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+  return ((int*)(&abi::__cxa_demangle))[argc];
+}
+
+Determining if getsockname accepts socklen_t type  completed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/Common/System/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_5b0c7 && [1/2] Building CXX object CMakeFiles/cmTC_5b0c7.dir/vtkTestSocklenT.cxx.o
+[2/2] Linking CXX executable cmTC_5b0c7
+
+
+Determining if the SO_REUSEADDR exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-G6AFzD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_7d96a && [1/2] Building C object CMakeFiles/cmTC_7d96a.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_7d96a
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/socket.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SO_REUSEADDR
+  return ((int*)(&SO_REUSEADDR))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test has_std_11_flag succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-t1wU8F
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_66e79 && [1/2] Building CXX object CMakeFiles/cmTC_66e79.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_66e79
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test has_std_0x_flag succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qWv7hD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_8a01f && [1/2] Building CXX object CMakeFiles/cmTC_8a01f.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_8a01f
+
+
+Source file was:
+int main() { return 0; }
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RQMkDG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_13e86 && [1/2] Building C object CMakeFiles/cmTC_13e86.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_13e86
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sDHVfE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_66c87 && [1/2] Building C object CMakeFiles/cmTC_66c87.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_66c87
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oTbJ5D
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_65f55 && [1/2] Building C object CMakeFiles/cmTC_65f55.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_65f55
+
+
+
+Determining size of off64_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-QKDN4D
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_bd03e && [1/2] Building C object CMakeFiles/cmTC_bd03e.dir/OFF64_T.c.o
+[2/2] Linking C executable cmTC_bd03e
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4VrZyE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_3a294 && [1/2] Building C object CMakeFiles/cmTC_3a294.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_3a294
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mqjmlC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_0f96f && [1/2] Building C object CMakeFiles/cmTC_0f96f.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_0f96f
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bK73gE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_b731e && [1/2] Building C object CMakeFiles/cmTC_b731e.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_b731e
+
+
+
+Determining if the memset exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VPiyeC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_1c619 && [1/2] Building C object CMakeFiles/cmTC_1c619.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_1c619
+
+
+File CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memset
+  return ((int*)(&memset))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the memcpy exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3Zze9C
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_22d06 && [1/2] Building C object CMakeFiles/cmTC_22d06.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_22d06
+
+
+File CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memcpy
+  return ((int*)(&memcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-UbyNIG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_0cc97 && [1/2] Building C object CMakeFiles/cmTC_0cc97.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_0cc97
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Fhux8C
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_2100e && [1/2] Building C object CMakeFiles/cmTC_2100e.dir/SIZE_T.c.o
+[2/2] Linking C executable cmTC_2100e
+
+
+
+Performing C SOURCE FILE Test C_FLAG_Wall succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZWXiHD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_52aa9 && [1/2] Building C object CMakeFiles/cmTC_52aa9.dir/src.c.o
+[2/2] Linking C executable cmTC_52aa9
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_FLAG_Winline succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3T5nVE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_63311 && [1/2] Building C object CMakeFiles/cmTC_63311.dir/src.c.o
+[2/2] Linking C executable cmTC_63311
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_FLAG_Wformat_security succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-EJJu4F
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_86146 && [1/2] Building C object CMakeFiles/cmTC_86146.dir/src.c.o
+[2/2] Linking C executable cmTC_86146
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_FLAG_Wpointer_arith succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7x732E
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_38fc0 && [1/2] Building C object CMakeFiles/cmTC_38fc0.dir/src.c.o
+[2/2] Linking C executable cmTC_38fc0
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_FLAG_Wdisabled_optimization succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jGysNF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_bdda7 && [1/2] Building C object CMakeFiles/cmTC_bdda7.dir/src.c.o
+[2/2] Linking C executable cmTC_bdda7
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_FLAG_Wno_unknown_pragmas succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5Ily1E
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_1d11d && [1/2] Building C object CMakeFiles/cmTC_1d11d.dir/src.c.o
+[2/2] Linking C executable cmTC_1d11d
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_FLAG_fstrict_aliasing succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e7b2zC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_80456 && [1/2] Building C object CMakeFiles/cmTC_80456.dir/src.c.o
+[2/2] Linking C executable cmTC_80456
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_LD_VERSION_SCRIPT succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Q9aeKF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_62d8d && [1/2] Building C object CMakeFiles/cmTC_62d8d.dir/src.c.o
+[2/2] Linking C executable cmTC_62d8d
+
+
+Source file was:
+int main(void){return 0;}
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ojLrKD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_636e9 && [1/2] Building C object CMakeFiles/cmTC_636e9.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_636e9
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1xz0sC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_a36a1 && [1/2] Building C object CMakeFiles/cmTC_a36a1.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_a36a1
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zQKf8C
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_3e2a4 && [1/2] Building C object CMakeFiles/cmTC_3e2a4.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_3e2a4
+
+
+
+Determining if the getopt exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sF6CSD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_6acc4 && [1/2] Building C object CMakeFiles/cmTC_6acc4.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_6acc4
+
+
+File CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getopt
+  return ((int*)(&getopt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the optarg exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Af8mAC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_b01aa && [1/2] Building C object CMakeFiles/cmTC_b01aa.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b01aa
+
+
+File CheckSymbolExists.c:
+/* */
+#include <getopt.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef optarg
+  return ((int*)(&optarg))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mmap exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-byPtOC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_f7d8c && [1/2] Building C object CMakeFiles/cmTC_f7d8c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f7d8c
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mmap
+  return ((int*)(&mmap))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-W4e90C
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_fed99 && [1/2] Building C object CMakeFiles/cmTC_fed99.dir/SIZEOF_SIZE_T.c.o
+[2/2] Linking C executable cmTC_fed99
+
+
+
+Determining if the pow exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rJC8IF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_bd22a && [1/2] Building C object CMakeFiles/cmTC_bd22a.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_bd22a
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pow
+  return ((int*)(&pow))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test EIGEN_COMPILER_SUPPORT_CPP11 succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0FjHcC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_b8c4a && [1/2] Building CXX object CMakeFiles/cmTC_b8c4a.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_b8c4a
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test standard_math_library_linked_to_automatically succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-R3BRPD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_f10fa && [1/2] Building CXX object CMakeFiles/cmTC_f10fa.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_f10fa
+
+
+Source file was:
+
+#include<cmath>
+int main(int argc, char **){
+  return int(std::sin(double(argc)) + std::log(double(argc)));
+}
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_WERROR succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lH4m3C
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_ffee5 && [1/2] Building CXX object CMakeFiles/cmTC_ffee5.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_ffee5
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_pedantic succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-K9VqHG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_24f3d && [1/2] Building CXX object CMakeFiles/cmTC_24f3d.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_24f3d
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wall succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VftjUD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_9bd6d && [1/2] Building CXX object CMakeFiles/cmTC_9bd6d.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_9bd6d
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wextra succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-heXF9E
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_9665e && [1/2] Building CXX object CMakeFiles/cmTC_9665e.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_9665e
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wundef succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nZJUeC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_9043a && [1/2] Building CXX object CMakeFiles/cmTC_9043a.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_9043a
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcastalign succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0MaE9D
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_ea907 && [1/2] Building CXX object CMakeFiles/cmTC_ea907.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_ea907
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcharsubscripts succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uGBRaD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_0998c && [1/2] Building CXX object CMakeFiles/cmTC_0998c.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_0998c
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnonvirtualdtor succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rELERD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_3b7b6 && [1/2] Building CXX object CMakeFiles/cmTC_3b7b6.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_3b7b6
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wunusedlocaltypedefs succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ynQfvF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_7d7ca && [1/2] Building CXX object CMakeFiles/cmTC_7d7ca.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_7d7ca
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wpointerarith succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bVeQ1C
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_2d556 && [1/2] Building CXX object CMakeFiles/cmTC_2d556.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_2d556
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wwritestrings succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xTDDJF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_602a8 && [1/2] Building CXX object CMakeFiles/cmTC_602a8.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_602a8
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wformatsecurity succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rHxoDC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_6cf11 && [1/2] Building CXX object CMakeFiles/cmTC_6cf11.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_6cf11
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wlogicalop succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Ko8W5F
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_ba3f3 && [1/2] Building CXX object CMakeFiles/cmTC_ba3f3.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_ba3f3
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wdoublepromotion succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-x4IGpC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_47f98 && [1/2] Building CXX object CMakeFiles/cmTC_47f98.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_47f98
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnopsabi succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wQOUuF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_15363 && [1/2] Building CXX object CMakeFiles/cmTC_15363.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_15363
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnovariadicmacros succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-h2Xr5C
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_bb31a && [1/2] Building CXX object CMakeFiles/cmTC_bb31a.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_bb31a
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnolonglong succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6ftyYD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_17111 && [1/2] Building CXX object CMakeFiles/cmTC_17111.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_17111
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fnochecknew succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nCDZCD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_49525 && [1/2] Building CXX object CMakeFiles/cmTC_49525.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_49525
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fnocommon succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bG5PZD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_e7f78 && [1/2] Building CXX object CMakeFiles/cmTC_e7f78.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_e7f78
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fstrictaliasing succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a7hYuC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_fedbb && [1/2] Building CXX object CMakeFiles/cmTC_fedbb.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_fedbb
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_ansi succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9GRhVC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_3dbbc && [1/2] Building CXX object CMakeFiles/cmTC_3dbbc.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_3dbbc
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_OPENMP succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5w4KEF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_4d21e && [1/2] Building CXX object CMakeFiles/cmTC_4d21e.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_4d21e
+
+
+Source file was:
+int main() { return 0; }
+
+Determining if the include file byteswap.h exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OtU2oF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_468c1 && [1/2] Building C object CMakeFiles/cmTC_468c1.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_468c1
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yKUnBF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_7a048 && [1/2] Building C object CMakeFiles/cmTC_7a048.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_7a048
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-KewaVD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_344b5 && [1/2] Building C object CMakeFiles/cmTC_344b5.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_344b5
+
+
+
+Determining if the include file stdbool.h exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rBUlCD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_c51fa && [1/2] Building C object CMakeFiles/cmTC_c51fa.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_c51fa
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5MAloC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_5525a && [1/2] Building C object CMakeFiles/cmTC_5525a.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_5525a
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-S8bpuD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_696e7 && [1/2] Building C object CMakeFiles/cmTC_696e7.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_696e7
+
+
+
+Determining size of int16_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qO2zND
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_ad163 && [1/2] Building C object CMakeFiles/cmTC_ad163.dir/INT16_T.c.o
+[2/2] Linking C executable cmTC_ad163
+
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vPKamF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_0300c && [1/2] Building C object CMakeFiles/cmTC_0300c.dir/INT32_T.c.o
+[2/2] Linking C executable cmTC_0300c
+
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9GVttG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_14a5c && [1/2] Building C object CMakeFiles/cmTC_14a5c.dir/INT64_T.c.o
+[2/2] Linking C executable cmTC_14a5c
+
+
+
+Determining size of intmax_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-as24IE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_5f691 && [1/2] Building C object CMakeFiles/cmTC_5f691.dir/INTMAX_T.c.o
+[2/2] Linking C executable cmTC_5f691
+
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a8i6XD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_cf4ff && [1/2] Building C object CMakeFiles/cmTC_cf4ff.dir/UINT8_T.c.o
+[2/2] Linking C executable cmTC_cf4ff
+
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yRMfmF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_6d7ae && [1/2] Building C object CMakeFiles/cmTC_6d7ae.dir/UINT16_T.c.o
+[2/2] Linking C executable cmTC_6d7ae
+
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mGERdF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_4c8e0 && [1/2] Building C object CMakeFiles/cmTC_4c8e0.dir/UINT32_T.c.o
+[2/2] Linking C executable cmTC_4c8e0
+
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yWOGhD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_3859f && [1/2] Building C object CMakeFiles/cmTC_3859f.dir/UINT64_T.c.o
+[2/2] Linking C executable cmTC_3859f
+
+
+
+Determining size of uintmax_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OX4JuF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_0be57 && [1/2] Building C object CMakeFiles/cmTC_0be57.dir/UINTMAX_T.c.o
+[2/2] Linking C executable cmTC_0be57
+
+
+
+Determining size of short passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-JHhVEC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_09bc1 && [1/2] Building C object CMakeFiles/cmTC_09bc1.dir/SIZE_OF_SHORT.c.o
+[2/2] Linking C executable cmTC_09bc1
+
+
+
+Determining size of int passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tBHuQG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_e838e && [1/2] Building C object CMakeFiles/cmTC_e838e.dir/SIZE_OF_INT.c.o
+[2/2] Linking C executable cmTC_e838e
+
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zwuwqF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_76b18 && [1/2] Building C object CMakeFiles/cmTC_76b18.dir/SIZE_OF_LONG.c.o
+[2/2] Linking C executable cmTC_76b18
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wBX9IG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_eb7c4 && [1/2] Building C object CMakeFiles/cmTC_eb7c4.dir/SIZE_OF_LONG_LONG.c.o
+[2/2] Linking C executable cmTC_eb7c4
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fxozlE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_df918 && [1/2] Building C object CMakeFiles/cmTC_df918.dir/SIZE_OF_UNSIGNED_SHORT.c.o
+[2/2] Linking C executable cmTC_df918
+
+
+
+Determining size of unsigned passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pwZ8DF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_813c7 && [1/2] Building C object CMakeFiles/cmTC_813c7.dir/SIZE_OF_UNSIGNED.c.o
+[2/2] Linking C executable cmTC_813c7
+
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-x7hEjC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_111bc && [1/2] Building C object CMakeFiles/cmTC_111bc.dir/SIZE_OF_UNSIGNED_LONG.c.o
+[2/2] Linking C executable cmTC_111bc
+
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-FnndfG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_5f54b && [1/2] Building C object CMakeFiles/cmTC_5f54b.dir/SIZE_OF_UNSIGNED_LONG_LONG.c.o
+[2/2] Linking C executable cmTC_5f54b
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-SBLrJD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_d535f && [1/2] Building C object CMakeFiles/cmTC_d535f.dir/SIZE_OF_SIZE_T.c.o
+[2/2] Linking C executable cmTC_d535f
+
+
+
+Determining size of uintptr_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-h3IiPG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_d5c21 && [1/2] Building C object CMakeFiles/cmTC_d5c21.dir/UINTPTR_T.c.o
+[2/2] Linking C executable cmTC_d5c21
+
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HseSZD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_a65af && [1/2] Building C object CMakeFiles/cmTC_a65af.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_a65af
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nZZKTD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_898d2 && [1/2] Building C object CMakeFiles/cmTC_898d2.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_898d2
+
+
+
+Determining if the getpagesize exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7HA7aD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_97eb7 && [1/2] Building C object CMakeFiles/cmTC_97eb7.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_97eb7
+
+
+File CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getrandom exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rinf3E
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_8ff5c && [1/2] Building C object CMakeFiles/cmTC_8ff5c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_8ff5c
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/random.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrandom
+  return ((int*)(&getrandom))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files stdlib.h;stdarg.h;string.h;float.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-U9CvQD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_47ab9 && [1/2] Building C object CMakeFiles/cmTC_47ab9.dir/STDC_HEADERS.c.o
+[2/2] Linking C executable cmTC_47ab9
+
+
+
+Performing C SOURCE FILE Test HAVE_SYSCALL_GETRANDOM succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uROj2C
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_d35b5 && [1/2] Building C object CMakeFiles/cmTC_d35b5.dir/src.c.o
+[2/2] Linking C executable cmTC_d35b5
+
+
+Source file was:
+
+        #include <stdlib.h>  /* for NULL */
+        #include <unistd.h>  /* for syscall */
+        #include <sys/syscall.h>  /* for SYS_getrandom */
+        int main() {
+            syscall(SYS_getrandom, NULL, 0, 0);
+            return 0;
+        }
+
+Performing C SOURCE FILE Test FLAG_NO_STRICT_ALIASING succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mRbVRG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_5710b && [1/2] Building C object CMakeFiles/cmTC_5710b.dir/src.c.o
+[2/2] Linking C executable cmTC_5710b
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test FLAG_VISIBILITY succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uJDg4E
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_bc4ec && [1/2] Building C object CMakeFiles/cmTC_bc4ec.dir/src.c.o
+[2/2] Linking C executable cmTC_bc4ec
+
+
+Source file was:
+int main(void) { return 0; }
+
+Determining if the function cos exists in the m passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yB4tFE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_197b1 && [1/2] Building C object CMakeFiles/cmTC_197b1.dir/CheckFunctionExists.c.o
+<command-line>: warning: conflicting types for built-in function ‘cos’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yB4tFE/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yB4tFE/CheckFunctionExists.c:1:1: note: ‘cos’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+[2/2] Linking C executable cmTC_197b1
+
+
+
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-MshGuG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_6406c && [1/2] Building C object CMakeFiles/cmTC_6406c.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_6406c
+
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oLnmkE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_0e3ad && [1/2] Building C object CMakeFiles/cmTC_0e3ad.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_0e3ad
+
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tvQRRD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_ca4f1 && [1/2] Building C object CMakeFiles/cmTC_ca4f1.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_ca4f1
+
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-PVatlE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_79b3c && [1/2] Building C object CMakeFiles/cmTC_79b3c.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_79b3c
+
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Oq6iNC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_1dad6 && [1/2] Building C object CMakeFiles/cmTC_1dad6.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_1dad6
+
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-A7rN3E
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_352db && [1/2] Building C object CMakeFiles/cmTC_352db.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_352db
+
+
+
+Determining if files ;sys/file.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oFhXIE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_c2aae && [1/2] Building C object CMakeFiles/cmTC_c2aae.dir/H5_HAVE_SYS_FILE_H.c.o
+[2/2] Linking C executable cmTC_c2aae
+
+
+
+Determining if files sys/file.h;sys/ioctl.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uWiKyF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_24b21 && [1/2] Building C object CMakeFiles/cmTC_24b21.dir/H5_HAVE_SYS_IOCTL_H.c.o
+[2/2] Linking C executable cmTC_24b21
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-EF8k0F
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_a64be && [1/2] Building C object CMakeFiles/cmTC_a64be.dir/H5_HAVE_SYS_RESOURCE_H.c.o
+[2/2] Linking C executable cmTC_a64be
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZorVHE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_dfaac && [1/2] Building C object CMakeFiles/cmTC_dfaac.dir/H5_HAVE_SYS_SOCKET_H.c.o
+[2/2] Linking C executable cmTC_dfaac
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tJ1cHD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_5e4d7 && [1/2] Building C object CMakeFiles/cmTC_5e4d7.dir/H5_HAVE_SYS_STAT_H.c.o
+[2/2] Linking C executable cmTC_5e4d7
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-84sTuD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_76046 && [1/2] Building C object CMakeFiles/cmTC_76046.dir/H5_HAVE_SYS_TIME_H.c.o
+[2/2] Linking C executable cmTC_76046
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZhE8FG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_24328 && [1/2] Building C object CMakeFiles/cmTC_24328.dir/H5_HAVE_SYS_TYPES_H.c.o
+[2/2] Linking C executable cmTC_24328
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HTqZmF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_ef937 && [1/2] Building C object CMakeFiles/cmTC_ef937.dir/H5_HAVE_FEATURES_H.c.o
+[2/2] Linking C executable cmTC_ef937
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uR8RJG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_762b7 && [1/2] Building C object CMakeFiles/cmTC_762b7.dir/H5_HAVE_DIRENT_H.c.o
+[2/2] Linking C executable cmTC_762b7
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;unistd.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uMMmCF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_787ba && [1/2] Building C object CMakeFiles/cmTC_787ba.dir/H5_HAVE_UNISTD_H.c.o
+[2/2] Linking C executable cmTC_787ba
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;unistd.h;pwd.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RO5GiC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_be110 && [1/2] Building C object CMakeFiles/cmTC_be110.dir/H5_HAVE_PWD_H.c.o
+[2/2] Linking C executable cmTC_be110
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;unistd.h;pwd.h;pthread.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0ce8TD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_07398 && [1/2] Building C object CMakeFiles/cmTC_07398.dir/H5_HAVE_PTHREAD_H.c.o
+[2/2] Linking C executable cmTC_07398
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;unistd.h;pwd.h;pthread.h;dlfcn.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qWhXvC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_78ea3 && [1/2] Building C object CMakeFiles/cmTC_78ea3.dir/H5_HAVE_DLFCN_H.c.o
+[2/2] Linking C executable cmTC_78ea3
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;unistd.h;pwd.h;pthread.h;dlfcn.h;netinet/in.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-QILO0F
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_a688e && [1/2] Building C object CMakeFiles/cmTC_a688e.dir/H5_HAVE_NETINET_IN_H.c.o
+[2/2] Linking C executable cmTC_a688e
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;unistd.h;pwd.h;pthread.h;dlfcn.h;netinet/in.h;netdb.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RMLnuC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_55a69 && [1/2] Building C object CMakeFiles/cmTC_55a69.dir/H5_HAVE_NETDB_H.c.o
+[2/2] Linking C executable cmTC_55a69
+
+
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;unistd.h;pwd.h;pthread.h;dlfcn.h;netinet/in.h;netdb.h;arpa/inet.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DxNqHF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_11379 && [1/2] Building C object CMakeFiles/cmTC_11379.dir/H5_HAVE_ARPA_INET_H.c.o
+[2/2] Linking C executable cmTC_11379
+
+
+
+Determining if files quadmath.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-inCv4C
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_00890 && [1/2] Building C object CMakeFiles/cmTC_00890.dir/C_HAVE_QUADMATH.c.o
+[2/2] Linking C executable cmTC_00890
+
+
+
+Determining if the function ceil exists in the m; passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-B9gb6E
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_754b0 && [1/2] Building C object CMakeFiles/cmTC_754b0.dir/CheckFunctionExists.c.o
+<command-line>: warning: conflicting types for built-in function ‘ceil’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-B9gb6E/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-B9gb6E/CheckFunctionExists.c:1:1: note: ‘ceil’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+[2/2] Linking C executable cmTC_754b0
+
+
+
+Determining if the function lseek64 exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-akBoRF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_8b5bf && [1/2] Building C object CMakeFiles/cmTC_8b5bf.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_8b5bf
+
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-JCypRE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_f0f9c && [1/2] Building C object CMakeFiles/cmTC_f0f9c.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_f0f9c
+
+
+
+Performing C SOURCE FILE Test HAVE_STAT64_STRUCT succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-T7q3kD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_e84c8 && [1/2] Building C object CMakeFiles/cmTC_e84c8.dir/src.c.o
+[2/2] Linking C executable cmTC_e84c8
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat64 *)0)->st_blocks);
+  return 0;
+}
+
+
+Determining if the function stat64 exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gUgqnF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_edcd4 && [1/2] Building C object CMakeFiles/cmTC_edcd4.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_edcd4
+
+
+
+Determining size of char passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s29oVF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_bf62e && [1/2] Building C object CMakeFiles/cmTC_bf62e.dir/H5_SIZEOF_CHAR.c.o
+[2/2] Linking C executable cmTC_bf62e
+
+
+
+Determining size of short passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lrCCgD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_a0295 && [1/2] Building C object CMakeFiles/cmTC_a0295.dir/H5_SIZEOF_SHORT.c.o
+[2/2] Linking C executable cmTC_a0295
+
+
+
+Determining size of int passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-D4pfxD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_93dd1 && [1/2] Building C object CMakeFiles/cmTC_93dd1.dir/H5_SIZEOF_INT.c.o
+[2/2] Linking C executable cmTC_93dd1
+
+
+
+Determining size of unsigned passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-QOnKMF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_fcdb7 && [1/2] Building C object CMakeFiles/cmTC_fcdb7.dir/H5_SIZEOF_UNSIGNED.c.o
+[2/2] Linking C executable cmTC_fcdb7
+
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5syluC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_8b7dd && [1/2] Building C object CMakeFiles/cmTC_8b7dd.dir/H5_SIZEOF_LONG.c.o
+[2/2] Linking C executable cmTC_8b7dd
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ovtNbE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_b3802 && [1/2] Building C object CMakeFiles/cmTC_b3802.dir/H5_SIZEOF_LONG_LONG.c.o
+[2/2] Linking C executable cmTC_b3802
+
+
+
+Determining size of float passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-o36VwD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_690b2 && [1/2] Building C object CMakeFiles/cmTC_690b2.dir/H5_SIZEOF_FLOAT.c.o
+[2/2] Linking C executable cmTC_690b2
+
+
+
+Determining size of double passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ev6NAG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_7ec99 && [1/2] Building C object CMakeFiles/cmTC_7ec99.dir/H5_SIZEOF_DOUBLE.c.o
+[2/2] Linking C executable cmTC_7ec99
+
+
+
+Determining size of long double passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VPIfXC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_b99a5 && [1/2] Building C object CMakeFiles/cmTC_b99a5.dir/H5_SIZEOF_LONG_DOUBLE.c.o
+[2/2] Linking C executable cmTC_b99a5
+
+
+
+Determining size of int8_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rLlRTE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_e5a31 && [1/2] Building C object CMakeFiles/cmTC_e5a31.dir/H5_SIZEOF_INT8_T.c.o
+[2/2] Linking C executable cmTC_e5a31
+
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u0Gz8C
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_6f956 && [1/2] Building C object CMakeFiles/cmTC_6f956.dir/H5_SIZEOF_UINT8_T.c.o
+[2/2] Linking C executable cmTC_6f956
+
+
+
+Determining size of int_least8_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4S8pxE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_d90cb && [1/2] Building C object CMakeFiles/cmTC_d90cb.dir/H5_SIZEOF_INT_LEAST8_T.c.o
+[2/2] Linking C executable cmTC_d90cb
+
+
+
+Determining size of uint_least8_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0jFFcE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_47df4 && [1/2] Building C object CMakeFiles/cmTC_47df4.dir/H5_SIZEOF_UINT_LEAST8_T.c.o
+[2/2] Linking C executable cmTC_47df4
+
+
+
+Determining size of int_fast8_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-PQcTcF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_427ac && [1/2] Building C object CMakeFiles/cmTC_427ac.dir/H5_SIZEOF_INT_FAST8_T.c.o
+[2/2] Linking C executable cmTC_427ac
+
+
+
+Determining size of uint_fast8_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Ra4mNE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_8bd5f && [1/2] Building C object CMakeFiles/cmTC_8bd5f.dir/H5_SIZEOF_UINT_FAST8_T.c.o
+[2/2] Linking C executable cmTC_8bd5f
+
+
+
+Determining size of int16_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8dLMID
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_23e21 && [1/2] Building C object CMakeFiles/cmTC_23e21.dir/H5_SIZEOF_INT16_T.c.o
+[2/2] Linking C executable cmTC_23e21
+
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hKiJhF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_2d79c && [1/2] Building C object CMakeFiles/cmTC_2d79c.dir/H5_SIZEOF_UINT16_T.c.o
+[2/2] Linking C executable cmTC_2d79c
+
+
+
+Determining size of int_least16_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-SZUvKD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_176b5 && [1/2] Building C object CMakeFiles/cmTC_176b5.dir/H5_SIZEOF_INT_LEAST16_T.c.o
+[2/2] Linking C executable cmTC_176b5
+
+
+
+Determining size of uint_least16_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-QsJ7JD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_d65ae && [1/2] Building C object CMakeFiles/cmTC_d65ae.dir/H5_SIZEOF_UINT_LEAST16_T.c.o
+[2/2] Linking C executable cmTC_d65ae
+
+
+
+Determining size of int_fast16_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vejFDC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_9fb31 && [1/2] Building C object CMakeFiles/cmTC_9fb31.dir/H5_SIZEOF_INT_FAST16_T.c.o
+[2/2] Linking C executable cmTC_9fb31
+
+
+
+Determining size of uint_fast16_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gChH6F
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_c97b6 && [1/2] Building C object CMakeFiles/cmTC_c97b6.dir/H5_SIZEOF_UINT_FAST16_T.c.o
+[2/2] Linking C executable cmTC_c97b6
+
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Dn4hxF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_9e8e6 && [1/2] Building C object CMakeFiles/cmTC_9e8e6.dir/H5_SIZEOF_INT32_T.c.o
+[2/2] Linking C executable cmTC_9e8e6
+
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-eM0qqE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_d8cb9 && [1/2] Building C object CMakeFiles/cmTC_d8cb9.dir/H5_SIZEOF_UINT32_T.c.o
+[2/2] Linking C executable cmTC_d8cb9
+
+
+
+Determining size of int_least32_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fzm5TD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_3404f && [1/2] Building C object CMakeFiles/cmTC_3404f.dir/H5_SIZEOF_INT_LEAST32_T.c.o
+[2/2] Linking C executable cmTC_3404f
+
+
+
+Determining size of uint_least32_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-LiT4AG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_96cdd && [1/2] Building C object CMakeFiles/cmTC_96cdd.dir/H5_SIZEOF_UINT_LEAST32_T.c.o
+[2/2] Linking C executable cmTC_96cdd
+
+
+
+Determining size of int_fast32_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kUE2zE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_ab6fb && [1/2] Building C object CMakeFiles/cmTC_ab6fb.dir/H5_SIZEOF_INT_FAST32_T.c.o
+[2/2] Linking C executable cmTC_ab6fb
+
+
+
+Determining size of uint_fast32_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-upplnG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_d3902 && [1/2] Building C object CMakeFiles/cmTC_d3902.dir/H5_SIZEOF_UINT_FAST32_T.c.o
+[2/2] Linking C executable cmTC_d3902
+
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ianjSE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_1a184 && [1/2] Building C object CMakeFiles/cmTC_1a184.dir/H5_SIZEOF_INT64_T.c.o
+[2/2] Linking C executable cmTC_1a184
+
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lmkybE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_3fd36 && [1/2] Building C object CMakeFiles/cmTC_3fd36.dir/H5_SIZEOF_UINT64_T.c.o
+[2/2] Linking C executable cmTC_3fd36
+
+
+
+Determining size of int_least64_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YA2s0C
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_2be63 && [1/2] Building C object CMakeFiles/cmTC_2be63.dir/H5_SIZEOF_INT_LEAST64_T.c.o
+[2/2] Linking C executable cmTC_2be63
+
+
+
+Determining size of uint_least64_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-J0aTcE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_fc342 && [1/2] Building C object CMakeFiles/cmTC_fc342.dir/H5_SIZEOF_UINT_LEAST64_T.c.o
+[2/2] Linking C executable cmTC_fc342
+
+
+
+Determining size of int_fast64_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-QcQWbG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_31df1 && [1/2] Building C object CMakeFiles/cmTC_31df1.dir/H5_SIZEOF_INT_FAST64_T.c.o
+[2/2] Linking C executable cmTC_31df1
+
+
+
+Determining size of uint_fast64_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bRc2hE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_0243b && [1/2] Building C object CMakeFiles/cmTC_0243b.dir/H5_SIZEOF_UINT_FAST64_T.c.o
+[2/2] Linking C executable cmTC_0243b
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-NSGZTD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_0e722 && [1/2] Building C object CMakeFiles/cmTC_0e722.dir/H5_SIZEOF_SIZE_T.c.o
+[2/2] Linking C executable cmTC_0e722
+
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rKJarE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_af45d && [1/2] Building C object CMakeFiles/cmTC_af45d.dir/H5_SIZEOF_SSIZE_T.c.o
+[2/2] Linking C executable cmTC_af45d
+
+
+
+Determining size of ptrdiff_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-XGfHXC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_e7e34 && [1/2] Building C object CMakeFiles/cmTC_e7e34.dir/H5_SIZEOF_PTRDIFF_T.c.o
+[2/2] Linking C executable cmTC_e7e34
+
+
+
+Determining size of off_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-NgBE9C
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_bde9d && [1/2] Building C object CMakeFiles/cmTC_bde9d.dir/H5_SIZEOF_OFF_T.c.o
+[2/2] Linking C executable cmTC_bde9d
+
+
+
+Determining size of off64_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ig5zFE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_61a15 && [1/2] Building C object CMakeFiles/cmTC_61a15.dir/H5_SIZEOF_OFF64_T.c.o
+[2/2] Linking C executable cmTC_61a15
+
+
+
+Determining size of time_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GgWneF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_82feb && [1/2] Building C object CMakeFiles/cmTC_82feb.dir/H5_SIZEOF_TIME_T.c.o
+[2/2] Linking C executable cmTC_82feb
+
+
+
+Determining size of _Bool passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-R7L27C
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_356a3 && [1/2] Building C object CMakeFiles/cmTC_356a3.dir/H5_SIZEOF_BOOL.c.o
+[2/2] Linking C executable cmTC_356a3
+
+
+
+Performing C SOURCE FILE Test H5_HAVE_TM_GMTOFF succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2kwQGE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_88362 && [1/2] Building C object CMakeFiles/cmTC_88362.dir/src.c.o
+[2/2] Linking C executable cmTC_88362
+
+
+Source file was:
+
+#include <time.h>
+
+int main()
+{
+  (void)sizeof(((struct tm *)0)->tm_gmtoff);
+  return 0;
+}
+
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3Kx2BE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_7c6d2 && [1/2] Building C object CMakeFiles/cmTC_7c6d2.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_7c6d2
+
+
+
+Performing C SOURCE FILE Test H5_HAVE_STAT_ST_BLOCKS succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oyaMoF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_24e64 && [1/2] Building C object CMakeFiles/cmTC_24e64.dir/src.c.o
+[2/2] Linking C executable cmTC_24e64
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_blocks);
+  return 0;
+}
+
+
+Determining if the function ioctl exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-EnzFAG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_df123 && [1/2] Building C object CMakeFiles/cmTC_df123.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_df123
+
+
+
+Determining if the TIOCGWINSZ exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2PVG6D
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_aa3ea && [1/2] Building C object CMakeFiles/cmTC_aa3ea.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_aa3ea
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/ioctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TIOCGWINSZ
+  return ((int*)(&TIOCGWINSZ))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the TIOCGETD exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AanKkC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_d5eec && [1/2] Building C object CMakeFiles/cmTC_d5eec.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d5eec
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/ioctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TIOCGETD
+  return ((int*)(&TIOCGETD))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function getpwuid exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HwpMSE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_36f08 && [1/2] Building C object CMakeFiles/cmTC_36f08.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_36f08
+
+
+
+Determining if the function alarm exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bP6xAD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_b342b && [1/2] Building C object CMakeFiles/cmTC_b342b.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_b342b
+
+
+
+Determining if the function fcntl exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-remXhG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_2db1c && [1/2] Building C object CMakeFiles/cmTC_2db1c.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_2db1c
+
+
+
+Determining if the function flock exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0fET1E
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_0e001 && [1/2] Building C object CMakeFiles/cmTC_0e001.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_0e001
+
+
+
+Determining if the function fork exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YpM1FC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_66ada && [1/2] Building C object CMakeFiles/cmTC_66ada.dir/CheckFunctionExists.c.o
+<command-line>: warning: conflicting types for built-in function ‘fork’; expected ‘int(void)’ [-Wbuiltin-declaration-mismatch]
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YpM1FC/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+[2/2] Linking C executable cmTC_66ada
+
+
+
+Determining if the function gethostname exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-72XgAD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_211d5 && [1/2] Building C object CMakeFiles/cmTC_211d5.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_211d5
+
+
+
+Determining if the function getrusage exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GsILDD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_233e8 && [1/2] Building C object CMakeFiles/cmTC_233e8.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_233e8
+
+
+
+Determining if the function pread exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8UDD8E
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_06d80 && [1/2] Building C object CMakeFiles/cmTC_06d80.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_06d80
+
+
+
+Determining if the function pwrite exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vmJ5gF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_c361b && [1/2] Building C object CMakeFiles/cmTC_c361b.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_c361b
+
+
+
+Determining if the function rand_r exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lNYBIC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_023ef && [1/2] Building C object CMakeFiles/cmTC_023ef.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_023ef
+
+
+
+Determining if the function random exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3kGJvE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_4cd21 && [1/2] Building C object CMakeFiles/cmTC_4cd21.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_4cd21
+
+
+
+Determining if the function siglongjmp exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-FsYs3E
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_c5ad0 && [1/2] Building C object CMakeFiles/cmTC_c5ad0.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_c5ad0
+
+
+
+Determining if the function sigprocmask exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vbGxCF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_19b57 && [1/2] Building C object CMakeFiles/cmTC_19b57.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_19b57
+
+
+
+Determining if the function strdup exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-X5UCRG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_2e079 && [1/2] Building C object CMakeFiles/cmTC_2e079.dir/CheckFunctionExists.c.o
+<command-line>: warning: conflicting types for built-in function ‘strdup’; expected ‘char *(const char *)’ [-Wbuiltin-declaration-mismatch]
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-X5UCRG/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+[2/2] Linking C executable cmTC_2e079
+
+
+
+Determining if the function symlink exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-G5PWfF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_cb6ff && [1/2] Building C object CMakeFiles/cmTC_cb6ff.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_cb6ff
+
+
+
+Determining if the function tmpfile exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2DcOVF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_95ea9 && [1/2] Building C object CMakeFiles/cmTC_95ea9.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_95ea9
+
+
+
+Determining if the function asprintf exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-x5UdEE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_c397d && [1/2] Building C object CMakeFiles/cmTC_c397d.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_c397d
+
+
+
+Determining if the function vasprintf exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-CHN9uG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_9b81f && [1/2] Building C object CMakeFiles/cmTC_9b81f.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_9b81f
+
+
+
+Determining if the function waitpid exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0l2s5F
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_cb378 && [1/2] Building C object CMakeFiles/cmTC_cb378.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_cb378
+
+
+
+Determining if the sigsetjmp exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mIqI8D
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_f675f && [1/2] Building C object CMakeFiles/cmTC_f675f.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f675f
+
+
+File CheckSymbolExists.c:
+/* */
+#include <setjmp.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigsetjmp
+  return ((int*)(&sigsetjmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function clock_gettime exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TxCLKE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_9a41e && [1/2] Building C object CMakeFiles/cmTC_9a41e.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_9a41e
+
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-MZBfZE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_a506b && [1/2] Building C object CMakeFiles/cmTC_a506b.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_a506b
+
+
+
+Determining size of __float128 passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OSg79C
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_a14c7 && [1/2] Building C object CMakeFiles/cmTC_a14c7.dir/_SIZEOF___FLOAT128.c.o
+[2/2] Linking C executable cmTC_a14c7
+
+
+
+Determining if the C maximum decimal precision for C exists passed with the following output:
+21;33;
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jRRAWE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_69e33 && [1/2] Building C object CMakeFiles/cmTC_69e33.dir/INCLUDE_INTTYPES_H.c.o
+[2/2] Linking C executable cmTC_69e33
+
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-KvshAE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_90bd4 && [1/2] Building C object CMakeFiles/cmTC_90bd4.dir/INCLUDE_STDINT_H.c.o
+[2/2] Linking C executable cmTC_90bd4
+
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mafOBE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_4fac2 && [1/2] Building C object CMakeFiles/cmTC_4fac2.dir/INCLUDE_SYS_TYPES_H.c.o
+[2/2] Linking C executable cmTC_4fac2
+
+
+
+Determining size of int16_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-szDOnF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_92dc6 && [1/2] Building C object CMakeFiles/cmTC_92dc6.dir/INT16_SIZE.c.o
+[2/2] Linking C executable cmTC_92dc6
+
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Mb1saD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_38aca && [1/2] Building C object CMakeFiles/cmTC_38aca.dir/UINT16_SIZE.c.o
+[2/2] Linking C executable cmTC_38aca
+
+
+
+Determining size of u_int16_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-CU0OxD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_5359f && [1/2] Building C object CMakeFiles/cmTC_5359f.dir/U_INT16_SIZE.c.o
+[2/2] Linking C executable cmTC_5359f
+
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rlVzAC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_d218f && [1/2] Building C object CMakeFiles/cmTC_d218f.dir/INT32_SIZE.c.o
+[2/2] Linking C executable cmTC_d218f
+
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-JPA93D
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_8d7ac && [1/2] Building C object CMakeFiles/cmTC_8d7ac.dir/UINT32_SIZE.c.o
+[2/2] Linking C executable cmTC_8d7ac
+
+
+
+Determining size of u_int32_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7Muu0F
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_94fa5 && [1/2] Building C object CMakeFiles/cmTC_94fa5.dir/U_INT32_SIZE.c.o
+[2/2] Linking C executable cmTC_94fa5
+
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZI4C7D
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_a474f && [1/2] Building C object CMakeFiles/cmTC_a474f.dir/INT64_SIZE.c.o
+[2/2] Linking C executable cmTC_a474f
+
+
+
+Determining size of short passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pWdxKG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_8497b && [1/2] Building C object CMakeFiles/cmTC_8497b.dir/SHORT_SIZE.c.o
+[2/2] Linking C executable cmTC_8497b
+
+
+
+Determining size of int passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0cBJtC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_0de22 && [1/2] Building C object CMakeFiles/cmTC_0de22.dir/INT_SIZE.c.o
+[2/2] Linking C executable cmTC_0de22
+
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-et9dgC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_f15dd && [1/2] Building C object CMakeFiles/cmTC_f15dd.dir/LONG_SIZE.c.o
+[2/2] Linking C executable cmTC_f15dd
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-KrGXGG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_0ecde && [1/2] Building C object CMakeFiles/cmTC_0ecde.dir/LONG_LONG_SIZE.c.o
+[2/2] Linking C executable cmTC_0ecde
+
+
+
+Performing C SOURCE FILE Test have_flag_parentheses succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Il2kWF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_ddee6 && [1/2] Building C object CMakeFiles/cmTC_ddee6.dir/src.c.o
+[2/2] Linking C executable cmTC_ddee6
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test have_flag_tautological-compare succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-D3HfkG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_6d79c && [1/2] Building C object CMakeFiles/cmTC_6d79c.dir/src.c.o
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+[2/2] Linking C executable cmTC_6d79c
+
+
+Source file was:
+int main(void) { return 0; }
+
+Determining if the alloca exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1EZXaD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_58407 && [1/2] Building C object CMakeFiles/cmTC_58407.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_58407
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef alloca
+  return ((int*)(&alloca))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isfinite exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5yCr1E
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_77242 && [1/2] Building C object CMakeFiles/cmTC_77242.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_77242
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isfinite
+  return ((int*)(&isfinite))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isinf exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-SDSIHC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_c3ebf && [1/2] Building C object CMakeFiles/cmTC_c3ebf.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c3ebf
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isinf
+  return ((int*)(&isinf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isnan exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GYsy4E
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_badd6 && [1/2] Building C object CMakeFiles/cmTC_badd6.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_badd6
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isnan
+  return ((int*)(&isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fsync exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s87CtC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_9f338 && [1/2] Building C object CMakeFiles/cmTC_9f338.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_9f338
+
+
+File CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fsync
+  return ((int*)(&fsync))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mktemp exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-p6xa1F
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_3eda3 && [1/2] Building C object CMakeFiles/cmTC_3eda3.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_3eda3
+/usr/bin/ld: CMakeFiles/cmTC_3eda3.dir/CheckSymbolExists.c.o: in function `main':
+CheckSymbolExists.c:(.text+0x1f): warning: the use of `mktemp' is dangerous, better use `mkstemp' or `mkdtemp'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mktemp
+  return ((int*)(&mktemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getrlimit exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-JTxySF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_c4a6e && [1/2] Building C object CMakeFiles/cmTC_c4a6e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c4a6e
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrlimit
+  return ((int*)(&getrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the memmove exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-siiXpG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_e5023 && [1/2] Building C object CMakeFiles/cmTC_e5023.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_e5023
+
+
+File CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memmove
+  return ((int*)(&memmove))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mkstemp exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a7CjtF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_ef405 && [1/2] Building C object CMakeFiles/cmTC_ef405.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ef405
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mkstemp
+  return ((int*)(&mkstemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the random exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Xs6aRD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_883d8 && [1/2] Building C object CMakeFiles/cmTC_883d8.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_883d8
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef random
+  return ((int*)(&random))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the snprintf exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-WDXFqE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_9d8e0 && [1/2] Building C object CMakeFiles/cmTC_9d8e0.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_9d8e0
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strdup exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Xj2iLE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_c5586 && [1/2] Building C object CMakeFiles/cmTC_c5586.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c5586
+
+
+File CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strdup
+  return ((int*)(&strdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strndup exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tuV2uG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_4d634 && [1/2] Building C object CMakeFiles/cmTC_4d634.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_4d634
+
+
+File CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strndup
+  return ((int*)(&strndup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sysconf exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zQQ7OD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_1d9d6 && [1/2] Building C object CMakeFiles/cmTC_1d9d6.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_1d9d6
+
+
+File CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file alloca.h exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-JsAcoD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_d04f8 && [1/2] Building C object CMakeFiles/cmTC_d04f8.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_d04f8
+
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-knqSlE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_5f8a6 && [1/2] Building C object CMakeFiles/cmTC_5f8a6.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_5f8a6
+
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-097PcD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_6a1fb && [1/2] Building C object CMakeFiles/cmTC_6a1fb.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_6a1fb
+
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6we7lF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_7a560 && [1/2] Building C object CMakeFiles/cmTC_7a560.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_7a560
+
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2HATbF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_b0be3 && [1/2] Building C object CMakeFiles/cmTC_b0be3.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_b0be3
+
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-WsrqyC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_4b9e7 && [1/2] Building C object CMakeFiles/cmTC_4b9e7.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_4b9e7
+
+
+
+Determining size of long long int passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cMrDKD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_a5182 && [1/2] Building C object CMakeFiles/cmTC_a5182.dir/HAVE_LONG_LONG_INT.c.o
+[2/2] Linking C executable cmTC_a5182
+
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mbRYUC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_1710f && [1/2] Building C object CMakeFiles/cmTC_1710f.dir/HAVE_SSIZE_T.c.o
+[2/2] Linking C executable cmTC_1710f
+
+
+
+Determining size of uint passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VIJHrE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_f9cd8 && [1/2] Building C object CMakeFiles/cmTC_f9cd8.dir/HAVE_UINT.c.o
+[2/2] Linking C executable cmTC_f9cd8
+
+
+
+Determining size of ushort passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-akVoHE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_49d4b && [1/2] Building C object CMakeFiles/cmTC_49d4b.dir/HAVE_USHORT.c.o
+[2/2] Linking C executable cmTC_49d4b
+
+
+
+Determining size of double passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-KSvUDF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_45233 && [1/2] Building C object CMakeFiles/cmTC_45233.dir/SIZEOF_DOUBLE.c.o
+[2/2] Linking C executable cmTC_45233
+
+
+
+Determining size of float passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ofySqF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_6fc6b && [1/2] Building C object CMakeFiles/cmTC_6fc6b.dir/SIZEOF_FLOAT.c.o
+[2/2] Linking C executable cmTC_6fc6b
+
+
+
+Determining size of int passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cB7AHE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_16240 && [1/2] Building C object CMakeFiles/cmTC_16240.dir/SIZEOF_INT.c.o
+[2/2] Linking C executable cmTC_16240
+
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yLv30C
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_86446 && [1/2] Building C object CMakeFiles/cmTC_86446.dir/SIZEOF_LONG.c.o
+[2/2] Linking C executable cmTC_86446
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Vwf9vE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_3ac76 && [1/2] Building C object CMakeFiles/cmTC_3ac76.dir/SIZEOF_LONG_LONG.c.o
+[2/2] Linking C executable cmTC_3ac76
+
+
+
+Determining size of off_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-WN1znD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_04718 && [1/2] Building C object CMakeFiles/cmTC_04718.dir/SIZEOF_OFF_T.c.o
+[2/2] Linking C executable cmTC_04718
+
+
+
+Determining size of short passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-01dX8E
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_6be2e && [1/2] Building C object CMakeFiles/cmTC_6be2e.dir/SIZEOF_SHORT.c.o
+[2/2] Linking C executable cmTC_6be2e
+
+
+
+Determining size of unsigned char passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Lu1a7D
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_9cf67 && [1/2] Building C object CMakeFiles/cmTC_9cf67.dir/SIZEOF_UNSIGNED_CHAR.c.o
+[2/2] Linking C executable cmTC_9cf67
+
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0R8OhG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_d434f && [1/2] Building C object CMakeFiles/cmTC_d434f.dir/SIZEOF_UNSIGNED_INT.c.o
+[2/2] Linking C executable cmTC_d434f
+
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-opn3VC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_a176e && [1/2] Building C object CMakeFiles/cmTC_a176e.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o
+[2/2] Linking C executable cmTC_a176e
+
+
+
+Determining size of unsigned short int passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uoMJkG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_3fa1d && [1/2] Building C object CMakeFiles/cmTC_3fa1d.dir/SIZEOF_UNSIGNED_SHORT_INT.c.o
+[2/2] Linking C executable cmTC_3fa1d
+
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GmoIBG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_c953b && [1/2] Building C object CMakeFiles/cmTC_c953b.dir/HAVE_UINT64_T.c.o
+[2/2] Linking C executable cmTC_c953b
+
+
+
+Determining size of ptrdiff_t passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-LJv3hG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_dcf30 && [1/2] Building C object CMakeFiles/cmTC_dcf30.dir/HAVE_PTRDIFF_T.c.o
+[2/2] Linking C executable cmTC_dcf30
+
+
+
+Determining if the function localeconv exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RcpwbF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_af3d9 && [1/2] Building C object CMakeFiles/cmTC_af3d9.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_af3d9
+
+
+
+Determining if the function strerror exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4lLYCC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_d7902 && [1/2] Building C object CMakeFiles/cmTC_d7902.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_d7902
+
+
+
+Determining if the function dladdr exists in the dl passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cCFmfD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_d8057 && [1/2] Building C object CMakeFiles/cmTC_d8057.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_d8057
+
+
+
+Performing C SOURCE FILE Test HAVE_ATTRIBUTE_DESTRUCTOR succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9KF3mE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_f8222 && [1/2] Building C object CMakeFiles/cmTC_f8222.dir/src.c.o
+[2/2] Linking C executable cmTC_f8222
+
+
+Source file was:
+
+		void __attribute__((destructor))
+		f(void) {}
+		int main(void) { return 0; }
+	
+
+Performing C SOURCE FILE Test GETHOSTBYNAME_ARG_CAST_CONST succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iNlXoD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_d6a1e && [1/2] Building C object CMakeFiles/cmTC_d6a1e.dir/src.c.o
+[2/2] Linking C executable cmTC_d6a1e
+
+
+Source file was:
+
+		#include <netdb.h>
+		int main() { (void) gethostbyname((const char*) ""); return 0; }
+	
+
+Determining if files arpa/inet.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-NTbkkD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_29946 && [1/2] Building C object CMakeFiles/cmTC_29946.dir/HAVE_ARPA_INET_H.c.o
+[2/2] Linking C executable cmTC_29946
+
+
+
+Determining if files arpa/nameser.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HBXVuE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_14dab && [1/2] Building C object CMakeFiles/cmTC_14dab.dir/HAVE_ARPA_NAMESER_H.c.o
+[2/2] Linking C executable cmTC_14dab
+
+
+
+Performing C SOURCE FILE Test HAVE_SS_FAMILY succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-aZYxoG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_9f58d && [1/2] Building C object CMakeFiles/cmTC_9f58d.dir/src.c.o
+[2/2] Linking C executable cmTC_9f58d
+
+
+Source file was:
+
+#include <sys/socket.h>
+#include <sys/types.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr_storage *)0)->ss_family);
+  return 0;
+}
+
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iK7jdF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_cb3d3 && [1/2] Building C object CMakeFiles/cmTC_cb3d3.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_cb3d3
+
+
+
+Determining if the function ftime exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-KNVchC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_5b393 && [1/2] Building C object CMakeFiles/cmTC_5b393.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_5b393
+
+
+
+Determining if the function getaddrinfo exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7evOyD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_8e113 && [1/2] Building C object CMakeFiles/cmTC_8e113.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_8e113
+
+
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dYNdXE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_2e859 && [1/2] Building C object CMakeFiles/cmTC_2e859.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_2e859
+
+
+
+Determining if the function isascii exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BC1qjD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_06f34 && [1/2] Building C object CMakeFiles/cmTC_06f34.dir/CheckFunctionExists.c.o
+<command-line>: warning: conflicting types for built-in function ‘isascii’; expected ‘int(int)’ [-Wbuiltin-declaration-mismatch]
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BC1qjD/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+[2/2] Linking C executable cmTC_06f34
+
+
+
+Determining if the function append_history exists in the history passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yXvGtC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_124fb && [1/2] Building C object CMakeFiles/cmTC_124fb.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_124fb
+
+
+
+Determining if the function readline exists in the readline passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-JNAtrG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_d9ddd && [1/2] Building C object CMakeFiles/cmTC_d9ddd.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_d9ddd
+
+
+
+Determining if the function munmap exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k03aCC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_923a1 && [1/2] Building C object CMakeFiles/cmTC_923a1.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_923a1
+
+
+
+Determining if files netdb.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GykKQD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_08b04 && [1/2] Building C object CMakeFiles/cmTC_08b04.dir/HAVE_NETDB_H.c.o
+[2/2] Linking C executable cmTC_08b04
+
+
+
+Determining if files netinet/in.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nZJvWD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_1a3aa && [1/2] Building C object CMakeFiles/cmTC_1a3aa.dir/HAVE_NETINET_IN_H.c.o
+[2/2] Linking C executable cmTC_1a3aa
+
+
+
+Determining if files poll.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-X3K5qG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_0e74e && [1/2] Building C object CMakeFiles/cmTC_0e74e.dir/HAVE_POLL_H.c.o
+[2/2] Linking C executable cmTC_0e74e
+
+
+
+Determining if the function putenv exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vjSNJD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_14b0d && [1/2] Building C object CMakeFiles/cmTC_14b0d.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_14b0d
+
+
+
+Determining if the function rand_r exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-41UPtE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_ea476 && [1/2] Building C object CMakeFiles/cmTC_ea476.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_ea476
+
+
+
+Determining if files resolv.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ie4HgE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_bb82c && [1/2] Building C object CMakeFiles/cmTC_bb82c.dir/HAVE_RESOLV_H.c.o
+[2/2] Linking C executable cmTC_bb82c
+
+
+
+Determining if the function stat exists passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7xicxF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_3daae && [1/2] Building C object CMakeFiles/cmTC_3daae.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_3daae
+
+
+
+Determining if files sys/mman.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xqxQ5F
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_c5b02 && [1/2] Building C object CMakeFiles/cmTC_c5b02.dir/HAVE_SYS_MMAN_H.c.o
+[2/2] Linking C executable cmTC_c5b02
+
+
+
+Determining if files sys/select.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DutjjE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_2edd5 && [1/2] Building C object CMakeFiles/cmTC_2edd5.dir/HAVE_SYS_SELECT_H.c.o
+[2/2] Linking C executable cmTC_2edd5
+
+
+
+Determining if files sys/socket.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-B8Cz8E
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_9b6c1 && [1/2] Building C object CMakeFiles/cmTC_9b6c1.dir/HAVE_SYS_SOCKET_H.c.o
+[2/2] Linking C executable cmTC_9b6c1
+
+
+
+Determining if files sys/timeb.h exist passed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-f349LE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_4e38c && [1/2] Building C object CMakeFiles/cmTC_4e38c.dir/HAVE_SYS_TIMEB_H.c.o
+[2/2] Linking C executable cmTC_4e38c
+
+
+
+Performing C SOURCE FILE Test SEND_ARG2_CAST_CONST succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xAUWYE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_e5a0e && [1/2] Building C object CMakeFiles/cmTC_e5a0e.dir/src.c.o
+[2/2] Linking C executable cmTC_e5a0e
+
+
+Source file was:
+
+		#include <sys/socket.h>
+		#include <sys/types.h>
+		int main() { (void) send(1, (const char*) "", 1, 1); return 0; }
+	
+
+Performing C SOURCE FILE Test XML_SOCKLEN_T_SOCKLEN_T succeeded with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-j5wXjG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_c89e6 && [1/2] Building C object CMakeFiles/cmTC_c89e6.dir/src.c.o
+[2/2] Linking C executable cmTC_c89e6
+
+
+Source file was:
+
+		#include <stddef.h>
+		#include <sys/socket.h>
+		#include <sys/types.h>
+		int main() { (void) getsockopt(1, 1, 1, NULL, (socklen_t*) NULL); return 0; }
+	
+

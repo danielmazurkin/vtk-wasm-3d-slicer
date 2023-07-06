@@ -1,0 +1,9 @@
+/home/danil/vtk_new/Imaging/Fourier/vtkImageButterworthHighPass.h;vtkImagingFourier
+/home/danil/vtk_new/Imaging/Fourier/vtkImageButterworthLowPass.h;vtkImagingFourier
+/home/danil/vtk_new/Imaging/Fourier/vtkImageFFT.h;vtkImagingFourier
+/home/danil/vtk_new/Imaging/Fourier/vtkImageFourierCenter.h;vtkImagingFourier
+/home/danil/vtk_new/Imaging/Fourier/vtkImageFourierFilter.h;vtkImagingFourier
+/home/danil/vtk_new/Imaging/Fourier/vtkImageIdealHighPass.h;vtkImagingFourier
+/home/danil/vtk_new/Imaging/Fourier/vtkImageIdealLowPass.h;vtkImagingFourier
+/home/danil/vtk_new/Imaging/Fourier/vtkImageRFFT.h;vtkImagingFourier
+/home/danil/vtk_new/cmake-build-debug/Imaging/Fourier/vtkImagingFourierModule.h;vtkImagingFourier

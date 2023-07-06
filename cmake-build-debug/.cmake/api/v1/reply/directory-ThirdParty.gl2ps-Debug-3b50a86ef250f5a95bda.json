@@ -1,0 +1,82 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_third_party_internal",
+			"vtk_module_third_party",
+			"vtk_module_install_headers"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"ThirdParty/gl2ps/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 5258,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 5682,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 4
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "license",
+			"destination" : "share/licenses/VTK/vtkgl2ps",
+			"paths" : 
+			[
+				"ThirdParty/gl2ps/vtkgl2ps/COPYING.GL2PS",
+				"ThirdParty/gl2ps/vtkgl2ps/COPYING.LGPL"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"cmake-build-debug/ThirdParty/gl2ps/vtk_gl2ps.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ThirdParty/gl2ps",
+		"source" : "ThirdParty/gl2ps"
+	}
+}

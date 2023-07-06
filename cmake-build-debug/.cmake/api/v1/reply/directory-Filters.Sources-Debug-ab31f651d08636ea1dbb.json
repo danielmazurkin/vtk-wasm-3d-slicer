@@ -1,0 +1,164 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Filters/Sources/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Filters/Sources/vtkArcSource.h",
+				"Filters/Sources/vtkArrowSource.h",
+				"Filters/Sources/vtkButtonSource.h",
+				"Filters/Sources/vtkCapsuleSource.h",
+				"Filters/Sources/vtkCellTypeSource.h",
+				"Filters/Sources/vtkConeSource.h",
+				"Filters/Sources/vtkCubeSource.h",
+				"Filters/Sources/vtkCylinderSource.h",
+				"Filters/Sources/vtkDiagonalMatrixSource.h",
+				"Filters/Sources/vtkDiskSource.h",
+				"Filters/Sources/vtkEllipseArcSource.h",
+				"Filters/Sources/vtkEllipticalButtonSource.h",
+				"Filters/Sources/vtkFrustumSource.h",
+				"Filters/Sources/vtkGlyphSource2D.h",
+				"Filters/Sources/vtkGraphToPolyData.h",
+				"Filters/Sources/vtkHandleSource.h",
+				"Filters/Sources/vtkHyperTreeGridPreConfiguredSource.h",
+				"Filters/Sources/vtkHyperTreeGridSource.h",
+				"Filters/Sources/vtkLineSource.h",
+				"Filters/Sources/vtkOutlineCornerFilter.h",
+				"Filters/Sources/vtkOutlineCornerSource.h",
+				"Filters/Sources/vtkOutlineSource.h",
+				"Filters/Sources/vtkParametricFunctionSource.h",
+				"Filters/Sources/vtkPartitionedDataSetSource.h",
+				"Filters/Sources/vtkPartitionedDataSetCollectionSource.h",
+				"Filters/Sources/vtkPlaneSource.h",
+				"Filters/Sources/vtkPlatonicSolidSource.h",
+				"Filters/Sources/vtkPointHandleSource.h",
+				"Filters/Sources/vtkPointSource.h",
+				"Filters/Sources/vtkPolyLineSource.h",
+				"Filters/Sources/vtkPolyPointSource.h",
+				"Filters/Sources/vtkProgrammableDataObjectSource.h",
+				"Filters/Sources/vtkProgrammableSource.h",
+				"Filters/Sources/vtkRandomHyperTreeGridSource.h",
+				"Filters/Sources/vtkRectangularButtonSource.h",
+				"Filters/Sources/vtkRegularPolygonSource.h",
+				"Filters/Sources/vtkSelectionSource.h",
+				"Filters/Sources/vtkSphereSource.h",
+				"Filters/Sources/vtkSuperquadricSource.h",
+				"Filters/Sources/vtkTessellatedBoxSource.h",
+				"Filters/Sources/vtkTextSource.h",
+				"Filters/Sources/vtkTexturedSphereSource.h",
+				"Filters/Sources/vtkUniformHyperTreeGridSource.h",
+				"cmake-build-debug/Filters/Sources/vtkFiltersSourcesModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkFiltersSources-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkFiltersSources-9.2.so.9.2",
+				"lib/libvtkFiltersSources-9.2.so.1"
+			],
+			"targetId" : "FiltersSources::@5a6dcaf56d98ae965e43",
+			"targetIndex" : 35,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkFiltersSources-9.2.so"
+			],
+			"targetId" : "FiltersSources::@5a6dcaf56d98ae965e43",
+			"targetIndex" : 35,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Filters/Sources",
+		"source" : "Filters/Sources"
+	}
+}

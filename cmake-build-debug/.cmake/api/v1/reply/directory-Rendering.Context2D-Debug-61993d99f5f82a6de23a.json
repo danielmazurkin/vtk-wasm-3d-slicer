@@ -1,0 +1,144 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Rendering/Context2D/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Rendering/Context2D/vtkAbstractContextBufferId.h",
+				"Rendering/Context2D/vtkAbstractContextItem.h",
+				"Rendering/Context2D/vtkBlockItem.h",
+				"Rendering/Context2D/vtkBrush.h",
+				"Rendering/Context2D/vtkContext2D.h",
+				"Rendering/Context2D/vtkContext3D.h",
+				"Rendering/Context2D/vtkContextActor.h",
+				"Rendering/Context2D/vtkContextClip.h",
+				"Rendering/Context2D/vtkContextDevice2D.h",
+				"Rendering/Context2D/vtkContextDevice3D.h",
+				"Rendering/Context2D/vtkContextItem.h",
+				"Rendering/Context2D/vtkContextKeyEvent.h",
+				"Rendering/Context2D/vtkContextMapper2D.h",
+				"Rendering/Context2D/vtkContextMouseEvent.h",
+				"Rendering/Context2D/vtkContextScene.h",
+				"Rendering/Context2D/vtkContextTransform.h",
+				"Rendering/Context2D/vtkImageItem.h",
+				"Rendering/Context2D/vtkLabeledContourPolyDataItem.h",
+				"Rendering/Context2D/vtkMarkerUtilities.h",
+				"Rendering/Context2D/vtkPen.h",
+				"Rendering/Context2D/vtkPolyDataItem.h",
+				"Rendering/Context2D/vtkPropItem.h",
+				"Rendering/Context2D/vtkTooltipItem.h",
+				"cmake-build-debug/Rendering/Context2D/vtkRenderingContext2DModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkRenderingContext2D-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkRenderingContext2D-9.2.so.9.2",
+				"lib/libvtkRenderingContext2D-9.2.so.1"
+			],
+			"targetId" : "RenderingContext2D::@52fb680af51a14399eae",
+			"targetIndex" : 101,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkRenderingContext2D-9.2.so"
+			],
+			"targetId" : "RenderingContext2D::@52fb680af51a14399eae",
+			"targetIndex" : 101,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Rendering/Context2D",
+		"source" : "Rendering/Context2D"
+	}
+}

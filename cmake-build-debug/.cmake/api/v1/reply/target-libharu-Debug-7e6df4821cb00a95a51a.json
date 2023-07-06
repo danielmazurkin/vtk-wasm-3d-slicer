@@ -1,0 +1,744 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libvtklibharu-9.2.so"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"vtk_module_add_module",
+			"install",
+			"_vtk_module_install",
+			"target_link_libraries",
+			"target_include_directories",
+			"_vtk_module_standard_includes",
+			"vtk_module_third_party_internal",
+			"vtk_module_third_party"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"ThirdParty/libharu/vtklibharu/src/CMakeLists.txt",
+			"ThirdParty/libharu/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 98,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3817,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 3989,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 3110,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 105,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 5258,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 5664,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 3110,
+				"parent" : 12
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "  -fexceptions -g -fPIC -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "libharu_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/libharu/vtklibharu/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/danil/vtk_new/ThirdParty/libharu/vtklibharu/src"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/danil/vtk_new/ThirdParty/libharu/vtklibharu/src/../include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/libharu/vtklibharu/src/../include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/png/vtkpng"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/ThirdParty/png/vtkpng"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/zlib/vtkzlib"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/ThirdParty/zlib/vtkzlib"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/libharu"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/ThirdParty/libharu"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/png"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/ThirdParty/png"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/zlib"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/ThirdParty/zlib"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "zlib::@cfcd0695dc1ae6d94881"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "png::@1afaa69e1fe9c91f0120"
+		}
+	],
+	"id" : "libharu::@fc8ee72d4d32c43b2a3f",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,-lc",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,\"\\$$ORIGIN:\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkpng-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkzlib-9.2.so.9.2",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "libharu",
+	"nameOnDisk" : "libvtklibharu-9.2.so",
+	"paths" : 
+	{
+		"build" : "ThirdParty/libharu/vtklibharu/src",
+		"source" : "ThirdParty/libharu/vtklibharu/src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_annotation.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_array.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_binary.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_boolean.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_catalog.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_destination.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_dict.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_direct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_doc_png.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_doc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_encoder_cns.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_encoder_cnt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_encoder_jp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_encoder_kr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_encrypt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_encryptdict.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_error.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_ext_gstate.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_font_cid.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_font_tt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_font_type1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_font.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_fontdef_base14.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_fontdef_cid.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_fontdef_cns.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_fontdef_cnt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_fontdef_jp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_fontdef_kr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_fontdef_tt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_fontdef_type1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_fontdef.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_gstate.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_image_ccitt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_image_png.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_image.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_info.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_list.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_mmgr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_name.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_namedict.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_null.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_number.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_objects.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_outline.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_page_label.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_page_operator.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_pages.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_real.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_shading.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_streams.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_string.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_u3d.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_utils.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_xref.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_pdfa.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_3dmeasure.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_exdata.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/libharu/vtklibharu/src/hpdf_encoder_utf.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

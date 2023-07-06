@@ -1,0 +1,165 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Infovis/Layout/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Infovis/Layout/vtkArcParallelEdgeStrategy.h",
+				"Infovis/Layout/vtkAreaLayout.h",
+				"Infovis/Layout/vtkAreaLayoutStrategy.h",
+				"Infovis/Layout/vtkAssignCoordinates.h",
+				"Infovis/Layout/vtkAssignCoordinatesLayoutStrategy.h",
+				"Infovis/Layout/vtkAttributeClustering2DLayoutStrategy.h",
+				"Infovis/Layout/vtkBoxLayoutStrategy.h",
+				"Infovis/Layout/vtkCirclePackFrontChainLayoutStrategy.h",
+				"Infovis/Layout/vtkCirclePackLayout.h",
+				"Infovis/Layout/vtkCirclePackLayoutStrategy.h",
+				"Infovis/Layout/vtkCirclePackToPolyData.h",
+				"Infovis/Layout/vtkCircularLayoutStrategy.h",
+				"Infovis/Layout/vtkClustering2DLayoutStrategy.h",
+				"Infovis/Layout/vtkCommunity2DLayoutStrategy.h",
+				"Infovis/Layout/vtkConeLayoutStrategy.h",
+				"Infovis/Layout/vtkConstrained2DLayoutStrategy.h",
+				"Infovis/Layout/vtkCosmicTreeLayoutStrategy.h",
+				"Infovis/Layout/vtkEdgeLayout.h",
+				"Infovis/Layout/vtkEdgeLayoutStrategy.h",
+				"Infovis/Layout/vtkFast2DLayoutStrategy.h",
+				"Infovis/Layout/vtkForceDirectedLayoutStrategy.h",
+				"Infovis/Layout/vtkGeoEdgeStrategy.h",
+				"Infovis/Layout/vtkGeoMath.h",
+				"Infovis/Layout/vtkGraphLayout.h",
+				"Infovis/Layout/vtkGraphLayoutStrategy.h",
+				"Infovis/Layout/vtkIncrementalForceLayout.h",
+				"Infovis/Layout/vtkKCoreLayout.h",
+				"Infovis/Layout/vtkPassThroughEdgeStrategy.h",
+				"Infovis/Layout/vtkPassThroughLayoutStrategy.h",
+				"Infovis/Layout/vtkPerturbCoincidentVertices.h",
+				"Infovis/Layout/vtkRandomLayoutStrategy.h",
+				"Infovis/Layout/vtkSimple2DLayoutStrategy.h",
+				"Infovis/Layout/vtkSimple3DCirclesStrategy.h",
+				"Infovis/Layout/vtkSliceAndDiceLayoutStrategy.h",
+				"Infovis/Layout/vtkSpanTreeLayoutStrategy.h",
+				"Infovis/Layout/vtkSplineGraphEdges.h",
+				"Infovis/Layout/vtkSquarifyLayoutStrategy.h",
+				"Infovis/Layout/vtkStackedTreeLayoutStrategy.h",
+				"Infovis/Layout/vtkTreeLayoutStrategy.h",
+				"Infovis/Layout/vtkTreeMapLayout.h",
+				"Infovis/Layout/vtkTreeMapLayoutStrategy.h",
+				"Infovis/Layout/vtkTreeMapToPolyData.h",
+				"Infovis/Layout/vtkTreeOrbitLayoutStrategy.h",
+				"Infovis/Layout/vtkTreeRingToPolyData.h",
+				"cmake-build-debug/Infovis/Layout/vtkInfovisLayoutModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkInfovisLayout-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkInfovisLayout-9.2.so.9.2",
+				"lib/libvtkInfovisLayout-9.2.so.1"
+			],
+			"targetId" : "InfovisLayout::@b731e179d6503c1835ee",
+			"targetIndex" : 92,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkInfovisLayout-9.2.so"
+			],
+			"targetId" : "InfovisLayout::@b731e179d6503c1835ee",
+			"targetIndex" : 92,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Infovis/Layout",
+		"source" : "Infovis/Layout"
+	}
+}

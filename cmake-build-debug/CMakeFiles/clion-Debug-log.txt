@@ -1,0 +1,761 @@
+/snap/clion/237/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/237/bin/ninja/linux/x64/ninja -G Ninja -S /home/danil/vtk_new -B /home/danil/vtk_new/cmake-build-debug
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test HAVE_GCC_ERROR_RETURN_TYPE
+-- Performing Test HAVE_GCC_ERROR_RETURN_TYPE - Success
+-- Performing Test vtk_have_compiler_flag_Weverything
+-- Performing Test vtk_have_compiler_flag_Weverything - Failed
+-- Performing Test vtk_have_compiler_flag-CXX--wd4251
+-- Performing Test vtk_have_compiler_flag-CXX--wd4251 - Failed
+-- Performing Test vtk_have_compiler_flag-CXX--EHsc
+-- Performing Test vtk_have_compiler_flag-CXX--EHsc - Failed
+-- Performing Test VTK_REQUIRE_LARGE_FILE_SUPPORT
+-- Performing Test VTK_REQUIRE_LARGE_FILE_SUPPORT - Success
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Checking whether wstring is available
+-- Checking whether wstring is available - yes
+-- Checking whether C compiler has ptrdiff_t in stddef.h
+-- Checking whether C compiler has ptrdiff_t in stddef.h - yes
+-- Checking whether C compiler has ssize_t in unistd.h
+-- Checking whether C compiler has ssize_t in unistd.h - yes
+-- Checking whether C compiler has clock_gettime
+-- Checking whether C compiler has clock_gettime - yes
+-- Checking whether CXX compiler has setenv
+-- Checking whether CXX compiler has setenv - yes
+-- Checking whether CXX compiler has unsetenv
+-- Checking whether CXX compiler has unsetenv - yes
+-- Checking whether CXX compiler has environ in stdlib.h
+-- Checking whether CXX compiler has environ in stdlib.h - no
+-- Checking whether CXX compiler has utimes
+-- Checking whether CXX compiler has utimes - yes
+-- Checking whether CXX compiler has utimensat
+-- Checking whether CXX compiler has utimensat - yes
+-- Checking whether CXX compiler struct stat has st_mtim member
+-- Checking whether CXX compiler struct stat has st_mtim member - yes
+-- Checking whether CXX compiler struct stat has st_mtimespec member
+-- Checking whether CXX compiler struct stat has st_mtimespec member - no
+-- Looking for include files sys/types.h, ifaddrs.h
+-- Looking for include files sys/types.h, ifaddrs.h - found
+-- Checking whether CXX compiler has rlimit64
+-- Checking whether CXX compiler has rlimit64 - yes
+-- Looking for C++ include execinfo.h
+-- Looking for C++ include execinfo.h - found
+-- Checking whether backtrace works with this C++ compiler
+-- Checking whether backtrace works with this C++ compiler - yes
+-- Looking for C++ include dlfcn.h
+-- Looking for C++ include dlfcn.h - found
+-- Checking whether dladdr works with this C++ compiler
+-- Checking whether dladdr works with this C++ compiler - yes
+-- Looking for C++ include cxxabi.h
+-- Looking for C++ include cxxabi.h - found
+-- Checking whether cxxabi works with this C++ compiler
+-- Checking whether cxxabi works with this C++ compiler - yes
+-- Checking whether CXX compiler has getloadavg
+-- Checking whether CXX compiler has getloadavg - yes
+-- Checking whether <ext/stdio_filebuf.h> is available
+-- Checking whether <ext/stdio_filebuf.h> is available - yes
+-- Looking for <cxxabi.h>
+-- Looking for <cxxabi.h> - not found
+-- Looking for <dlfcn.h>
+-- Looking for <dlfcn.h> - not found
+-- Looking for <execinfo.h>
+-- Looking for <execinfo.h> - not found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Checking for builtin __atomic_add_fetch
+-- Checking for builtin __atomic_add_fetch -- success
+-- Performing Test VTK_HAS_STD_ISNAN
+-- Performing Test VTK_HAS_STD_ISNAN - Success
+-- Performing Test VTK_HAS_STD_ISINF
+-- Performing Test VTK_HAS_STD_ISINF - Success
+-- Performing Test VTK_HAS_STD_ISFINITE
+-- Performing Test VTK_HAS_STD_ISFINITE - Success
+-- Looking for isnan
+-- Looking for isnan - found
+-- Looking for isinf
+-- Looking for isinf - found
+-- Looking for isfinite
+-- Looking for isfinite - found
+-- Looking for finite
+-- Looking for finite - found
+-- Looking for fenv.h
+-- Looking for fenv.h - found
+-- Looking for feenableexcept
+-- Looking for feenableexcept - found
+-- Looking for C++ include cxxabi.h
+-- Looking for C++ include cxxabi.h - found
+-- Looking for abi::__cxa_demangle
+-- Looking for abi::__cxa_demangle - found
+-- Looking for getsockname in socket
+-- Looking for getsockname in socket - not found
+-- Checking for getsockname with socklen_t
+-- Checking for getsockname with socklen_t -- 1
+-- Looking for SO_REUSEADDR
+-- Looking for SO_REUSEADDR - found
+-- Performing Test has_std_11_flag
+-- Performing Test has_std_11_flag - Success
+-- Performing Test has_std_0x_flag
+-- Performing Test has_std_0x_flag - Success
+-- Looking for strtod_l
+-- Looking for strtod_l - not found
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of off64_t
+-- Check size of off64_t - done
+-- Looking for unistd.h
+-- Looking for unistd.h - found
+-- Looking for fcntl.h
+-- Looking for fcntl.h - found
+-- Looking for unistd.h
+-- Looking for unistd.h - found
+-- Looking for memset
+-- Looking for memset - found
+-- Looking for memcpy
+-- Looking for memcpy - found
+-- Looking for stdlib.h
+-- Looking for stdlib.h - found
+-- Check size of size_t
+-- Check size of size_t - done
+-- Performing Test C_FLAG_Wall
+-- Performing Test C_FLAG_Wall - Success
+-- Performing Test C_FLAG_Winline
+-- Performing Test C_FLAG_Winline - Success
+-- Performing Test C_FLAG_Wformat_security
+-- Performing Test C_FLAG_Wformat_security - Success
+-- Performing Test C_FLAG_Wpointer_arith
+-- Performing Test C_FLAG_Wpointer_arith - Success
+-- Performing Test C_FLAG_Wdisabled_optimization
+-- Performing Test C_FLAG_Wdisabled_optimization - Success
+-- Performing Test C_FLAG_Wno_unknown_pragmas
+-- Performing Test C_FLAG_Wno_unknown_pragmas - Success
+-- Performing Test C_FLAG_fstrict_aliasing
+-- Performing Test C_FLAG_fstrict_aliasing - Success
+-- Performing Test HAVE_LD_VERSION_SCRIPT
+-- Performing Test HAVE_LD_VERSION_SCRIPT - Success
+-- Looking for assert.h
+-- Looking for assert.h - found
+-- Looking for io.h
+-- Looking for io.h - not found
+-- Looking for strings.h
+-- Looking for strings.h - found
+-- Looking for sys/time.h
+-- Looking for sys/time.h - found
+-- Looking for getopt
+-- Looking for getopt - found
+-- Looking for optarg
+-- Looking for optarg - found
+-- Looking for mmap
+-- Looking for mmap - found
+-- Looking for setmode
+-- Looking for setmode - not found
+-- Check size of size_t
+-- Check size of size_t - done
+-- Looking for pow
+-- Looking for pow - not found
+-- Looking for pow
+-- Looking for pow - found
+-- Found CMath: TRUE  
+-- Performing Test EIGEN_COMPILER_SUPPORT_CPP11
+-- Performing Test EIGEN_COMPILER_SUPPORT_CPP11 - Success
+-- Performing Test standard_math_library_linked_to_automatically
+-- Performing Test standard_math_library_linked_to_automatically - Success
+-- Performing Test COMPILER_SUPPORT_WERROR
+-- Performing Test COMPILER_SUPPORT_WERROR - Success
+-- Performing Test COMPILER_SUPPORT_pedantic
+-- Performing Test COMPILER_SUPPORT_pedantic - Success
+-- Performing Test COMPILER_SUPPORT_Wall
+-- Performing Test COMPILER_SUPPORT_Wall - Success
+-- Performing Test COMPILER_SUPPORT_Wextra
+-- Performing Test COMPILER_SUPPORT_Wextra - Success
+-- Performing Test COMPILER_SUPPORT_Wundef
+-- Performing Test COMPILER_SUPPORT_Wundef - Success
+-- Performing Test COMPILER_SUPPORT_Wcastalign
+-- Performing Test COMPILER_SUPPORT_Wcastalign - Success
+-- Performing Test COMPILER_SUPPORT_Wcharsubscripts
+-- Performing Test COMPILER_SUPPORT_Wcharsubscripts - Success
+-- Performing Test COMPILER_SUPPORT_Wnonvirtualdtor
+-- Performing Test COMPILER_SUPPORT_Wnonvirtualdtor - Success
+-- Performing Test COMPILER_SUPPORT_Wunusedlocaltypedefs
+-- Performing Test COMPILER_SUPPORT_Wunusedlocaltypedefs - Success
+-- Performing Test COMPILER_SUPPORT_Wpointerarith
+-- Performing Test COMPILER_SUPPORT_Wpointerarith - Success
+-- Performing Test COMPILER_SUPPORT_Wwritestrings
+-- Performing Test COMPILER_SUPPORT_Wwritestrings - Success
+-- Performing Test COMPILER_SUPPORT_Wformatsecurity
+-- Performing Test COMPILER_SUPPORT_Wformatsecurity - Success
+-- Performing Test COMPILER_SUPPORT_Wshorten64to32
+-- Performing Test COMPILER_SUPPORT_Wshorten64to32 - Failed
+-- Performing Test COMPILER_SUPPORT_Wlogicalop
+-- Performing Test COMPILER_SUPPORT_Wlogicalop - Success
+-- Performing Test COMPILER_SUPPORT_Wenumconversion
+-- Performing Test COMPILER_SUPPORT_Wenumconversion - Failed
+-- Performing Test COMPILER_SUPPORT_Wcpp11extensions
+-- Performing Test COMPILER_SUPPORT_Wcpp11extensions - Failed
+-- Performing Test COMPILER_SUPPORT_Wdoublepromotion
+-- Performing Test COMPILER_SUPPORT_Wdoublepromotion - Success
+-- Performing Test COMPILER_SUPPORT_Wnopsabi
+-- Performing Test COMPILER_SUPPORT_Wnopsabi - Success
+-- Performing Test COMPILER_SUPPORT_Wnovariadicmacros
+-- Performing Test COMPILER_SUPPORT_Wnovariadicmacros - Success
+-- Performing Test COMPILER_SUPPORT_Wnolonglong
+-- Performing Test COMPILER_SUPPORT_Wnolonglong - Success
+-- Performing Test COMPILER_SUPPORT_fnochecknew
+-- Performing Test COMPILER_SUPPORT_fnochecknew - Success
+-- Performing Test COMPILER_SUPPORT_fnocommon
+-- Performing Test COMPILER_SUPPORT_fnocommon - Success
+-- Performing Test COMPILER_SUPPORT_fstrictaliasing
+-- Performing Test COMPILER_SUPPORT_fstrictaliasing - Success
+-- Performing Test COMPILER_SUPPORT_wd981
+-- Performing Test COMPILER_SUPPORT_wd981 - Failed
+-- Performing Test COMPILER_SUPPORT_wd2304
+-- Performing Test COMPILER_SUPPORT_wd2304 - Failed
+-- Performing Test COMPILER_SUPPORT_STRICTANSI
+-- Performing Test COMPILER_SUPPORT_STRICTANSI - Failed
+-- Performing Test COMPILER_SUPPORT_Qunusedarguments
+-- Performing Test COMPILER_SUPPORT_Qunusedarguments - Failed
+-- Performing Test COMPILER_SUPPORT_ansi
+-- Performing Test COMPILER_SUPPORT_ansi - Success
+-- Performing Test COMPILER_SUPPORT_OPENMP
+-- Performing Test COMPILER_SUPPORT_OPENMP - Success
+-- Looking for byteswap.h
+-- Looking for byteswap.h - found
+-- Looking for sys/endian.h
+-- Looking for sys/endian.h - not found
+-- Looking for HAVE_BSWAP_16
+-- Looking for HAVE_BSWAP_16 - not found
+-- Looking for HAVE_BSWAP_32
+-- Looking for HAVE_BSWAP_32 - not found
+-- Looking for HAVE_BSWAP_64
+-- Looking for HAVE_BSWAP_64 - not found
+-- Looking for inttypes.h
+-- Looking for inttypes.h - found
+-- Looking for limits.h
+-- Looking for limits.h - found
+-- Looking for stdbool.h
+-- Looking for stdbool.h - found
+-- Looking for string.h
+-- Looking for string.h - found
+-- Looking for memory.h
+-- Looking for memory.h - found
+-- Check size of int16_t
+-- Check size of int16_t - done
+-- Check size of int32_t
+-- Check size of int32_t - done
+-- Check size of int64_t
+-- Check size of int64_t - done
+-- Check size of intmax_t
+-- Check size of intmax_t - done
+-- Check size of uint8_t
+-- Check size of uint8_t - done
+-- Check size of uint16_t
+-- Check size of uint16_t - done
+-- Check size of uint32_t
+-- Check size of uint32_t - done
+-- Check size of uint64_t
+-- Check size of uint64_t - done
+-- Check size of uintmax_t
+-- Check size of uintmax_t - done
+-- Check size of short
+-- Check size of short - done
+-- Check size of int
+-- Check size of int - done
+-- Check size of long
+-- Check size of long - done
+-- Check size of long long
+-- Check size of long long - done
+-- Check size of unsigned short
+-- Check size of unsigned short - done
+-- Check size of unsigned
+-- Check size of unsigned - done
+-- Check size of unsigned long
+-- Check size of unsigned long - done
+-- Check size of unsigned long long
+-- Check size of unsigned long long - done
+-- Check size of size_t
+-- Check size of size_t - done
+-- Check size of __int64
+-- Check size of __int64 - failed
+-- Check size of unsigned __int64
+-- Check size of unsigned __int64 - failed
+-- Check size of uintptr_t
+-- Check size of uintptr_t - done
+-- Looking for dlfcn.h
+-- Looking for dlfcn.h - found
+-- Looking for sys/stat.h
+-- Looking for sys/stat.h - found
+-- Looking for getpagesize
+-- Looking for getpagesize - found
+-- Looking for getrandom
+-- Looking for getrandom - found
+-- Looking for arc4random_buf
+-- Looking for arc4random_buf - not found
+-- Looking for arc4random
+-- Looking for arc4random - not found
+-- Looking for 4 include files stdlib.h, ..., float.h
+-- Looking for 4 include files stdlib.h, ..., float.h - found
+-- Looking for off_t
+-- Looking for off_t - not found
+-- Performing Test HAVE_SYSCALL_GETRANDOM
+-- Performing Test HAVE_SYSCALL_GETRANDOM - Success
+-- Performing Test FLAG_NO_STRICT_ALIASING
+-- Performing Test FLAG_NO_STRICT_ALIASING - Success
+-- Performing Test FLAG_VISIBILITY
+-- Performing Test FLAG_VISIBILITY - Success
+-- Looking for cos in m
+-- Looking for cos in m - found
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+-- Found X11: /usr/include   
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Looking for include file sys/file.h
+-- Looking for include file sys/file.h - found
+-- Looking for include files sys/file.h, sys/ioctl.h
+-- Looking for include files sys/file.h, sys/ioctl.h - found
+-- Looking for 3 include files sys/file.h, ..., sys/resource.h
+-- Looking for 3 include files sys/file.h, ..., sys/resource.h - found
+-- Looking for 4 include files sys/file.h, ..., sys/socket.h
+-- Looking for 4 include files sys/file.h, ..., sys/socket.h - found
+-- Looking for 5 include files sys/file.h, ..., sys/stat.h
+-- Looking for 5 include files sys/file.h, ..., sys/stat.h - found
+-- Looking for 6 include files sys/file.h, ..., sys/time.h
+-- Looking for 6 include files sys/file.h, ..., sys/time.h - found
+-- Looking for 7 include files sys/file.h, ..., sys/types.h
+-- Looking for 7 include files sys/file.h, ..., sys/types.h - found
+-- Looking for 8 include files sys/file.h, ..., features.h
+-- Looking for 8 include files sys/file.h, ..., features.h - found
+-- Looking for 9 include files sys/file.h, ..., dirent.h
+-- Looking for 9 include files sys/file.h, ..., dirent.h - found
+-- Looking for 10 include files sys/file.h, ..., unistd.h
+-- Looking for 10 include files sys/file.h, ..., unistd.h - found
+-- Looking for 11 include files sys/file.h, ..., pwd.h
+-- Looking for 11 include files sys/file.h, ..., pwd.h - found
+-- Looking for 12 include files sys/file.h, ..., globus/common.h
+-- Looking for 12 include files sys/file.h, ..., globus/common.h - not found
+-- Looking for 12 include files sys/file.h, ..., pdb.h
+-- Looking for 12 include files sys/file.h, ..., pdb.h - not found
+-- Looking for 12 include files sys/file.h, ..., pthread.h
+-- Looking for 12 include files sys/file.h, ..., pthread.h - found
+-- Looking for 13 include files sys/file.h, ..., dlfcn.h
+-- Looking for 13 include files sys/file.h, ..., dlfcn.h - found
+-- Looking for 14 include files sys/file.h, ..., netinet/in.h
+-- Looking for 14 include files sys/file.h, ..., netinet/in.h - found
+-- Looking for 15 include files sys/file.h, ..., netdb.h
+-- Looking for 15 include files sys/file.h, ..., netdb.h - found
+-- Looking for 16 include files sys/file.h, ..., arpa/inet.h
+-- Looking for 16 include files sys/file.h, ..., arpa/inet.h - found
+-- Looking for include file quadmath.h
+-- Looking for include file quadmath.h - found
+-- Looking for ceil in m;
+-- Looking for ceil in m; - found
+-- Looking for lseek64
+-- Looking for lseek64 - found
+-- Looking for fseeko
+-- Looking for fseeko - found
+-- Performing Test HAVE_STAT64_STRUCT
+-- Performing Test HAVE_STAT64_STRUCT - Success
+-- Looking for stat64
+-- Looking for stat64 - found
+-- Check size of char
+-- Check size of char - done
+-- Check size of short
+-- Check size of short - done
+-- Check size of int
+-- Check size of int - done
+-- Check size of unsigned
+-- Check size of unsigned - done
+-- Check size of long
+-- Check size of long - done
+-- Check size of long long
+-- Check size of long long - done
+-- Check size of __int64
+-- Check size of __int64 - failed
+-- Check size of float
+-- Check size of float - done
+-- Check size of double
+-- Check size of double - done
+-- Check size of long double
+-- Check size of long double - done
+-- Check size of int8_t
+-- Check size of int8_t - done
+-- Check size of uint8_t
+-- Check size of uint8_t - done
+-- Check size of int_least8_t
+-- Check size of int_least8_t - done
+-- Check size of uint_least8_t
+-- Check size of uint_least8_t - done
+-- Check size of int_fast8_t
+-- Check size of int_fast8_t - done
+-- Check size of uint_fast8_t
+-- Check size of uint_fast8_t - done
+-- Check size of int16_t
+-- Check size of int16_t - done
+-- Check size of uint16_t
+-- Check size of uint16_t - done
+-- Check size of int_least16_t
+-- Check size of int_least16_t - done
+-- Check size of uint_least16_t
+-- Check size of uint_least16_t - done
+-- Check size of int_fast16_t
+-- Check size of int_fast16_t - done
+-- Check size of uint_fast16_t
+-- Check size of uint_fast16_t - done
+-- Check size of int32_t
+-- Check size of int32_t - done
+-- Check size of uint32_t
+-- Check size of uint32_t - done
+-- Check size of int_least32_t
+-- Check size of int_least32_t - done
+-- Check size of uint_least32_t
+-- Check size of uint_least32_t - done
+-- Check size of int_fast32_t
+-- Check size of int_fast32_t - done
+-- Check size of uint_fast32_t
+-- Check size of uint_fast32_t - done
+-- Check size of int64_t
+-- Check size of int64_t - done
+-- Check size of uint64_t
+-- Check size of uint64_t - done
+-- Check size of int_least64_t
+-- Check size of int_least64_t - done
+-- Check size of uint_least64_t
+-- Check size of uint_least64_t - done
+-- Check size of int_fast64_t
+-- Check size of int_fast64_t - done
+-- Check size of uint_fast64_t
+-- Check size of uint_fast64_t - done
+-- Check size of size_t
+-- Check size of size_t - done
+-- Check size of ssize_t
+-- Check size of ssize_t - done
+-- Check size of ptrdiff_t
+-- Check size of ptrdiff_t - done
+-- Check size of off_t
+-- Check size of off_t - done
+-- Check size of off64_t
+-- Check size of off64_t - done
+-- Check size of time_t
+-- Check size of time_t - done
+-- Check size of _Bool
+-- Check size of _Bool - done
+-- Performing Test H5_HAVE_TM_GMTOFF
+-- Performing Test H5_HAVE_TM_GMTOFF - Success
+-- Performing Test H5_HAVE___TM_GMTOFF
+-- Performing Test H5_HAVE___TM_GMTOFF - Failed
+-- Performing Test H5_HAVE_STRUCT_TIMEZONE
+-- Performing Test H5_HAVE_STRUCT_TIMEZONE - Failed
+-- Looking for gettimeofday
+-- Looking for gettimeofday - found
+-- Performing Test H5_HAVE_STAT_ST_BLOCKS
+-- Performing Test H5_HAVE_STAT_ST_BLOCKS - Success
+-- Looking for ioctl
+-- Looking for ioctl - found
+-- Performing Test H5_HAVE_STRUCT_VIDEOCONFIG
+-- Performing Test H5_HAVE_STRUCT_VIDEOCONFIG - Failed
+-- Performing Test H5_HAVE_STRUCT_TEXT_INFO
+-- Performing Test H5_HAVE_STRUCT_TEXT_INFO - Failed
+-- Looking for _getvideoconfig
+-- Looking for _getvideoconfig - not found
+-- Looking for gettextinfo
+-- Looking for gettextinfo - not found
+-- Looking for _scrsize
+-- Looking for _scrsize - not found
+-- Looking for GetConsoleScreenBufferInfo
+-- Looking for GetConsoleScreenBufferInfo - not found
+-- Looking for TIOCGWINSZ
+-- Looking for TIOCGWINSZ - found
+-- Looking for TIOCGETD
+-- Looking for TIOCGETD - found
+-- Looking for getpwuid
+-- Looking for getpwuid - found
+-- Looking for alarm
+-- Looking for alarm - found
+-- Looking for fcntl
+-- Looking for fcntl - found
+-- Looking for flock
+-- Looking for flock - found
+-- Looking for fork
+-- Looking for fork - found
+-- Looking for gethostname
+-- Looking for gethostname - found
+-- Looking for getrusage
+-- Looking for getrusage - found
+-- Looking for pread
+-- Looking for pread - found
+-- Looking for pwrite
+-- Looking for pwrite - found
+-- Looking for rand_r
+-- Looking for rand_r - found
+-- Looking for random
+-- Looking for random - found
+-- Looking for setsysinfo
+-- Looking for setsysinfo - not found
+-- Looking for siglongjmp
+-- Looking for siglongjmp - found
+-- Looking for sigsetjmp
+-- Looking for sigsetjmp - not found
+-- Looking for sigprocmask
+-- Looking for sigprocmask - found
+-- Looking for strdup
+-- Looking for strdup - found
+-- Looking for symlink
+-- Looking for symlink - found
+-- Looking for tmpfile
+-- Looking for tmpfile - found
+-- Looking for asprintf
+-- Looking for asprintf - found
+-- Looking for vasprintf
+-- Looking for vasprintf - found
+-- Looking for waitpid
+-- Looking for waitpid - found
+-- Looking for sigsetjmp
+-- Looking for sigsetjmp - found
+-- Looking for clock_gettime
+-- Looking for clock_gettime - found
+-- Looking for clock_gettime in rt
+-- Looking for clock_gettime in rt - found
+-- Looking for clock_gettime in posix4
+-- Looking for clock_gettime in posix4 - not found
+-- Check size of __float128
+-- Check size of __float128 - done
+-- Check size of _Quad
+-- Check size of _Quad - failed
+-- Looking for include file inttypes.h
+-- Looking for include file inttypes.h - found
+-- Looking for include file stdint.h
+-- Looking for include file stdint.h - found
+-- Looking for include file sys/types.h
+-- Looking for include file sys/types.h - found
+-- Check size of int16_t
+-- Check size of int16_t - done
+-- Check size of uint16_t
+-- Check size of uint16_t - done
+-- Check size of u_int16_t
+-- Check size of u_int16_t - done
+-- Check size of int32_t
+-- Check size of int32_t - done
+-- Check size of uint32_t
+-- Check size of uint32_t - done
+-- Check size of u_int32_t
+-- Check size of u_int32_t - done
+-- Check size of int64_t
+-- Check size of int64_t - done
+-- Check size of short
+-- Check size of short - done
+-- Check size of int
+-- Check size of int - done
+-- Check size of long
+-- Check size of long - done
+-- Check size of long long
+-- Check size of long long - done
+-- Performing Test have_flag_logical-op-parentheses
+-- Performing Test have_flag_logical-op-parentheses - Failed
+-- Performing Test have_flag_parentheses
+-- Performing Test have_flag_parentheses - Success
+-- Performing Test have_flag_shift-op-parentheses
+-- Performing Test have_flag_shift-op-parentheses - Failed
+-- Performing Test have_flag_tautological-compare
+-- Performing Test have_flag_tautological-compare - Success
+-- Looking for _filelengthi64
+-- Looking for _filelengthi64 - not found
+-- Looking for alloca
+-- Looking for alloca - found
+-- Looking for isfinite
+-- Looking for isfinite - found
+-- Looking for isinf
+-- Looking for isinf - found
+-- Looking for isnan
+-- Looking for isnan - found
+-- Looking for fsync
+-- Looking for fsync - found
+-- Looking for mktemp
+-- Looking for mktemp - found
+-- Looking for getrlimit
+-- Looking for getrlimit - found
+-- Looking for memmove
+-- Looking for memmove - found
+-- Looking for mkstemp
+-- Looking for mkstemp - found
+-- Looking for random
+-- Looking for random - found
+-- Looking for snprintf
+-- Looking for snprintf - found
+-- Looking for strdup
+-- Looking for strdup - found
+-- Looking for strndup
+-- Looking for strndup - found
+-- Looking for strlcat
+-- Looking for strlcat - not found
+-- Looking for st_blocksize
+-- Looking for st_blocksize - not found
+-- Looking for sysconf
+-- Looking for sysconf - found
+-- Looking for alloca.h
+-- Looking for alloca.h - found
+-- Looking for malloc.h
+-- Looking for malloc.h - found
+-- Looking for stdarg.h
+-- Looking for stdarg.h - found
+-- Looking for stdio.h
+-- Looking for stdio.h - found
+-- Looking for sys/param.h
+-- Looking for sys/param.h - found
+-- Looking for sys/resource.h
+-- Looking for sys/resource.h - found
+-- Check size of longlong
+-- Check size of longlong - failed
+-- Check size of long long int
+-- Check size of long long int - done
+-- Check size of ssize_t
+-- Check size of ssize_t - done
+-- Check size of uchar
+-- Check size of uchar - failed
+-- Check size of uint
+-- Check size of uint - done
+-- Check size of schar
+-- Check size of schar - failed
+-- Check size of ushort
+-- Check size of ushort - done
+-- Check size of double
+-- Check size of double - done
+-- Check size of float
+-- Check size of float - done
+-- Check size of int
+-- Check size of int - done
+-- Check size of long
+-- Check size of long - done
+-- Check size of long long
+-- Check size of long long - done
+-- Check size of off_t
+-- Check size of off_t - done
+-- Check size of short
+-- Check size of short - done
+-- Check size of unsigned char
+-- Check size of unsigned char - done
+-- Check size of unsigned int
+-- Check size of unsigned int - done
+-- Check size of unsigned long long
+-- Check size of unsigned long long - done
+-- Check size of unsigned short int
+-- Check size of unsigned short int - done
+-- Check size of uint64_t
+-- Check size of uint64_t - done
+-- Check size of ptrdiff_t
+-- Check size of ptrdiff_t - done
+-- Looking for localeconv
+-- Looking for localeconv - found
+-- Looking for strerror
+-- Looking for strerror - found
+-- Looking for dladdr in dl
+-- Looking for dladdr in dl - found
+-- Performing Test HAVE_PTHREAD_MUTEX_RECURSIVE_DEFN
+-- Performing Test HAVE_PTHREAD_MUTEX_RECURSIVE_DEFN - Failed
+-- Performing Test HAVE_ATTRIBUTE_DESTRUCTOR
+-- Performing Test HAVE_ATTRIBUTE_DESTRUCTOR - Success
+-- Performing Test GETHOSTBYNAME_ARG_CAST_CONST
+-- Performing Test GETHOSTBYNAME_ARG_CAST_CONST - Success
+-- Looking for include file arpa/inet.h
+-- Looking for include file arpa/inet.h - found
+-- Looking for include file arpa/nameser.h
+-- Looking for include file arpa/nameser.h - found
+-- Performing Test HAVE_SS_FAMILY
+-- Performing Test HAVE_SS_FAMILY - Success
+-- Performing Test HAVE_BROKEN_SS_FAMILY
+-- Performing Test HAVE_BROKEN_SS_FAMILY - Failed
+-- Looking for class
+-- Looking for class - not found
+-- Looking for dlopen in dl
+-- Looking for dlopen in dl - found
+-- Looking for include file dl.h
+-- Looking for include file dl.h - not found
+-- Looking for fpclass
+-- Looking for fpclass - not found
+-- Looking for ftime
+-- Looking for ftime - found
+-- Looking for getaddrinfo
+-- Looking for getaddrinfo - found
+-- Looking for gettimeofday
+-- Looking for gettimeofday - found
+-- Looking for isascii
+-- Looking for isascii - found
+-- Looking for append_history in history
+-- Looking for append_history in history - found
+-- Looking for readline in readline
+-- Looking for readline in readline - found
+-- Looking for munmap
+-- Looking for munmap - found
+-- Looking for include file netdb.h
+-- Looking for include file netdb.h - found
+-- Looking for include file netinet/in.h
+-- Looking for include file netinet/in.h - found
+-- Looking for include file poll.h
+-- Looking for include file poll.h - found
+-- Looking for putenv
+-- Looking for putenv - found
+-- Looking for rand_r
+-- Looking for rand_r - found
+-- Looking for include file resolv.h
+-- Looking for include file resolv.h - found
+-- Looking for shl_load in dld
+-- Looking for shl_load in dld - not found
+-- Looking for stat
+-- Looking for stat - found
+-- Looking for include file sys/mman.h
+-- Looking for include file sys/mman.h - found
+-- Looking for include file sys/select.h
+-- Looking for include file sys/select.h - found
+-- Looking for include file sys/socket.h
+-- Looking for include file sys/socket.h - found
+-- Looking for include file sys/timeb.h
+-- Looking for include file sys/timeb.h - found
+-- Looking for va_copy
+-- Looking for va_copy - not found
+-- Looking for __va_copy
+-- Looking for __va_copy - not found
+-- Performing Test SEND_ARG2_CAST_CONST
+-- Performing Test SEND_ARG2_CAST_CONST - Success
+-- Performing Test VA_LIST_IS_ARRAY_TEST
+-- Performing Test VA_LIST_IS_ARRAY_TEST - Failed
+-- Performing Test XML_SOCKLEN_T_SOCKLEN_T
+-- Performing Test XML_SOCKLEN_T_SOCKLEN_T - Success
+-- Testing HDF5 Multi_Dataset - NOT FOUND
+-- Testing HDF5 Collective_metadata - NOT FOUND
+-- Testing HDF5 H5Pset_file_space_strategy - NOT FOUND
+-- Performing Test CHECK_HAVE_STAT64_STRUCT
+-- Performing Test CHECK_HAVE_STAT64_STRUCT - Failed
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/danil/vtk_new/cmake-build-debug

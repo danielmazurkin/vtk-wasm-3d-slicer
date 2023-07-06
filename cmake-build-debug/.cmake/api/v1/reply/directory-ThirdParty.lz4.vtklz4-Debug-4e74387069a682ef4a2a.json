@@ -1,0 +1,101 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"ThirdParty/lz4/vtklz4/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 4
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtklz4/lib",
+			"paths" : 
+			[
+				"ThirdParty/lz4/vtklz4/lib/lz4.h",
+				"ThirdParty/lz4/vtklz4/lib/lz4hc.h",
+				"ThirdParty/lz4/vtklz4/lib/lz4frame.h",
+				"ThirdParty/lz4/vtklz4/lib/lz4frame_static.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtklz4-9.2.so.9.2",
+				"lib/libvtklz4-9.2.so.1"
+			],
+			"targetId" : "lz4::@e180acfbd715dc6e9952",
+			"targetIndex" : 144,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtklz4-9.2.so"
+			],
+			"targetId" : "lz4::@e180acfbd715dc6e9952",
+			"targetIndex" : 144,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ThirdParty/lz4/vtklz4",
+		"source" : "ThirdParty/lz4/vtklz4"
+	}
+}

@@ -1,0 +1,74 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_third_party_internal",
+			"vtk_module_install_headers"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Utilities/KWIML/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 5682,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 3
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "license",
+			"destination" : "share/licenses/VTK/vtkkwiml",
+			"paths" : 
+			[
+				"Utilities/KWIML/vtkkwiml/Copyright.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Utilities/KWIML/vtk_kwiml.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Utilities/KWIML",
+		"source" : "Utilities/KWIML"
+	}
+}

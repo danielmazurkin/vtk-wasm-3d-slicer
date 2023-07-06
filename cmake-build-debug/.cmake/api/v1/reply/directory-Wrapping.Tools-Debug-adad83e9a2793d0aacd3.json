@@ -1,0 +1,263 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_install",
+			"vtk_module_add_executable"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Wrapping/Tools/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4660,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4660,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 10
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 82,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4660,
+				"parent" : 12
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 13
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 94,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4660,
+				"parent" : 15
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 16
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 104,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4660,
+				"parent" : 18
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 19
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Wrapping/Tools/vtkParse.h",
+				"Wrapping/Tools/vtkParseAttributes.h",
+				"Wrapping/Tools/vtkParseData.h",
+				"Wrapping/Tools/vtkParseExtras.h",
+				"Wrapping/Tools/vtkParseHierarchy.h",
+				"Wrapping/Tools/vtkParseMain.h",
+				"Wrapping/Tools/vtkParseMangle.h",
+				"Wrapping/Tools/vtkParseMerge.h",
+				"Wrapping/Tools/vtkParsePreprocess.h",
+				"Wrapping/Tools/vtkParseString.h",
+				"Wrapping/Tools/vtkParseSystem.h",
+				"Wrapping/Tools/vtkParseType.h",
+				"Wrapping/Tools/vtkWrap.h",
+				"Wrapping/Tools/vtkWrapText.h",
+				"cmake-build-debug/Wrapping/Tools/vtkWrappingToolsModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkWrappingTools-9.2.so.9.2",
+				"lib/libvtkWrappingTools-9.2.so.1"
+			],
+			"targetId" : "WrappingTools::@d6e191f736fba949b11d",
+			"targetIndex" : 125,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkWrappingTools-9.2.so"
+			],
+			"targetId" : "WrappingTools::@d6e191f736fba949b11d",
+			"targetIndex" : 125,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/vtkWrapHierarchy-9.2"
+			],
+			"targetId" : "WrapHierarchy::@d6e191f736fba949b11d",
+			"targetIndex" : 121,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/vtkWrapPython-9.2"
+			],
+			"targetId" : "WrapPython::@d6e191f736fba949b11d",
+			"targetIndex" : 123,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/vtkWrapPythonInit-9.2"
+			],
+			"targetId" : "WrapPythonInit::@d6e191f736fba949b11d",
+			"targetIndex" : 124,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/vtkParseJava-9.2"
+			],
+			"targetId" : "ParseJava::@d6e191f736fba949b11d",
+			"targetIndex" : 98,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/vtkWrapJava-9.2"
+			],
+			"targetId" : "WrapJava::@d6e191f736fba949b11d",
+			"targetIndex" : 122,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Wrapping/Tools",
+		"source" : "Wrapping/Tools"
+	}
+}

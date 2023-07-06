@@ -1,0 +1,1175 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libvtkIOExportGL2PS-9.2.so"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"vtk_module_add_module",
+			"install",
+			"_vtk_module_install",
+			"target_link_libraries",
+			"vtk_module_link",
+			"vtk_module_third_party_external",
+			"set_property",
+			"find_package",
+			"vtk_module_find_package",
+			"target_compile_definitions",
+			"vtk_module_autoinit",
+			"target_include_directories",
+			"_vtk_module_standard_includes"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"IO/ExportGL2PS/CMakeLists.txt",
+			"IO/Export/CMakeLists.txt",
+			"Rendering/FreeType/CMakeLists.txt",
+			"Rendering/VtkJS/CMakeLists.txt",
+			"IO/XML/CMakeLists.txt",
+			"Rendering/GL2PSOpenGL2/CMakeLists.txt",
+			"ThirdParty/freetype/vtkfreetype/CMakeLists.txt",
+			"Rendering/OpenGL2/CMakeLists.txt",
+			"Rendering/Core/CMakeLists.txt",
+			"Imaging/Core/CMakeLists.txt",
+			"Common/DataModel/CMakeLists.txt",
+			"Filters/Core/CMakeLists.txt",
+			"Rendering/UI/CMakeLists.txt",
+			"Utilities/OpenGL/CMakeLists.txt",
+			"Common/Core/CMakeLists.txt",
+			"Utilities/KWSys/vtksys/CMakeLists.txt",
+			"/snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindThreads.cmake",
+			"Common/Math/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3817,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 24,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 7
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 37,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 10
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 6,
+				"parent" : 12
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 13
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 55,
+				"parent" : 15
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 16
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 12,
+				"parent" : 18
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 19
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 7,
+				"line" : 54,
+				"parent" : 21
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 22
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 1,
+				"file" : 8,
+				"line" : 388,
+				"parent" : 24
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 25
+			},
+			{
+				"file" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 9,
+				"line" : 186,
+				"parent" : 27
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 28
+			},
+			{
+				"file" : 10
+			},
+			{
+				"command" : 1,
+				"file" : 10,
+				"line" : 47,
+				"parent" : 30
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 31
+			},
+			{
+				"file" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 11,
+				"line" : 307,
+				"parent" : 33
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 34
+			},
+			{
+				"file" : 12
+			},
+			{
+				"command" : 1,
+				"file" : 12,
+				"line" : 132,
+				"parent" : 36
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 37
+			},
+			{
+				"file" : 13
+			},
+			{
+				"command" : 5,
+				"file" : 13,
+				"line" : 170,
+				"parent" : 39
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1835,
+				"parent" : 40
+			},
+			{
+				"file" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 14,
+				"line" : 58,
+				"parent" : 42
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 5466,
+				"parent" : 43
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 5466,
+				"parent" : 43
+			},
+			{
+				"command" : 5,
+				"file" : 8,
+				"line" : 404,
+				"parent" : 24
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1835,
+				"parent" : 46
+			},
+			{
+				"file" : 15
+			},
+			{
+				"command" : 1,
+				"file" : 15,
+				"line" : 565,
+				"parent" : 48
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 49
+			},
+			{
+				"file" : 16
+			},
+			{
+				"command" : 4,
+				"file" : 16,
+				"line" : 792,
+				"parent" : 51
+			},
+			{
+				"command" : 9,
+				"file" : 15,
+				"line" : 372,
+				"parent" : 48
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 4774,
+				"parent" : 53
+			},
+			{
+				"file" : 17,
+				"parent" : 54
+			},
+			{
+				"command" : 7,
+				"file" : 17,
+				"line" : 240,
+				"parent" : 55
+			},
+			{
+				"file" : 18
+			},
+			{
+				"command" : 1,
+				"file" : 18,
+				"line" : 36,
+				"parent" : 57
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 58
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 3994,
+				"parent" : 1
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 3362,
+				"parent" : 60
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 3989,
+				"parent" : 1
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 3110,
+				"parent" : 62
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -fdiagnostics-color=always"
+				},
+				{
+					"fragment" : "-std=c++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "IOExportGL2PS_EXPORTS"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "kiss_fft_scalar=double"
+				},
+				{
+					"backtrace" : 61,
+					"define" : "vtkRenderingOpenGL2_AUTOINIT_INCLUDE=\"/home/danil/vtk_new/cmake-build-debug/CMakeFiles/vtkModuleAutoInit_b61c3d080a0ed8f28a4f3205cba08342.h\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 63,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/IO/ExportGL2PS"
+				},
+				{
+					"backtrace" : 63,
+					"path" : "/home/danil/vtk_new/IO/ExportGL2PS"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/IO/Export"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/IO/Export"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Common/Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Common/Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/IO/Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/IO/Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Common/ExecutionModel"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Common/ExecutionModel"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Common/DataModel"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Common/DataModel"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Common/Math"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Common/Math"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/kissfft/vtkkissfft"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/ThirdParty/kissfft/vtkkissfft"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Common/Transforms"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Common/Transforms"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/IO/Image"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/IO/Image"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Imaging/Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Imaging/Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/IO/XML"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/IO/XML"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/IO/XMLParser"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/IO/XMLParser"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Rendering/Context2D"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Rendering/Context2D"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Rendering/Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Rendering/Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Filters/Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Filters/Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Common/Misc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Common/Misc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Rendering/FreeType"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Rendering/FreeType"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/freetype/vtkfreetype"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/ThirdParty/freetype/vtkfreetype"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/ThirdParty/freetype/vtkfreetype/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/freetype/vtkfreetype/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/zlib/vtkzlib"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/ThirdParty/zlib/vtkzlib"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Rendering/VtkJS"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Rendering/VtkJS"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Rendering/SceneGraph"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Rendering/SceneGraph"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/jsoncpp/vtkjsoncpp"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/ThirdParty/jsoncpp/vtkjsoncpp"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/jsoncpp/vtkjsoncpp/json"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Rendering/GL2PSOpenGL2"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Rendering/GL2PSOpenGL2"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Rendering/OpenGL2"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Rendering/OpenGL2"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Filters/General"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Filters/General"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Rendering/HyperTreeGrid"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Rendering/HyperTreeGrid"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Rendering/UI"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Rendering/UI"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/glew/vtkglew"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/ThirdParty/glew/vtkglew"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/gl2ps/vtkgl2ps"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/ThirdParty/gl2ps/vtkgl2ps"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Utilities/KWIML"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/Utilities/KWIML"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Utilities/KWSys"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/Utilities/KWSys"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/kissfft"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/ThirdParty/kissfft"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/freetype"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/ThirdParty/freetype"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/zlib"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/ThirdParty/zlib"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/jsoncpp"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/ThirdParty/jsoncpp"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/glew"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/ThirdParty/glew"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/gl2ps"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/ThirdParty/gl2ps"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "vtksys::@5a168d592f992e81d571"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonCore::@64457cfdba6e94aaa1e9"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "kissfft::@329018f84a5df3ed4b8c"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonMath::@a77614d7634294a34aa4"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonTransforms::@52ea80424eed2a6715c4"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonMisc::@cbf11dc2b5e7d812c379"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonDataModel::@f9699ccd27e9866ebbe8"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonExecutionModel::@ca9d8e991d3bd7e8c46a"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "FiltersCore::@19486ed090774a79ee2d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "FiltersGeneral::@8fa9779fac4b14436b37"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "RenderingCore::@134ef1a629c84040591f"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "zlib::@cfcd0695dc1ae6d94881"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "freetype::@8eb1707ba208b31751af"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "RenderingFreeType::@15442918833b50e2c9c2"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "RenderingContext2D::@52fb680af51a14399eae"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ImagingCore::@9dc77478b2c6aaaae4e0"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "IOImage::@55e0fe11de236dfc9cd7"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "IOCore::@e631fdf919261cb164ec"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "IOXMLParser::@dc7eb2635b6c24eca99e"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "IOXML::@e0d04ab299313d0e1a11"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "RenderingHyperTreeGrid::@93980ab9cdb4c351bd6d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "RenderingUI::@be8363c8d59885a3926d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "glew::@bce8d1d7a6e9b07d76c4"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "RenderingOpenGL2::@b1963cc51c68b3c8119c"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "jsoncpp::@3abe73da81036fe53a06"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "RenderingSceneGraph::@0e18b67b23334caa1078"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "RenderingVtkJS::@c930da821d6d3e057175"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "IOExport::@46296c46d2dfc5feb141"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "gl2ps::@a8af1325e2bf7ed93b30"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "RenderingGL2PSOpenGL2::@4a9132bdd71b469bb5fa"
+		}
+	],
+	"id" : "IOExportGL2PS::@9115deb6d9cc1051249f",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,-lc",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,\"\\$$ORIGIN:\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkIOExport-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkRenderingGL2PSOpenGL2-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkgl2ps-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib/libvtkIOXML-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib/libvtkRenderingContext2D-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib/libvtkRenderingFreeType-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "lib/libvtkfreetype-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib/libvtkRenderingVtkJS-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "lib/libvtkRenderingSceneGraph-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "lib/libvtkjsoncpp-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "lib/libvtkIOXMLParser-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib/libvtkIOCore-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "lib/libvtkRenderingOpenGL2-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib/libvtkIOImage-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "lib/libvtkzlib-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "lib/libvtkRenderingHyperTreeGrid-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkImagingCore-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "lib/libvtkRenderingUI-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkRenderingCore-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "lib/libvtkFiltersGeneral-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "lib/libvtkFiltersCore-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 32,
+				"fragment" : "lib/libvtkCommonExecutionModel-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkCommonDataModel-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 35,
+				"fragment" : "lib/libvtkCommonTransforms-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 38,
+				"fragment" : "lib/libvtkCommonMisc-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 41,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libX11.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "lib/libvtkglew-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 45,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libOpenGL.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 47,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libX11.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 35,
+				"fragment" : "lib/libvtkCommonMath-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkCommonCore-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 50,
+				"fragment" : "lib/libvtksys-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 52,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 56,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 59,
+				"fragment" : "lib/libvtkkissfft-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/home/danil/vtk_new/cmake-build-debug/lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "IOExportGL2PS",
+	"nameOnDisk" : "libvtkIOExportGL2PS-9.2.so",
+	"paths" : 
+	{
+		"build" : "IO/ExportGL2PS",
+		"source" : "IO/ExportGL2PS"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3,
+				4,
+				5,
+				6
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/IO/ExportGL2PS/vtkIOExportGL2PSObjectFactory.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "IO/ExportGL2PS/vtkGL2PSExporter.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "IO/ExportGL2PS/vtkOpenGLGL2PSExporter.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "IO/ExportGL2PS/vtkGL2PSExporter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "IO/ExportGL2PS/vtkOpenGLGL2PSExporter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "cmake-build-debug/IO/ExportGL2PS/vtkIOExportGL2PSModule.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "cmake-build-debug/IO/ExportGL2PS/vtkIOExportGL2PSObjectFactory.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

@@ -1,0 +1,102 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"_vtk_module_install",
+			"vtk_module_add_module",
+			"vtk_module_install_headers"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"ThirdParty/cgns/vtkcgns/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 677,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 723,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 4
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkcgns-9.2.so.9.2",
+				"lib/libvtkcgns-9.2.so.1"
+			],
+			"targetId" : "cgns::@6c566a600d9341233aa9",
+			"targetIndex" : 126,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkcgns-9.2.so"
+			],
+			"targetId" : "cgns::@6c566a600d9341233aa9",
+			"targetIndex" : 126,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtkcgns/src",
+			"paths" : 
+			[
+				"ThirdParty/cgns/vtkcgns/src/vtk_cgns_mangle.h",
+				"ThirdParty/cgns/vtkcgns/src/cgnslib.h",
+				"ThirdParty/cgns/vtkcgns/src/cgns_io.h",
+				"cmake-build-debug/ThirdParty/cgns/vtkcgns/src/cgnsconfig.h",
+				"cmake-build-debug/ThirdParty/cgns/vtkcgns/src/cgnstypes.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ThirdParty/cgns/vtkcgns/src",
+		"source" : "ThirdParty/cgns/vtkcgns/src"
+	}
+}

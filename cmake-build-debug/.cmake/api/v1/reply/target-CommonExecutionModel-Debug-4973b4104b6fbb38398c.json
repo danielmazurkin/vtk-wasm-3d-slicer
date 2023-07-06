@@ -1,0 +1,1413 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libvtkCommonExecutionModel-9.2.so"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"vtk_module_add_module",
+			"install",
+			"_vtk_module_install",
+			"target_link_libraries",
+			"set_property",
+			"find_package",
+			"vtk_module_find_package",
+			"target_include_directories",
+			"_vtk_module_standard_includes"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Common/ExecutionModel/CMakeLists.txt",
+			"Common/DataModel/CMakeLists.txt",
+			"Common/Core/CMakeLists.txt",
+			"Utilities/KWSys/vtksys/CMakeLists.txt",
+			"/snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindThreads.cmake",
+			"Common/Math/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3817,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 307,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 7
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 565,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 10
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 792,
+				"parent" : 12
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 372,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 4774,
+				"parent" : 14
+			},
+			{
+				"file" : 5,
+				"parent" : 15
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 240,
+				"parent" : 16
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 36,
+				"parent" : 18
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 19
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 3989,
+				"parent" : 1
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 3110,
+				"parent" : 21
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -fdiagnostics-color=always"
+				},
+				{
+					"fragment" : "-std=c++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "CommonExecutionModel_EXPORTS"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "kiss_fft_scalar=double"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 22,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Common/ExecutionModel"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/danil/vtk_new/Common/ExecutionModel"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Common/Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Common/Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Common/DataModel"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Common/DataModel"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Common/Math"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Common/Math"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/kissfft/vtkkissfft"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/ThirdParty/kissfft/vtkkissfft"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Common/Transforms"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Common/Transforms"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Common/Misc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Common/Misc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Common/System"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Common/System"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Utilities/KWIML"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/Utilities/KWIML"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Utilities/KWSys"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/Utilities/KWSys"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/kissfft"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/ThirdParty/kissfft"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "vtksys::@5a168d592f992e81d571"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonCore::@64457cfdba6e94aaa1e9"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "kissfft::@329018f84a5df3ed4b8c"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonMath::@a77614d7634294a34aa4"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonTransforms::@52ea80424eed2a6715c4"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonMisc::@cbf11dc2b5e7d812c379"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonSystem::@e91d214ffcf5b0b8c340"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonDataModel::@f9699ccd27e9866ebbe8"
+		}
+	],
+	"id" : "CommonExecutionModel::@ca9d8e991d3bd7e8c46a",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,-lc",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,\"\\$$ORIGIN:\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkCommonDataModel-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkCommonMisc-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkCommonSystem-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib/libvtkCommonTransforms-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib/libvtkCommonMath-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkCommonCore-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "lib/libvtksys-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "lib/libvtkkissfft-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/home/danil/vtk_new/cmake-build-debug/lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "CommonExecutionModel",
+	"nameOnDisk" : "libvtkCommonExecutionModel-9.2.so",
+	"paths" : 
+	{
+		"build" : "Common/ExecutionModel",
+		"source" : "Common/ExecutionModel"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkAlgorithmOutput.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkAnnotationLayersAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkArrayDataAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkCachedStreamingDemandDrivenPipeline.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkCastToConcrete.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkCellGridAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkCompositeDataPipeline.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkCompositeDataSetAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkDataObjectAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkDataSetAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkDemandDrivenPipeline.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkDirectedGraphAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkEnsembleSource.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkExecutive.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkExplicitStructuredGridAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkExtentRCBPartitioner.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkExtentSplitter.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkExtentTranslator.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkFilteringInformationKeyManager.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkGraphAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkHierarchicalBoxDataSetAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkHyperTreeGridAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkImageAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkImageInPlaceFilter.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkImageProgressIterator.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkImageToStructuredGrid.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkImageToStructuredPoints.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkInformationDataObjectMetaDataKey.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkInformationExecutivePortKey.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkInformationExecutivePortVectorKey.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkInformationIntegerRequestKey.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkMoleculeAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkMultiBlockDataSetAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkMultiTimeStepAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkParallelReader.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkPartitionedDataSetAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkPartitionedDataSetCollectionAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkPassInputTypeAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkPiecewiseFunctionAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkPiecewiseFunctionShiftScale.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkPointSetAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkPolyDataAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkProgressObserver.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkReaderAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkRectilinearGridAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkSMPProgressObserver.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkScalarTree.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkSelectionAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkSimpleImageToImageFilter.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkSimpleReader.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkSimpleScalarTree.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkSpanSpace.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkSphereTree.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkStreamingDemandDrivenPipeline.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkStructuredGridAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkTableAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkThreadedCompositeDataPipeline.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkThreadedImageAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkTreeAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkTrivialConsumer.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkTrivialProducer.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkUndirectedGraphAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkUniformGridPartitioner.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkUnstructuredGridAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkUnstructuredGridBaseAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkNonOverlappingAMRAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkOverlappingAMRAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Common/ExecutionModel/vtkUniformGridAMRAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkAlgorithmOutput.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkAnnotationLayersAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkArrayDataAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkCachedStreamingDemandDrivenPipeline.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkCastToConcrete.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkCellGridAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkCompositeDataPipeline.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkCompositeDataSetAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkDataObjectAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkDataSetAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkDemandDrivenPipeline.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkDirectedGraphAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkEnsembleSource.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkExecutive.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkExplicitStructuredGridAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkExtentRCBPartitioner.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkExtentSplitter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkExtentTranslator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkFilteringInformationKeyManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkGraphAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkHierarchicalBoxDataSetAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkHyperTreeGridAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkImageAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkImageInPlaceFilter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkImageProgressIterator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkImageToStructuredGrid.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkImageToStructuredPoints.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkInformationDataObjectMetaDataKey.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkInformationExecutivePortKey.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkInformationExecutivePortVectorKey.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkInformationIntegerRequestKey.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkMoleculeAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkMultiBlockDataSetAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkMultiTimeStepAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkParallelReader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkPartitionedDataSetAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkPartitionedDataSetCollectionAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkPassInputTypeAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkPiecewiseFunctionAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkPiecewiseFunctionShiftScale.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkPointSetAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkPolyDataAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkProgressObserver.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkReaderAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkRectilinearGridAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkSMPProgressObserver.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkScalarTree.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkSelectionAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkSimpleImageToImageFilter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkSimpleReader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkSimpleScalarTree.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkSpanSpace.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkSphereTree.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkStreamingDemandDrivenPipeline.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkStructuredGridAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkTableAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkThreadedCompositeDataPipeline.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkThreadedImageAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkTreeAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkTrivialConsumer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkTrivialProducer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkUndirectedGraphAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkUniformGridPartitioner.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkUnstructuredGridAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkUnstructuredGridBaseAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkNonOverlappingAMRAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkOverlappingAMRAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Common/ExecutionModel/vtkUniformGridAMRAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "cmake-build-debug/Common/ExecutionModel/vtkCommonExecutionModelModule.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

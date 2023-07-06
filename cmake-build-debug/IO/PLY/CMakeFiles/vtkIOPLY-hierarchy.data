@@ -1,0 +1,4 @@
+/home/danil/vtk_new/IO/PLY/vtkPLY.h;vtkIOPLY
+/home/danil/vtk_new/IO/PLY/vtkPLYReader.h;vtkIOPLY
+/home/danil/vtk_new/IO/PLY/vtkPLYWriter.h;vtkIOPLY
+/home/danil/vtk_new/cmake-build-debug/IO/PLY/vtkIOPLYModule.h;vtkIOPLY

@@ -1,0 +1,7 @@
+/home/danil/vtk_new/IO/Import/vtk3DS.h;vtkIOImport
+/home/danil/vtk_new/IO/Import/vtk3DSImporter.h;vtkIOImport
+/home/danil/vtk_new/IO/Import/vtkGLTFImporter.h;vtkIOImport
+/home/danil/vtk_new/IO/Import/vtkImporter.h;vtkIOImport
+/home/danil/vtk_new/IO/Import/vtkVRMLImporter.h;vtkIOImport
+/home/danil/vtk_new/IO/Import/vtkOBJImporter.h;vtkIOImport
+/home/danil/vtk_new/cmake-build-debug/IO/Import/vtkIOImportModule.h;vtkIOImport

@@ -1,0 +1,1438 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libvtkInfovisLayout-9.2.so"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"vtk_module_add_module",
+			"install",
+			"_vtk_module_install",
+			"target_link_libraries",
+			"set_property",
+			"find_package",
+			"vtk_module_find_package",
+			"target_compile_definitions",
+			"target_include_directories",
+			"_vtk_module_standard_includes"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Infovis/Layout/CMakeLists.txt",
+			"Infovis/Core/CMakeLists.txt",
+			"Rendering/FreeType/CMakeLists.txt",
+			"Filters/Core/CMakeLists.txt",
+			"Common/DataModel/CMakeLists.txt",
+			"Common/Core/CMakeLists.txt",
+			"Utilities/KWSys/vtksys/CMakeLists.txt",
+			"/snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindThreads.cmake",
+			"Common/Math/CMakeLists.txt",
+			"ThirdParty/freetype/vtkfreetype/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3817,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 48,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 7
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 37,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 10
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 132,
+				"parent" : 12
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 13
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 307,
+				"parent" : 15
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 16
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 565,
+				"parent" : 18
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 19
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 7,
+				"line" : 792,
+				"parent" : 21
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 372,
+				"parent" : 18
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 4774,
+				"parent" : 23
+			},
+			{
+				"file" : 8,
+				"parent" : 24
+			},
+			{
+				"command" : 5,
+				"file" : 8,
+				"line" : 240,
+				"parent" : 25
+			},
+			{
+				"file" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 9,
+				"line" : 36,
+				"parent" : 27
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 28
+			},
+			{
+				"file" : 10
+			},
+			{
+				"command" : 1,
+				"file" : 10,
+				"line" : 54,
+				"parent" : 30
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 31
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 3974,
+				"parent" : 1
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 3989,
+				"parent" : 1
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 3110,
+				"parent" : 34
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -fdiagnostics-color=always"
+				},
+				{
+					"fragment" : "-std=c++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "InfovisLayout_EXPORTS"
+				},
+				{
+					"backtrace" : 33,
+					"define" : "VTK_MODULE_ENABLE_VTK_InfovisBoostGraphAlgorithms=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "kiss_fft_scalar=double"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 35,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Infovis/Layout"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/home/danil/vtk_new/Infovis/Layout"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Common/Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Common/Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Common/DataModel"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Common/DataModel"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Common/Math"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Common/Math"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/kissfft/vtkkissfft"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/ThirdParty/kissfft/vtkkissfft"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Common/Transforms"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Common/Transforms"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Common/ExecutionModel"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Common/ExecutionModel"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Common/ComputationalGeometry"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Common/ComputationalGeometry"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Common/System"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Common/System"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Filters/Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Filters/Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Common/Misc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Common/Misc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Filters/General"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Filters/General"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Filters/Modeling"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Filters/Modeling"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Filters/Sources"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Filters/Sources"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Imaging/Hybrid"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Imaging/Hybrid"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Infovis/Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Infovis/Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Common/Color"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Common/Color"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/IO/Image"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/IO/Image"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Imaging/Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Imaging/Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Imaging/Sources"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Imaging/Sources"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Rendering/FreeType"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Rendering/FreeType"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Rendering/Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Rendering/Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/freetype/vtkfreetype"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/ThirdParty/freetype/vtkfreetype"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/ThirdParty/freetype/vtkfreetype/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/freetype/vtkfreetype/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/zlib/vtkzlib"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/ThirdParty/zlib/vtkzlib"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Utilities/KWIML"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/Utilities/KWIML"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Utilities/KWSys"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/Utilities/KWSys"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/kissfft"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/ThirdParty/kissfft"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/freetype"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/ThirdParty/freetype"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/zlib"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/ThirdParty/zlib"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "vtksys::@5a168d592f992e81d571"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonCore::@64457cfdba6e94aaa1e9"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "kissfft::@329018f84a5df3ed4b8c"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonMath::@a77614d7634294a34aa4"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonTransforms::@52ea80424eed2a6715c4"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonMisc::@cbf11dc2b5e7d812c379"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonSystem::@e91d214ffcf5b0b8c340"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonDataModel::@f9699ccd27e9866ebbe8"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonExecutionModel::@ca9d8e991d3bd7e8c46a"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "FiltersCore::@19486ed090774a79ee2d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonColor::@26ef2046c8845f0e0192"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonComputationalGeometry::@86617a968d68c93163e9"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "FiltersGeneral::@8fa9779fac4b14436b37"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "FiltersSources::@5a6dcaf56d98ae965e43"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "RenderingCore::@134ef1a629c84040591f"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "zlib::@cfcd0695dc1ae6d94881"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "freetype::@8eb1707ba208b31751af"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "RenderingFreeType::@15442918833b50e2c9c2"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ImagingCore::@9dc77478b2c6aaaae4e0"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ImagingSources::@6c3b3cc2cf3b526aa87a"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "FiltersModeling::@fa9ddc65f29869ad6956"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "IOImage::@55e0fe11de236dfc9cd7"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ImagingHybrid::@46659d3cdc4f34b8ed4a"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "InfovisCore::@4af051e7133b49a16381"
+		}
+	],
+	"id" : "InfovisLayout::@b731e179d6503c1835ee",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,-lc",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,\"\\$$ORIGIN:\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkFiltersModeling-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkImagingHybrid-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkInfovisCore-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib/libvtkIOImage-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib/libvtkImagingSources-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib/libvtkImagingCore-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib/libvtkRenderingFreeType-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "lib/libvtkRenderingCore-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkFiltersSources-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib/libvtkCommonColor-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "lib/libvtkfreetype-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkFiltersGeneral-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkCommonComputationalGeometry-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkFiltersCore-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkCommonExecutionModel-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkCommonDataModel-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkCommonTransforms-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkCommonSystem-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "lib/libvtkCommonMisc-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "lib/libvtkCommonMath-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkCommonCore-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "lib/libvtksys-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "lib/libvtkkissfft-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 32,
+				"fragment" : "lib/libvtkzlib-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/home/danil/vtk_new/cmake-build-debug/lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "InfovisLayout",
+	"nameOnDisk" : "libvtkInfovisLayout-9.2.so",
+	"paths" : 
+	{
+		"build" : "Infovis/Layout",
+		"source" : "Infovis/Layout"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkArcParallelEdgeStrategy.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkAreaLayout.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkAreaLayoutStrategy.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkAssignCoordinates.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkAssignCoordinatesLayoutStrategy.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkAttributeClustering2DLayoutStrategy.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkBoxLayoutStrategy.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkCirclePackFrontChainLayoutStrategy.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkCirclePackLayout.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkCirclePackLayoutStrategy.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkCirclePackToPolyData.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkCircularLayoutStrategy.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkClustering2DLayoutStrategy.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkCommunity2DLayoutStrategy.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkConeLayoutStrategy.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkConstrained2DLayoutStrategy.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkCosmicTreeLayoutStrategy.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkEdgeLayout.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkEdgeLayoutStrategy.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkFast2DLayoutStrategy.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkForceDirectedLayoutStrategy.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkGeoEdgeStrategy.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkGeoMath.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkGraphLayout.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkGraphLayoutStrategy.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkIncrementalForceLayout.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkKCoreLayout.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkPassThroughEdgeStrategy.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkPassThroughLayoutStrategy.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkPerturbCoincidentVertices.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkRandomLayoutStrategy.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkSimple2DLayoutStrategy.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkSimple3DCirclesStrategy.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkSliceAndDiceLayoutStrategy.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkSpanTreeLayoutStrategy.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkSplineGraphEdges.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkSquarifyLayoutStrategy.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkStackedTreeLayoutStrategy.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkTreeLayoutStrategy.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkTreeMapLayout.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkTreeMapLayoutStrategy.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkTreeMapToPolyData.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkTreeOrbitLayoutStrategy.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Infovis/Layout/vtkTreeRingToPolyData.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkArcParallelEdgeStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkAreaLayout.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkAreaLayoutStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkAssignCoordinates.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkAssignCoordinatesLayoutStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkAttributeClustering2DLayoutStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkBoxLayoutStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkCirclePackFrontChainLayoutStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkCirclePackLayout.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkCirclePackLayoutStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkCirclePackToPolyData.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkCircularLayoutStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkClustering2DLayoutStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkCommunity2DLayoutStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkConeLayoutStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkConstrained2DLayoutStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkCosmicTreeLayoutStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkEdgeLayout.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkEdgeLayoutStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkFast2DLayoutStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkForceDirectedLayoutStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkGeoEdgeStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkGeoMath.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkGraphLayout.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkGraphLayoutStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkIncrementalForceLayout.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkKCoreLayout.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkPassThroughEdgeStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkPassThroughLayoutStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkPerturbCoincidentVertices.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkRandomLayoutStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkSimple2DLayoutStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkSimple3DCirclesStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkSliceAndDiceLayoutStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkSpanTreeLayoutStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkSplineGraphEdges.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkSquarifyLayoutStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkStackedTreeLayoutStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkTreeLayoutStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkTreeMapLayout.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkTreeMapLayoutStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkTreeMapToPolyData.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkTreeOrbitLayoutStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Infovis/Layout/vtkTreeRingToPolyData.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "cmake-build-debug/Infovis/Layout/vtkInfovisLayoutModule.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

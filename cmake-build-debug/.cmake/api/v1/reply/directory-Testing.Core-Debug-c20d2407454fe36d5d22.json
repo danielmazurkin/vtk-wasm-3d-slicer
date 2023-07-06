@@ -1,0 +1,64 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Testing/Core/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Testing/Core/vtkPermuteOptions.h",
+				"Testing/Core/vtkTestDriver.h",
+				"Testing/Core/vtkTestErrorObserver.h",
+				"Testing/Core/vtkTestingColors.h",
+				"Testing/Core/vtkTestUtilities.h",
+				"Testing/Core/vtkWindowsTestUtilities.h",
+				"Testing/Core/vtkTestConditionals.txx"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Testing/Core",
+		"source" : "Testing/Core"
+	}
+}

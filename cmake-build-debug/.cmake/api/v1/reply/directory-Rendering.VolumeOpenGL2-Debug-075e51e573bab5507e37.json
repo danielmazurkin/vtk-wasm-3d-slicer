@@ -1,0 +1,138 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Rendering/VolumeOpenGL2/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Rendering/VolumeOpenGL2/vtkMultiBlockUnstructuredGridVolumeMapper.h",
+				"Rendering/VolumeOpenGL2/vtkMultiBlockVolumeMapper.h",
+				"Rendering/VolumeOpenGL2/vtkOpenGLGPUVolumeRayCastMapper.h",
+				"Rendering/VolumeOpenGL2/vtkOpenGLProjectedTetrahedraMapper.h",
+				"Rendering/VolumeOpenGL2/vtkOpenGLRayCastImageDisplayHelper.h",
+				"Rendering/VolumeOpenGL2/vtkSmartVolumeMapper.h",
+				"Rendering/VolumeOpenGL2/vtkVolumeTexture.h",
+				"cmake-build-debug/Rendering/VolumeOpenGL2/vtkRenderingVolumeOpenGL2Module.h",
+				"Rendering/VolumeOpenGL2/vtkOpenGLVolumeGradientOpacityTable.h",
+				"Rendering/VolumeOpenGL2/vtkOpenGLVolumeLookupTable.h",
+				"Rendering/VolumeOpenGL2/vtkOpenGLVolumeMaskGradientOpacityTransferFunction2D.h",
+				"Rendering/VolumeOpenGL2/vtkOpenGLVolumeMaskTransferFunction2D.h",
+				"Rendering/VolumeOpenGL2/vtkOpenGLVolumeOpacityTable.h",
+				"Rendering/VolumeOpenGL2/vtkOpenGLVolumeRGBTable.h",
+				"Rendering/VolumeOpenGL2/vtkOpenGLVolumeTransferFunction2D.h",
+				"Rendering/VolumeOpenGL2/vtkVolumeInputHelper.h",
+				"Rendering/VolumeOpenGL2/vtkOpenGLVolumeLookupTables.h",
+				"Rendering/VolumeOpenGL2/vtkOpenGLVolumeLookupTables.txx"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkRenderingVolumeOpenGL2-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkRenderingVolumeOpenGL2-9.2.so.9.2",
+				"lib/libvtkRenderingVolumeOpenGL2-9.2.so.1"
+			],
+			"targetId" : "RenderingVolumeOpenGL2::@129656d3bd3ceccc67e1",
+			"targetIndex" : 115,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkRenderingVolumeOpenGL2-9.2.so"
+			],
+			"targetId" : "RenderingVolumeOpenGL2::@129656d3bd3ceccc67e1",
+			"targetIndex" : 115,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Rendering/VolumeOpenGL2",
+		"source" : "Rendering/VolumeOpenGL2"
+	}
+}

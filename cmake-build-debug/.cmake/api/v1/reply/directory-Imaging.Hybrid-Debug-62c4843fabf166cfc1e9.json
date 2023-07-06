@@ -1,0 +1,135 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Imaging/Hybrid/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Imaging/Hybrid/vtkBooleanTexture.h",
+				"Imaging/Hybrid/vtkCheckerboardSplatter.h",
+				"Imaging/Hybrid/vtkFastSplatter.h",
+				"Imaging/Hybrid/vtkGaussianSplatter.h",
+				"Imaging/Hybrid/vtkImageCursor3D.h",
+				"Imaging/Hybrid/vtkImageRectilinearWipe.h",
+				"Imaging/Hybrid/vtkImageToPoints.h",
+				"Imaging/Hybrid/vtkPointLoad.h",
+				"Imaging/Hybrid/vtkSampleFunction.h",
+				"Imaging/Hybrid/vtkShepardMethod.h",
+				"Imaging/Hybrid/vtkSliceCubes.h",
+				"Imaging/Hybrid/vtkSurfaceReconstructionFilter.h",
+				"Imaging/Hybrid/vtkTriangularTexture.h",
+				"Imaging/Hybrid/vtkVoxelModeller.h",
+				"cmake-build-debug/Imaging/Hybrid/vtkImagingHybridModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkImagingHybrid-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkImagingHybrid-9.2.so.9.2",
+				"lib/libvtkImagingHybrid-9.2.so.1"
+			],
+			"targetId" : "ImagingHybrid::@46659d3cdc4f34b8ed4a",
+			"targetIndex" : 85,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkImagingHybrid-9.2.so"
+			],
+			"targetId" : "ImagingHybrid::@46659d3cdc4f34b8ed4a",
+			"targetIndex" : 85,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Imaging/Hybrid",
+		"source" : "Imaging/Hybrid"
+	}
+}

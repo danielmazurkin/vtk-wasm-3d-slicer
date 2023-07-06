@@ -1,0 +1,102 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"ThirdParty/tiff/vtktiff/libtiff/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 162,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 4
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtktiff/libtiff",
+			"paths" : 
+			[
+				"ThirdParty/tiff/vtktiff/libtiff/tiff.h",
+				"ThirdParty/tiff/vtktiff/libtiff/tiffio.h",
+				"ThirdParty/tiff/vtktiff/libtiff/tiffvers.h",
+				"ThirdParty/tiff/vtktiff/libtiff/vtk_tiff_mangle.h",
+				"cmake-build-debug/ThirdParty/tiff/vtktiff/libtiff/tiffconf.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtktiff-9.2.so.9.2",
+				"lib/libvtktiff-9.2.so.1"
+			],
+			"targetId" : "tiff::@5b83323274c7b528e318",
+			"targetIndex" : 154,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtktiff-9.2.so"
+			],
+			"targetId" : "tiff::@5b83323274c7b528e318",
+			"targetIndex" : 154,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ThirdParty/tiff/vtktiff/libtiff",
+		"source" : "ThirdParty/tiff/vtktiff/libtiff"
+	}
+}

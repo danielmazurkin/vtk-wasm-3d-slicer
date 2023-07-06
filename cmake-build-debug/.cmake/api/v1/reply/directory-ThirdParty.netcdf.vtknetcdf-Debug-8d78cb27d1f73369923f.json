@@ -1,0 +1,103 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"ThirdParty/netcdf/vtknetcdf/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 287,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 4
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknetcdf/include",
+			"paths" : 
+			[
+				"ThirdParty/netcdf/vtknetcdf/include/netcdf.h",
+				"ThirdParty/netcdf/vtknetcdf/include/netcdf_filter_build.h",
+				"ThirdParty/netcdf/vtknetcdf/include/vtk_netcdf_mangle.h",
+				"cmake-build-debug/ThirdParty/netcdf/vtknetcdf/include/netcdf_dispatch.h",
+				"cmake-build-debug/ThirdParty/netcdf/vtknetcdf/include/netcdf_meta.h",
+				"cmake-build-debug/ThirdParty/netcdf/vtknetcdf/vtk_netcdf_config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtknetcdf-9.2.so.9.2",
+				"lib/libvtknetcdf-9.2.so.1"
+			],
+			"targetId" : "netcdf::@03fc1e76810207c55ad8",
+			"targetIndex" : 147,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtknetcdf-9.2.so"
+			],
+			"targetId" : "netcdf::@03fc1e76810207c55ad8",
+			"targetIndex" : 147,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ThirdParty/netcdf/vtknetcdf",
+		"source" : "ThirdParty/netcdf/vtknetcdf"
+	}
+}

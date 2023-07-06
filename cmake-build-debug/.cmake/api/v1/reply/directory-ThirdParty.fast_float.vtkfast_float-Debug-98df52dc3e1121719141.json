@@ -1,0 +1,60 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"ThirdParty/fast_float/vtkfast_float/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtkfast_float/vtkfast_float",
+			"paths" : 
+			[
+				"ThirdParty/fast_float/vtkfast_float/vtkfast_float/ascii_number.h",
+				"ThirdParty/fast_float/vtkfast_float/vtkfast_float/bigint.h",
+				"ThirdParty/fast_float/vtkfast_float/vtkfast_float/decimal_to_binary.h",
+				"ThirdParty/fast_float/vtkfast_float/vtkfast_float/digit_comparison.h",
+				"ThirdParty/fast_float/vtkfast_float/vtkfast_float/fast_float.h",
+				"ThirdParty/fast_float/vtkfast_float/vtkfast_float/fast_table.h",
+				"ThirdParty/fast_float/vtkfast_float/vtkfast_float/float_common.h",
+				"ThirdParty/fast_float/vtkfast_float/vtkfast_float/parse_number.h",
+				"ThirdParty/fast_float/vtkfast_float/vtkfast_float/simple_decimal_conversion.h",
+				"ThirdParty/fast_float/vtkfast_float/vtkfast_float/vtkfast_float_mangle.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ThirdParty/fast_float/vtkfast_float",
+		"source" : "ThirdParty/fast_float/vtkfast_float"
+	}
+}

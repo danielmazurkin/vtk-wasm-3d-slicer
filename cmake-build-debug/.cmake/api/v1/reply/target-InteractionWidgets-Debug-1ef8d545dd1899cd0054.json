@@ -1,0 +1,3391 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libvtkInteractionWidgets-9.2.so"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"vtk_module_add_module",
+			"install",
+			"_vtk_module_install",
+			"target_link_libraries",
+			"set_property",
+			"find_package",
+			"vtk_module_find_package",
+			"vtk_module_link",
+			"vtk_module_third_party_external",
+			"target_compile_definitions",
+			"vtk_module_autoinit",
+			"target_include_directories",
+			"_vtk_module_standard_includes"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Interaction/Widgets/CMakeLists.txt",
+			"Rendering/FreeType/CMakeLists.txt",
+			"Rendering/OpenGL2/CMakeLists.txt",
+			"ThirdParty/freetype/vtkfreetype/CMakeLists.txt",
+			"Filters/Hybrid/CMakeLists.txt",
+			"Filters/General/CMakeLists.txt",
+			"/snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindThreads.cmake",
+			"Common/Core/CMakeLists.txt",
+			"Common/Math/CMakeLists.txt",
+			"Utilities/KWSys/vtksys/CMakeLists.txt",
+			"Rendering/UI/CMakeLists.txt",
+			"Utilities/OpenGL/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 169,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3817,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 37,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 7
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 388,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 10
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 54,
+				"parent" : 12
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 13
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 29,
+				"parent" : 15
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 16
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 136,
+				"parent" : 18
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 19
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 8,
+				"line" : 372,
+				"parent" : 21
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 4774,
+				"parent" : 22
+			},
+			{
+				"file" : 7,
+				"parent" : 23
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 240,
+				"parent" : 24
+			},
+			{
+				"file" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 9,
+				"line" : 36,
+				"parent" : 26
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 27
+			},
+			{
+				"command" : 1,
+				"file" : 8,
+				"line" : 565,
+				"parent" : 21
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 29
+			},
+			{
+				"file" : 10
+			},
+			{
+				"command" : 4,
+				"file" : 10,
+				"line" : 792,
+				"parent" : 31
+			},
+			{
+				"file" : 11
+			},
+			{
+				"command" : 8,
+				"file" : 11,
+				"line" : 170,
+				"parent" : 33
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1835,
+				"parent" : 34
+			},
+			{
+				"file" : 12
+			},
+			{
+				"command" : 9,
+				"file" : 12,
+				"line" : 58,
+				"parent" : 36
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 5466,
+				"parent" : 37
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 5466,
+				"parent" : 37
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 404,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1835,
+				"parent" : 40
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 3994,
+				"parent" : 1
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 3362,
+				"parent" : 42
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 3989,
+				"parent" : 1
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 3110,
+				"parent" : 44
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -fdiagnostics-color=always"
+				},
+				{
+					"fragment" : "-std=c++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "InteractionWidgets_EXPORTS"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "kiss_fft_scalar=double"
+				},
+				{
+					"backtrace" : 43,
+					"define" : "vtkRenderingCore_AUTOINIT_INCLUDE=\"/home/danil/vtk_new/cmake-build-debug/CMakeFiles/vtkModuleAutoInit_ef581ebbf3812c41155eb6cbf7fd17d1.h\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 45,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Interaction/Widgets"
+				},
+				{
+					"backtrace" : 45,
+					"path" : "/home/danil/vtk_new/Interaction/Widgets"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Common/Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Common/Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Common/ExecutionModel"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Common/ExecutionModel"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Common/DataModel"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Common/DataModel"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Common/Math"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Common/Math"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/kissfft/vtkkissfft"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/ThirdParty/kissfft/vtkkissfft"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Common/Transforms"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Common/Transforms"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Filters/General"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Filters/General"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Common/Misc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Common/Misc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Filters/Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Filters/Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Filters/Sources"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Filters/Sources"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Rendering/Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Rendering/Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Rendering/Context2D"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Rendering/Context2D"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Common/ComputationalGeometry"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Common/ComputationalGeometry"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Common/System"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Common/System"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Filters/Hybrid"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Filters/Hybrid"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Filters/Geometry"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Filters/Geometry"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Filters/Modeling"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Filters/Modeling"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Filters/Texture"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Filters/Texture"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Imaging/Color"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Imaging/Color"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Imaging/Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Imaging/Core"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Imaging/General"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Imaging/General"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Imaging/Hybrid"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Imaging/Hybrid"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Interaction/Style"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Interaction/Style"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Rendering/Annotation"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Rendering/Annotation"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Rendering/FreeType"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Rendering/FreeType"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/freetype/vtkfreetype"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/ThirdParty/freetype/vtkfreetype"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/ThirdParty/freetype/vtkfreetype/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/freetype/vtkfreetype/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/zlib/vtkzlib"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/ThirdParty/zlib/vtkzlib"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Rendering/Volume"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Rendering/Volume"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Rendering/OpenGL2"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Rendering/OpenGL2"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/IO/Image"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/IO/Image"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Rendering/HyperTreeGrid"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Rendering/HyperTreeGrid"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Rendering/UI"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/Rendering/UI"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/glew/vtkglew"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/ThirdParty/glew/vtkglew"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Utilities/KWIML"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/Utilities/KWIML"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/Utilities/KWSys"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/Utilities/KWSys"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/kissfft"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/ThirdParty/kissfft"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/freetype"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/ThirdParty/freetype"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/zlib"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/ThirdParty/zlib"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/glew"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/ThirdParty/glew"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "vtksys::@5a168d592f992e81d571"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonCore::@64457cfdba6e94aaa1e9"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "kissfft::@329018f84a5df3ed4b8c"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonMath::@a77614d7634294a34aa4"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonTransforms::@52ea80424eed2a6715c4"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonMisc::@cbf11dc2b5e7d812c379"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonSystem::@e91d214ffcf5b0b8c340"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonDataModel::@f9699ccd27e9866ebbe8"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonExecutionModel::@ca9d8e991d3bd7e8c46a"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "FiltersCore::@19486ed090774a79ee2d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CommonComputationalGeometry::@86617a968d68c93163e9"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "FiltersGeometry::@cf9c3060c91ed0b03613"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "FiltersGeneral::@8fa9779fac4b14436b37"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "FiltersSources::@5a6dcaf56d98ae965e43"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "RenderingCore::@134ef1a629c84040591f"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "zlib::@cfcd0695dc1ae6d94881"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "freetype::@8eb1707ba208b31751af"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "RenderingFreeType::@15442918833b50e2c9c2"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "RenderingContext2D::@52fb680af51a14399eae"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ImagingCore::@9dc77478b2c6aaaae4e0"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "FiltersHybrid::@c8206a89e09800eab93c"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "FiltersModeling::@fa9ddc65f29869ad6956"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "FiltersTexture::@1ceabbfa9d3aa87f6de9"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ImagingColor::@3318159dd123b4834e49"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ImagingGeneral::@e55191270428a79de0a0"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "IOImage::@55e0fe11de236dfc9cd7"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ImagingHybrid::@46659d3cdc4f34b8ed4a"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "InteractionStyle::@4ba2164e2565f2115edd"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "RenderingAnnotation::@edda86ddf87a56bd2ea9"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "RenderingVolume::@0fe144fea3641808c066"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "RenderingHyperTreeGrid::@93980ab9cdb4c351bd6d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "RenderingUI::@be8363c8d59885a3926d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "glew::@bce8d1d7a6e9b07d76c4"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "RenderingOpenGL2::@b1963cc51c68b3c8119c"
+		}
+	],
+	"id" : "InteractionWidgets::@8cfb3beaeb57bab07b23",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,-lc",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,\"\\$$ORIGIN:\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkRenderingContext2D-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkFiltersModeling-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkFiltersTexture-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkImagingGeneral-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkImagingHybrid-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkInteractionStyle-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkRenderingAnnotation-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkRenderingFreeType-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkRenderingVolume-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkRenderingOpenGL2-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkImagingColor-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib/libvtkfreetype-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "lib/libvtkIOImage-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "lib/libvtkzlib-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "lib/libvtkRenderingHyperTreeGrid-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkFiltersHybrid-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkImagingCore-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "lib/libvtkRenderingUI-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkRenderingCore-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkFiltersSources-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkFiltersGeneral-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkCommonComputationalGeometry-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "lib/libvtkFiltersGeometry-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkFiltersCore-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkCommonExecutionModel-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkCommonDataModel-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkCommonSystem-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkCommonTransforms-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "lib/libvtkCommonMisc-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkCommonMath-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkCommonCore-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "lib/libvtkkissfft-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 30,
+				"fragment" : "lib/libvtksys-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 32,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 35,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libX11.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "lib/libvtkglew-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 38,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 39,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libOpenGL.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 41,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libX11.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/home/danil/vtk_new/cmake-build-debug/lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "InteractionWidgets",
+	"nameOnDisk" : "libvtkInteractionWidgets-9.2.so",
+	"paths" : 
+	{
+		"build" : "Interaction/Widgets",
+		"source" : "Interaction/Widgets"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268,
+				269,
+				270,
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277,
+				278,
+				279,
+				280,
+				281,
+				282,
+				283,
+				284,
+				285,
+				286,
+				287,
+				288,
+				289,
+				290,
+				291,
+				292,
+				293,
+				294,
+				295,
+				296,
+				297,
+				298,
+				299,
+				300,
+				301,
+				302,
+				303,
+				304,
+				305,
+				306,
+				307,
+				308,
+				309,
+				310,
+				311,
+				312,
+				313,
+				314,
+				315,
+				316,
+				317,
+				318,
+				319,
+				320,
+				321,
+				322,
+				323,
+				324,
+				325,
+				326,
+				327,
+				328,
+				329,
+				330
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtk3DCursorRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtk3DCursorWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtk3DWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkAbstractPolygonalHandleRepresentation3D.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkAbstractSplineRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkAbstractWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkAffineRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkAffineRepresentation2D.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkAffineWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkAngleRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkAngleRepresentation2D.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkAngleRepresentation3D.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkAngleWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkAxesTransformRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkAxesTransformWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkBalloonRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkBalloonWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkBezierContourLineInterpolator.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkBiDimensionalRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkBiDimensionalRepresentation2D.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkBiDimensionalWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkBorderRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkBorderWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkBoundedPlanePointPlacer.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkBoxRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkBoxWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkBoxWidget2.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkBrokenLineWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkButtonRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkButtonWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkCamera3DRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkCamera3DWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkCameraHandleSource.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkCameraOrientationWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkCameraOrientationRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkCameraPathRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkCameraPathWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkCameraRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkCameraWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkCaptionRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkCaptionWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkCellCentersPointPlacer.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkCenteredSliderRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkCenteredSliderWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkCheckerboardRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkCheckerboardWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkClosedSurfacePointPlacer.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkCompassRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkCompassWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkConstrainedPointHandleRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkContinuousValueWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkContinuousValueWidgetRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkContourLineInterpolator.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkContourRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkContourWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkCoordinateFrameRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkCoordinateFrameWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkCurveRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkDijkstraImageContourLineInterpolator.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkDisplaySizedImplicitPlaneWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkDisplaySizedImplicitPlaneRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkDistanceRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkDistanceRepresentation2D.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkDistanceRepresentation3D.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkDistanceWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkEllipsoidTensorProbeRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkEqualizerContextItem.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkEvent.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkFinitePlaneRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkFinitePlaneWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkFixedSizeHandleRepresentation3D.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkFocalPlaneContourRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkFocalPlanePointPlacer.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkHandleRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkHandleWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkHoverWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkImageActorPointPlacer.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkImageCroppingRegionsWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkImageOrthoPlanes.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkImagePlaneWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkImageTracerWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkImplicitCylinderRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkImplicitCylinderWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkImplicitImageRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkImplicitPlaneRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkImplicitPlaneWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkImplicitPlaneWidget2.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkLightRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkLightWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkLinearContourLineInterpolator.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkLineRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkLineWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkLineWidget2.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkLogoRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkLogoWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkMagnifierRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkMagnifierWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkMeasurementCubeHandleRepresentation3D.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkOrientationMarkerWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkOrientedGlyphContourRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkOrientedGlyphFocalPlaneContourRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkOrientedPolygonalHandleRepresentation3D.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkParallelopipedRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkParallelopipedWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkPlaneWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkPlaybackRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkPlaybackWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkPointCloudRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkPointCloudWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkPointHandleRepresentation2D.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkPointHandleRepresentation3D.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkPointPlacer.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkPointWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkPolyDataContourLineInterpolator.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkPolyDataPointPlacer.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkPolyDataSourceWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkPolygonalHandleRepresentation3D.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkPolygonalSurfaceContourLineInterpolator.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkPolygonalSurfacePointPlacer.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkPolyLineRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkPolyLineWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkProgressBarRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkProgressBarWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkProp3DButtonRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkRectilinearWipeRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkRectilinearWipeWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkResliceCursor.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkResliceCursorActor.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkResliceCursorLineRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkResliceCursorPicker.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkResliceCursorPolyDataAlgorithm.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkResliceCursorRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkResliceCursorThickLineRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkResliceCursorWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkScalarBarRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkScalarBarWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkSeedRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkSeedWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkSliderRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkSliderRepresentation2D.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkSliderRepresentation3D.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkSliderWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkSphereHandleRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkSphereRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkSphereWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkSphereWidget2.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkSplineRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkSplineWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkSplineWidget2.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkTensorProbeRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkTensorProbeWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkTensorRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkTensorWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkTerrainContourLineInterpolator.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkTerrainDataPointPlacer.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkTextRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkTexturedButtonRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkTexturedButtonRepresentation2D.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkTextWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkWidgetCallbackMapper.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkWidgetEvent.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkWidgetEventTranslator.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkWidgetRepresentation.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkWidgetSet.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Interaction/Widgets/vtkXYPlotWidget.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtk3DCursorRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtk3DCursorWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtk3DWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkAbstractPolygonalHandleRepresentation3D.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkAbstractSplineRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkAbstractWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkAffineRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkAffineRepresentation2D.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkAffineWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkAngleRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkAngleRepresentation2D.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkAngleRepresentation3D.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkAngleWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkAxesTransformRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkAxesTransformWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkBalloonRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkBalloonWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkBezierContourLineInterpolator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkBiDimensionalRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkBiDimensionalRepresentation2D.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkBiDimensionalWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkBorderRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkBorderWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkBoundedPlanePointPlacer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkBoxRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkBoxWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkBoxWidget2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkBrokenLineWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkButtonRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkButtonWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkCamera3DRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkCamera3DWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkCameraHandleSource.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkCameraOrientationWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkCameraOrientationRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkCameraPathRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkCameraPathWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkCameraRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkCameraWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkCaptionRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkCaptionWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkCellCentersPointPlacer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkCenteredSliderRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkCenteredSliderWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkCheckerboardRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkCheckerboardWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkClosedSurfacePointPlacer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkCompassRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkCompassWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkConstrainedPointHandleRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkContinuousValueWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkContinuousValueWidgetRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkContourLineInterpolator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkContourRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkContourWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkCoordinateFrameRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkCoordinateFrameWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkCurveRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkDijkstraImageContourLineInterpolator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkDisplaySizedImplicitPlaneWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkDisplaySizedImplicitPlaneRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkDistanceRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkDistanceRepresentation2D.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkDistanceRepresentation3D.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkDistanceWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkEllipsoidTensorProbeRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkEqualizerContextItem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkEvent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkFinitePlaneRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkFinitePlaneWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkFixedSizeHandleRepresentation3D.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkFocalPlaneContourRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkFocalPlanePointPlacer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkHandleRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkHandleWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkHoverWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkImageActorPointPlacer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkImageCroppingRegionsWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkImageOrthoPlanes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkImagePlaneWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkImageTracerWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkImplicitCylinderRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkImplicitCylinderWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkImplicitImageRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkImplicitPlaneRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkImplicitPlaneWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkImplicitPlaneWidget2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkLightRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkLightWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkLinearContourLineInterpolator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkLineRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkLineWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkLineWidget2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkLogoRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkLogoWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkMagnifierRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkMagnifierWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkMeasurementCubeHandleRepresentation3D.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkOrientationMarkerWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkOrientedGlyphContourRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkOrientedGlyphFocalPlaneContourRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkOrientedPolygonalHandleRepresentation3D.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkParallelopipedRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkParallelopipedWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkPlaneWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkPlaybackRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkPlaybackWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkPointCloudRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkPointCloudWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkPointHandleRepresentation2D.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkPointHandleRepresentation3D.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkPointPlacer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkPointWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkPolyDataContourLineInterpolator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkPolyDataPointPlacer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkPolyDataSourceWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkPolygonalHandleRepresentation3D.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkPolygonalSurfaceContourLineInterpolator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkPolygonalSurfacePointPlacer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkPolyLineRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkPolyLineWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkProgressBarRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkProgressBarWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkProp3DButtonRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkRectilinearWipeRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkRectilinearWipeWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkResliceCursor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkResliceCursorActor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkResliceCursorLineRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkResliceCursorPicker.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkResliceCursorPolyDataAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkResliceCursorRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkResliceCursorThickLineRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkResliceCursorWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkScalarBarRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkScalarBarWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkSeedRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkSeedWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkSliderRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkSliderRepresentation2D.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkSliderRepresentation3D.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkSliderWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkSphereHandleRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkSphereRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkSphereWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkSphereWidget2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkSplineRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkSplineWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkSplineWidget2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkTensorProbeRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkTensorProbeWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkTensorRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkTensorWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkTerrainContourLineInterpolator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkTerrainDataPointPlacer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkTextRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkTexturedButtonRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkTexturedButtonRepresentation2D.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkTextWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkWidgetCallbackMapper.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkWidgetEvent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkWidgetEventTranslator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkWidgetRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkWidgetSet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Interaction/Widgets/vtkXYPlotWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "cmake-build-debug/Interaction/Widgets/vtkInteractionWidgetsModule.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

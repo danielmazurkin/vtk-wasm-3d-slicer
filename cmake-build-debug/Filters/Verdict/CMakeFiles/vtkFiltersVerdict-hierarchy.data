@@ -1,0 +1,6 @@
+/home/danil/vtk_new/Filters/Verdict/vtkBoundaryMeshQuality.h;vtkFiltersVerdict
+/home/danil/vtk_new/Filters/Verdict/vtkCellQuality.h;vtkFiltersVerdict
+/home/danil/vtk_new/Filters/Verdict/vtkCellSizeFilter.h;vtkFiltersVerdict
+/home/danil/vtk_new/Filters/Verdict/vtkMatrixMathFilter.h;vtkFiltersVerdict
+/home/danil/vtk_new/Filters/Verdict/vtkMeshQuality.h;vtkFiltersVerdict
+/home/danil/vtk_new/cmake-build-debug/Filters/Verdict/vtkFiltersVerdictModule.h;vtkFiltersVerdict

@@ -1,0 +1,147 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Filters/Hybrid/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Filters/Hybrid/vtkAdaptiveDataSetSurfaceFilter.h",
+				"Filters/Hybrid/vtkBSplineTransform.h",
+				"Filters/Hybrid/vtkDepthSortPolyData.h",
+				"Filters/Hybrid/vtkDSPFilterDefinition.h",
+				"Filters/Hybrid/vtkDSPFilterGroup.h",
+				"Filters/Hybrid/vtkEarthSource.h",
+				"Filters/Hybrid/vtkFacetReader.h",
+				"Filters/Hybrid/vtkForceTime.h",
+				"Filters/Hybrid/vtkGenerateTimeSteps.h",
+				"Filters/Hybrid/vtkGreedyTerrainDecimation.h",
+				"Filters/Hybrid/vtkGridTransform.h",
+				"Filters/Hybrid/vtkImageToPolyDataFilter.h",
+				"Filters/Hybrid/vtkImplicitModeller.h",
+				"Filters/Hybrid/vtkPCAAnalysisFilter.h",
+				"Filters/Hybrid/vtkPolyDataSilhouette.h",
+				"Filters/Hybrid/vtkProcrustesAlignmentFilter.h",
+				"Filters/Hybrid/vtkProjectedTerrainPath.h",
+				"Filters/Hybrid/vtkRenderLargeImage.h",
+				"Filters/Hybrid/vtkTemporalArrayOperatorFilter.h",
+				"Filters/Hybrid/vtkTemporalDataSetCache.h",
+				"Filters/Hybrid/vtkTemporalFractal.h",
+				"Filters/Hybrid/vtkTemporalInterpolator.h",
+				"Filters/Hybrid/vtkTemporalShiftScale.h",
+				"Filters/Hybrid/vtkTemporalSnapToTimeStep.h",
+				"Filters/Hybrid/vtkTransformToGrid.h",
+				"Filters/Hybrid/vtkWeightedTransformFilter.h",
+				"cmake-build-debug/Filters/Hybrid/vtkFiltersHybridModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkFiltersHybrid-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkFiltersHybrid-9.2.so.9.2",
+				"lib/libvtkFiltersHybrid-9.2.so.1"
+			],
+			"targetId" : "FiltersHybrid::@c8206a89e09800eab93c",
+			"targetIndex" : 24,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkFiltersHybrid-9.2.so"
+			],
+			"targetId" : "FiltersHybrid::@c8206a89e09800eab93c",
+			"targetIndex" : 24,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Filters/Hybrid",
+		"source" : "Filters/Hybrid"
+	}
+}

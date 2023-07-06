@@ -1,0 +1,51 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"ThirdParty/hdf5/vtkhdf5/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1342,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtkhdf5",
+			"paths" : 
+			[
+				"cmake-build-debug/ThirdParty/hdf5/vtkhdf5/src/H5pubconf.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ThirdParty/hdf5/vtkhdf5",
+		"source" : "ThirdParty/hdf5/vtkhdf5"
+	}
+}

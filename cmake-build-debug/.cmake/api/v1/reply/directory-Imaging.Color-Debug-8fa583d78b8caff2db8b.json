@@ -1,0 +1,131 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Imaging/Color/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Imaging/Color/vtkImageHSIToRGB.h",
+				"Imaging/Color/vtkImageHSVToRGB.h",
+				"Imaging/Color/vtkImageLuminance.h",
+				"Imaging/Color/vtkImageMapToRGBA.h",
+				"Imaging/Color/vtkImageMapToWindowLevelColors.h",
+				"Imaging/Color/vtkImageQuantizeRGBToIndex.h",
+				"Imaging/Color/vtkImageRGBToHSI.h",
+				"Imaging/Color/vtkImageRGBToHSV.h",
+				"Imaging/Color/vtkImageRGBToYIQ.h",
+				"Imaging/Color/vtkImageYIQToRGB.h",
+				"cmake-build-debug/Imaging/Color/vtkImagingColorModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkImagingColor-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkImagingColor-9.2.so.9.2",
+				"lib/libvtkImagingColor-9.2.so.1"
+			],
+			"targetId" : "ImagingColor::@3318159dd123b4834e49",
+			"targetIndex" : 81,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkImagingColor-9.2.so"
+			],
+			"targetId" : "ImagingColor::@3318159dd123b4834e49",
+			"targetIndex" : 81,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Imaging/Color",
+		"source" : "Imaging/Color"
+	}
+}

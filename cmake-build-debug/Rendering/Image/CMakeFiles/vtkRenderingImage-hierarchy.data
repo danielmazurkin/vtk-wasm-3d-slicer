@@ -1,0 +1,5 @@
+/home/danil/vtk_new/Rendering/Image/vtkDepthImageToPointCloud.h;vtkRenderingImage
+/home/danil/vtk_new/Rendering/Image/vtkImageResliceMapper.h;vtkRenderingImage
+/home/danil/vtk_new/Rendering/Image/vtkImageSliceCollection.h;vtkRenderingImage
+/home/danil/vtk_new/Rendering/Image/vtkImageStack.h;vtkRenderingImage
+/home/danil/vtk_new/cmake-build-debug/Rendering/Image/vtkRenderingImageModule.h;vtkRenderingImage

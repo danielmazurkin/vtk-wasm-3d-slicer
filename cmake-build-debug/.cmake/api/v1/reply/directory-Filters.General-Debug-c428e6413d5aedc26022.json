@@ -1,0 +1,252 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Filters/General/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 136,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Filters/General/vtkAnimateModes.h",
+				"Filters/General/vtkAnnotationLink.h",
+				"Filters/General/vtkAppendLocationAttributes.h",
+				"Filters/General/vtkAppendPoints.h",
+				"Filters/General/vtkApproximatingSubdivisionFilter.h",
+				"Filters/General/vtkAreaContourSpectrumFilter.h",
+				"Filters/General/vtkAxes.h",
+				"Filters/General/vtkBlankStructuredGrid.h",
+				"Filters/General/vtkBlankStructuredGridWithImage.h",
+				"Filters/General/vtkBlockIdScalars.h",
+				"Filters/General/vtkBooleanOperationPolyDataFilter.h",
+				"Filters/General/vtkBoxClipDataSet.h",
+				"Filters/General/vtkBrownianPoints.h",
+				"Filters/General/vtkCellDerivatives.h",
+				"Filters/General/vtkCellValidator.h",
+				"Filters/General/vtkCleanUnstructuredGrid.h",
+				"Filters/General/vtkCleanUnstructuredGridCells.h",
+				"Filters/General/vtkClipClosedSurface.h",
+				"Filters/General/vtkClipConvexPolyData.h",
+				"Filters/General/vtkClipDataSet.h",
+				"Filters/General/vtkClipVolume.h",
+				"Filters/General/vtkCoincidentPoints.h",
+				"Filters/General/vtkContourTriangulator.h",
+				"Filters/General/vtkCountFaces.h",
+				"Filters/General/vtkCountVertices.h",
+				"Filters/General/vtkCursor2D.h",
+				"Filters/General/vtkCursor3D.h",
+				"Filters/General/vtkCurvatures.h",
+				"Filters/General/vtkDataSetGradient.h",
+				"Filters/General/vtkDataSetGradientPrecompute.h",
+				"Filters/General/vtkDataSetTriangleFilter.h",
+				"Filters/General/vtkDateToNumeric.h",
+				"Filters/General/vtkDeflectNormals.h",
+				"Filters/General/vtkDeformPointSet.h",
+				"Filters/General/vtkDensifyPolyData.h",
+				"Filters/General/vtkDicer.h",
+				"Filters/General/vtkDiscreteFlyingEdges2D.h",
+				"Filters/General/vtkDiscreteFlyingEdges3D.h",
+				"Filters/General/vtkDiscreteFlyingEdgesClipper2D.h",
+				"Filters/General/vtkDiscreteMarchingCubes.h",
+				"Filters/General/vtkDistancePolyDataFilter.h",
+				"Filters/General/vtkEdgePoints.h",
+				"Filters/General/vtkEqualizerFilter.h",
+				"Filters/General/vtkExtractArray.h",
+				"Filters/General/vtkExtractGhostCells.h",
+				"Filters/General/vtkExtractSelectedFrustum.h",
+				"Filters/General/vtkExtractSelectionBase.h",
+				"Filters/General/vtkFiniteElementFieldDistributor.h",
+				"Filters/General/vtkGradientFilter.h",
+				"Filters/General/vtkGraphLayoutFilter.h",
+				"Filters/General/vtkGraphToPoints.h",
+				"Filters/General/vtkGraphWeightEuclideanDistanceFilter.h",
+				"Filters/General/vtkGraphWeightFilter.h",
+				"Filters/General/vtkGroupDataSetsFilter.h",
+				"Filters/General/vtkGroupTimeStepsFilter.h",
+				"Filters/General/vtkHierarchicalDataLevelFilter.h",
+				"Filters/General/vtkHyperStreamline.h",
+				"Filters/General/vtkIconGlyphFilter.h",
+				"Filters/General/vtkImageDataToPointSet.h",
+				"Filters/General/vtkImageMarchingCubes.h",
+				"Filters/General/vtkInterpolateDataSetAttributes.h",
+				"Filters/General/vtkInterpolatingSubdivisionFilter.h",
+				"Filters/General/vtkIntersectionPolyDataFilter.h",
+				"Filters/General/vtkJoinTables.h",
+				"Filters/General/vtkLevelIdScalars.h",
+				"Filters/General/vtkLinkEdgels.h",
+				"Filters/General/vtkLoopBooleanPolyDataFilter.h",
+				"Filters/General/vtkMarchingContourFilter.h",
+				"Filters/General/vtkMatricizeArray.h",
+				"Filters/General/vtkMergeArrays.h",
+				"Filters/General/vtkMergeCells.h",
+				"Filters/General/vtkMergeTimeFilter.h",
+				"Filters/General/vtkMergeVectorComponents.h",
+				"Filters/General/vtkMultiBlockDataGroupFilter.h",
+				"Filters/General/vtkMultiBlockMergeFilter.h",
+				"Filters/General/vtkMultiThreshold.h",
+				"Filters/General/vtkNormalizeMatrixVectors.h",
+				"Filters/General/vtkOBBDicer.h",
+				"Filters/General/vtkOBBTree.h",
+				"Filters/General/vtkOverlappingAMRLevelIdScalars.h",
+				"Filters/General/vtkPassArrays.h",
+				"Filters/General/vtkPassSelectedArrays.h",
+				"Filters/General/vtkPointConnectivityFilter.h",
+				"Filters/General/vtkPolyDataStreamer.h",
+				"Filters/General/vtkPolyDataToReebGraphFilter.h",
+				"Filters/General/vtkProbePolyhedron.h",
+				"Filters/General/vtkQuadraturePointInterpolator.h",
+				"Filters/General/vtkQuadraturePointsGenerator.h",
+				"Filters/General/vtkQuadratureSchemeDictionaryGenerator.h",
+				"Filters/General/vtkQuantizePolyDataPoints.h",
+				"Filters/General/vtkRandomAttributeGenerator.h",
+				"Filters/General/vtkRectilinearGridClip.h",
+				"Filters/General/vtkRectilinearGridToPointSet.h",
+				"Filters/General/vtkRectilinearGridToTetrahedra.h",
+				"Filters/General/vtkRecursiveDividingCubes.h",
+				"Filters/General/vtkReflectionFilter.h",
+				"Filters/General/vtkRemovePolyData.h",
+				"Filters/General/vtkRotationFilter.h",
+				"Filters/General/vtkSampleImplicitFunctionFilter.h",
+				"Filters/General/vtkShrinkFilter.h",
+				"Filters/General/vtkShrinkPolyData.h",
+				"Filters/General/vtkSpatialRepresentationFilter.h",
+				"Filters/General/vtkSphericalHarmonics.h",
+				"Filters/General/vtkSplineFilter.h",
+				"Filters/General/vtkSplitByCellScalarFilter.h",
+				"Filters/General/vtkSplitColumnComponents.h",
+				"Filters/General/vtkSplitField.h",
+				"Filters/General/vtkStructuredGridClip.h",
+				"Filters/General/vtkSubPixelPositionEdgels.h",
+				"Filters/General/vtkSubdivisionFilter.h",
+				"Filters/General/vtkSynchronizeTimeFilter.h",
+				"Filters/General/vtkTableBasedClipDataSet.h",
+				"Filters/General/vtkTableFFT.h",
+				"Filters/General/vtkTableToPolyData.h",
+				"Filters/General/vtkTableToStructuredGrid.h",
+				"Filters/General/vtkTemporalPathLineFilter.h",
+				"Filters/General/vtkTemporalStatistics.h",
+				"Filters/General/vtkTessellatorFilter.h",
+				"Filters/General/vtkTimeSourceExample.h",
+				"Filters/General/vtkTransformFilter.h",
+				"Filters/General/vtkTransformPolyDataFilter.h",
+				"Filters/General/vtkUncertaintyTubeFilter.h",
+				"Filters/General/vtkVertexGlyphFilter.h",
+				"Filters/General/vtkVolumeContourSpectrumFilter.h",
+				"Filters/General/vtkVoxelContoursToSurfaceFilter.h",
+				"Filters/General/vtkWarpLens.h",
+				"Filters/General/vtkWarpScalar.h",
+				"Filters/General/vtkWarpTo.h",
+				"Filters/General/vtkWarpVector.h",
+				"Filters/General/vtkYoungsMaterialInterface.h",
+				"cmake-build-debug/Filters/General/vtkFiltersGeneralModule.h",
+				"Filters/General/vtkJoinTables.txx"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkFiltersGeneral-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkFiltersGeneral-9.2.so.9.2",
+				"lib/libvtkFiltersGeneral-9.2.so.1"
+			],
+			"targetId" : "FiltersGeneral::@8fa9779fac4b14436b37",
+			"targetIndex" : 20,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkFiltersGeneral-9.2.so"
+			],
+			"targetId" : "FiltersGeneral::@8fa9779fac4b14436b37",
+			"targetIndex" : 20,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Filters/General",
+		"source" : "Filters/General"
+	}
+}

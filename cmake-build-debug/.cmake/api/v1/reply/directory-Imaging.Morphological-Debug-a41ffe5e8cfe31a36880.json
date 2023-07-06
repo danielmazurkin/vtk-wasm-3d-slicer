@@ -1,0 +1,132 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Imaging/Morphological/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Imaging/Morphological/vtkImageConnectivityFilter.h",
+				"Imaging/Morphological/vtkImageConnector.h",
+				"Imaging/Morphological/vtkImageContinuousDilate3D.h",
+				"Imaging/Morphological/vtkImageContinuousErode3D.h",
+				"Imaging/Morphological/vtkImageDilateErode3D.h",
+				"Imaging/Morphological/vtkImageIslandRemoval2D.h",
+				"Imaging/Morphological/vtkImageNonMaximumSuppression.h",
+				"Imaging/Morphological/vtkImageOpenClose3D.h",
+				"Imaging/Morphological/vtkImageSeedConnectivity.h",
+				"Imaging/Morphological/vtkImageSkeleton2D.h",
+				"Imaging/Morphological/vtkImageThresholdConnectivity.h",
+				"cmake-build-debug/Imaging/Morphological/vtkImagingMorphologicalModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkImagingMorphological-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkImagingMorphological-9.2.so.9.2",
+				"lib/libvtkImagingMorphological-9.2.so.1"
+			],
+			"targetId" : "ImagingMorphological::@6eaf688df974a9a2d9aa",
+			"targetIndex" : 87,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkImagingMorphological-9.2.so"
+			],
+			"targetId" : "ImagingMorphological::@6eaf688df974a9a2d9aa",
+			"targetIndex" : 87,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Imaging/Morphological",
+		"source" : "Imaging/Morphological"
+	}
+}

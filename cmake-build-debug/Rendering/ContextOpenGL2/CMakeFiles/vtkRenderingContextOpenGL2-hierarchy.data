@@ -1,0 +1,6 @@
+/home/danil/vtk_new/Rendering/ContextOpenGL2/vtkOpenGLContextActor.h;vtkRenderingContextOpenGL2
+/home/danil/vtk_new/Rendering/ContextOpenGL2/vtkOpenGLContextBufferId.h;vtkRenderingContextOpenGL2
+/home/danil/vtk_new/Rendering/ContextOpenGL2/vtkOpenGLContextDevice2D.h;vtkRenderingContextOpenGL2
+/home/danil/vtk_new/Rendering/ContextOpenGL2/vtkOpenGLContextDevice3D.h;vtkRenderingContextOpenGL2
+/home/danil/vtk_new/Rendering/ContextOpenGL2/vtkOpenGLPropItem.h;vtkRenderingContextOpenGL2
+/home/danil/vtk_new/cmake-build-debug/Rendering/ContextOpenGL2/vtkRenderingContextOpenGL2Module.h;vtkRenderingContextOpenGL2

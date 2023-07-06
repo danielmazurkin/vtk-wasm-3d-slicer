@@ -1,0 +1,132 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Rendering/SceneGraph/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Rendering/SceneGraph/vtkActorNode.h",
+				"Rendering/SceneGraph/vtkCameraNode.h",
+				"Rendering/SceneGraph/vtkLightNode.h",
+				"Rendering/SceneGraph/vtkMapperNode.h",
+				"Rendering/SceneGraph/vtkPolyDataMapperNode.h",
+				"Rendering/SceneGraph/vtkRendererNode.h",
+				"Rendering/SceneGraph/vtkViewNode.h",
+				"Rendering/SceneGraph/vtkViewNodeFactory.h",
+				"Rendering/SceneGraph/vtkVolumeMapperNode.h",
+				"Rendering/SceneGraph/vtkVolumeNode.h",
+				"Rendering/SceneGraph/vtkWindowNode.h",
+				"cmake-build-debug/Rendering/SceneGraph/vtkRenderingSceneGraphModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkRenderingSceneGraph-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkRenderingSceneGraph-9.2.so.9.2",
+				"lib/libvtkRenderingSceneGraph-9.2.so.1"
+			],
+			"targetId" : "RenderingSceneGraph::@0e18b67b23334caa1078",
+			"targetIndex" : 112,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkRenderingSceneGraph-9.2.so"
+			],
+			"targetId" : "RenderingSceneGraph::@0e18b67b23334caa1078",
+			"targetIndex" : 112,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Rendering/SceneGraph",
+		"source" : "Rendering/SceneGraph"
+	}
+}

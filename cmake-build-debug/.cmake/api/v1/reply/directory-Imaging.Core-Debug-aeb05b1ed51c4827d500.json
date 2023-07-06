@@ -1,0 +1,165 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Imaging/Core/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Imaging/Core/vtkAbstractImageInterpolator.h",
+				"Imaging/Core/vtkExtractVOI.h",
+				"Imaging/Core/vtkGenericImageInterpolator.h",
+				"Imaging/Core/vtkImageAppendComponents.h",
+				"Imaging/Core/vtkImageBlend.h",
+				"Imaging/Core/vtkImageBSplineCoefficients.h",
+				"Imaging/Core/vtkImageBSplineInternals.h",
+				"Imaging/Core/vtkImageBSplineInterpolator.h",
+				"Imaging/Core/vtkImageCacheFilter.h",
+				"Imaging/Core/vtkImageCast.h",
+				"Imaging/Core/vtkImageChangeInformation.h",
+				"Imaging/Core/vtkImageClip.h",
+				"Imaging/Core/vtkImageConstantPad.h",
+				"Imaging/Core/vtkImageDataStreamer.h",
+				"Imaging/Core/vtkImageDecomposeFilter.h",
+				"Imaging/Core/vtkImageDifference.h",
+				"Imaging/Core/vtkImageExtractComponents.h",
+				"Imaging/Core/vtkImageFlip.h",
+				"Imaging/Core/vtkImageInterpolator.h",
+				"Imaging/Core/vtkImageIterateFilter.h",
+				"Imaging/Core/vtkImageMagnify.h",
+				"Imaging/Core/vtkImageMapToColors.h",
+				"Imaging/Core/vtkImageMask.h",
+				"Imaging/Core/vtkImageMirrorPad.h",
+				"Imaging/Core/vtkImagePadFilter.h",
+				"Imaging/Core/vtkImagePermute.h",
+				"Imaging/Core/vtkImagePointDataIterator.h",
+				"Imaging/Core/vtkImagePointIterator.h",
+				"Imaging/Core/vtkImageProbeFilter.h",
+				"Imaging/Core/vtkImageResample.h",
+				"Imaging/Core/vtkImageResize.h",
+				"Imaging/Core/vtkImageReslice.h",
+				"Imaging/Core/vtkImageResliceToColors.h",
+				"Imaging/Core/vtkImageShiftScale.h",
+				"Imaging/Core/vtkImageShrink3D.h",
+				"Imaging/Core/vtkImageSincInterpolator.h",
+				"Imaging/Core/vtkImageStencilAlgorithm.h",
+				"Imaging/Core/vtkImageStencilData.h",
+				"Imaging/Core/vtkImageStencilIterator.h",
+				"Imaging/Core/vtkImageStencilSource.h",
+				"Imaging/Core/vtkImageThreshold.h",
+				"Imaging/Core/vtkImageTranslateExtent.h",
+				"Imaging/Core/vtkImageWrapPad.h",
+				"Imaging/Core/vtkRTAnalyticSource.h",
+				"cmake-build-debug/Imaging/Core/vtkImagingCoreModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkImagingCore-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkImagingCore-9.2.so.9.2",
+				"lib/libvtkImagingCore-9.2.so.1"
+			],
+			"targetId" : "ImagingCore::@9dc77478b2c6aaaae4e0",
+			"targetIndex" : 82,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkImagingCore-9.2.so"
+			],
+			"targetId" : "ImagingCore::@9dc77478b2c6aaaae4e0",
+			"targetIndex" : 82,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Imaging/Core",
+		"source" : "Imaging/Core"
+	}
+}

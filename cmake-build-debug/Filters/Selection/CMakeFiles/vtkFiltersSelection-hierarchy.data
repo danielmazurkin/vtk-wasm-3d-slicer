@@ -1,0 +1,4 @@
+/home/danil/vtk_new/Filters/Selection/vtkCellDistanceSelector.h;vtkFiltersSelection
+/home/danil/vtk_new/Filters/Selection/vtkKdTreeSelector.h;vtkFiltersSelection
+/home/danil/vtk_new/Filters/Selection/vtkLinearSelector.h;vtkFiltersSelection
+/home/danil/vtk_new/cmake-build-debug/Filters/Selection/vtkFiltersSelectionModule.h;vtkFiltersSelection

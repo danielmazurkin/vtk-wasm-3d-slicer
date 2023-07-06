@@ -1,0 +1,1706 @@
+Performing C SOURCE FILE Test vtk_have_compiler_flag_Weverything failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xYdTBE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_03e5e && [1/2] Building C object CMakeFiles/cmTC_03e5e.dir/src.c.o
+FAILED: CMakeFiles/cmTC_03e5e.dir/src.c.o 
+/usr/bin/cc -Dvtk_have_compiler_flag_Weverything  -fdiagnostics-color=always   -Weverything -o CMakeFiles/cmTC_03e5e.dir/src.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xYdTBE/src.c
+cc: error: unrecognized command line option '-Weverything'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test vtk_have_compiler_flag-CXX--wd4251 failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2pgu7C
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_c9b9b && [1/2] Building CXX object CMakeFiles/cmTC_c9b9b.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_c9b9b.dir/src.cxx.o 
+/usr/bin/c++   -fdiagnostics-color=always   -Dvtk_have_compiler_flag-CXX--wd4251 -wd4251 -std=c++11 -o CMakeFiles/cmTC_c9b9b.dir/src.cxx.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2pgu7C/src.cxx
+c++: error: unrecognized command line option '-wd4251'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test vtk_have_compiler_flag-CXX--EHsc failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ixCTrG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_c55cf && [1/2] Building CXX object CMakeFiles/cmTC_c55cf.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_c55cf.dir/src.cxx.o 
+/usr/bin/c++   -fdiagnostics-color=always   -Dvtk_have_compiler_flag-CXX--EHsc -EHsc -std=c++11 -o CMakeFiles/cmTC_c55cf.dir/src.cxx.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ixCTrG/src.cxx
+c++: error: unrecognized command line option '-EHsc'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+
+Checking whether CXX compiler has environ in stdlib.h failed to compile with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_1bbdf && [1/2] Building CXX object CMakeFiles/cmTC_1bbdf.dir/kwsysPlatformTestsCXX.cxx.o
+FAILED: CMakeFiles/cmTC_1bbdf.dir/kwsysPlatformTestsCXX.cxx.o 
+/usr/bin/c++ -DTEST_KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H  -fPIE -fdiagnostics-color=always -std=c++11 -o CMakeFiles/cmTC_1bbdf.dir/kwsysPlatformTestsCXX.cxx.o -c /home/danil/vtk_new/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+/home/danil/vtk_new/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx: In function ‘int main()’:
+/home/danil/vtk_new/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:53:13: error: ‘environ’ was not declared in this scope; did you mean ‘union’?
+   53 |   char* e = environ[0];
+      |             ^~~~~~~
+      |             union
+ninja: build stopped: subcommand failed.
+
+
+
+Checking whether CXX compiler struct stat has st_mtimespec member failed to compile with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_fa889 && [1/2] Building CXX object CMakeFiles/cmTC_fa889.dir/kwsysPlatformTestsCXX.cxx.o
+FAILED: CMakeFiles/cmTC_fa889.dir/kwsysPlatformTestsCXX.cxx.o 
+/usr/bin/c++ -DTEST_KWSYS_CXX_STAT_HAS_ST_MTIMESPEC  -fPIE -fdiagnostics-color=always -std=c++11 -o CMakeFiles/cmTC_fa889.dir/kwsysPlatformTestsCXX.cxx.o -c /home/danil/vtk_new/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+/home/danil/vtk_new/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx: In function ‘int main()’:
+/home/danil/vtk_new/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:26:15: error: ‘struct stat’ has no member named ‘st_mtimespec’
+   26 |   (void)stat1.st_mtimespec.tv_sec;
+      |               ^~~~~~~~~~~~
+/home/danil/vtk_new/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:27:15: error: ‘struct stat’ has no member named ‘st_mtimespec’
+   27 |   (void)stat1.st_mtimespec.tv_nsec;
+      |               ^~~~~~~~~~~~
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file <cxxabi.h> exists failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5aS2JD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_f8567 && [1/2] Building C object CMakeFiles/cmTC_f8567.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_f8567.dir/CheckIncludeFile.c.o 
+/usr/bin/cc   -fPIE -fdiagnostics-color=always -o CMakeFiles/cmTC_f8567.dir/CheckIncludeFile.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5aS2JD/CheckIncludeFile.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5aS2JD/CheckIncludeFile.c:1:21: warning: extra tokens at end of #include directive
+    1 | #include <<cxxabi.h>>
+      |                     ^
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5aS2JD/CheckIncludeFile.c:1:10: fatal error: <cxxabi.h: No such file or directory
+    1 | #include <<cxxabi.h>>
+      |          ^~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file <dlfcn.h> exists failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-KoZpfE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_d326d && [1/2] Building C object CMakeFiles/cmTC_d326d.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_d326d.dir/CheckIncludeFile.c.o 
+/usr/bin/cc   -fPIE -fdiagnostics-color=always -o CMakeFiles/cmTC_d326d.dir/CheckIncludeFile.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-KoZpfE/CheckIncludeFile.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-KoZpfE/CheckIncludeFile.c:1:20: warning: extra tokens at end of #include directive
+    1 | #include <<dlfcn.h>>
+      |                    ^
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-KoZpfE/CheckIncludeFile.c:1:10: fatal error: <dlfcn.h: No such file or directory
+    1 | #include <<dlfcn.h>>
+      |          ^~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file <execinfo.h> exists failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Y5z9YD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_f9e8f && [1/2] Building C object CMakeFiles/cmTC_f9e8f.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_f9e8f.dir/CheckIncludeFile.c.o 
+/usr/bin/cc   -fPIE -fdiagnostics-color=always -o CMakeFiles/cmTC_f9e8f.dir/CheckIncludeFile.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Y5z9YD/CheckIncludeFile.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Y5z9YD/CheckIncludeFile.c:1:23: warning: extra tokens at end of #include directive
+    1 | #include <<execinfo.h>>
+      |                       ^
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Y5z9YD/CheckIncludeFile.c:1:10: fatal error: <execinfo.h: No such file or directory
+    1 | #include <<execinfo.h>>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s1D6QD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_80d1f && [1/2] Building C object CMakeFiles/cmTC_80d1f.dir/src.c.o
+[2/2] Linking C executable cmTC_80d1f
+FAILED: cmTC_80d1f 
+: && /usr/bin/cc  -Wl,-lc  -Wl,-lc CMakeFiles/cmTC_80d1f.dir/src.c.o -o cmTC_80d1f   && :
+/usr/bin/ld: CMakeFiles/cmTC_80d1f.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x5e): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.c:(.text+0x6f): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IahrGF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_2d206 && [1/2] Building C object CMakeFiles/cmTC_2d206.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_2d206
+FAILED: cmTC_2d206 
+: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,-lc  -Wl,-lc CMakeFiles/cmTC_2d206.dir/CheckFunctionExists.c.o -o cmTC_2d206  -lpthreads && :
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function getsockname exists in the socket failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nFeEAF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_36ab5 && [1/2] Building C object CMakeFiles/cmTC_36ab5.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_36ab5
+FAILED: cmTC_36ab5 
+: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=getsockname -Wl,-lc  -Wl,-lc CMakeFiles/cmTC_36ab5.dir/CheckFunctionExists.c.o -o cmTC_36ab5  -lsocket && :
+/usr/bin/ld: cannot find -lsocket
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the strtod_l exist failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-57fiFC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_b1b6c && [1/2] Building C object CMakeFiles/cmTC_b1b6c.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_b1b6c.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -fPIE -fdiagnostics-color=always -o CMakeFiles/cmTC_b1b6c.dir/CheckSymbolExists.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-57fiFC/CheckSymbolExists.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-57fiFC/CheckSymbolExists.c: In function ‘main’:
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-57fiFC/CheckSymbolExists.c:7:19: error: ‘strtod_l’ undeclared (first use in this function)
+    7 |   return ((int*)(&strtod_l))[argc];
+      |                   ^~~~~~~~
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-57fiFC/CheckSymbolExists.c:7:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtod_l
+  return ((int*)(&strtod_l))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-E2LaAC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_843b1 && [1/2] Building C object CMakeFiles/cmTC_843b1.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_843b1.dir/CheckIncludeFile.c.o 
+/usr/bin/cc   -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing  -fPIE -fdiagnostics-color=always -std=gnu99 -o CMakeFiles/cmTC_843b1.dir/CheckIncludeFile.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-E2LaAC/CheckIncludeFile.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-E2LaAC/CheckIncludeFile.c:1:10: fatal error: io.h: No such file or directory
+    1 | #include <io.h>
+      |          ^~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the setmode exist failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l06CgF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_e88d0 && [1/2] Building C object CMakeFiles/cmTC_e88d0.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_e88d0.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing  -fPIE -fdiagnostics-color=always -std=gnu99 -o CMakeFiles/cmTC_e88d0.dir/CheckSymbolExists.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l06CgF/CheckSymbolExists.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l06CgF/CheckSymbolExists.c: In function ‘main’:
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l06CgF/CheckSymbolExists.c:8:19: error: ‘setmode’ undeclared (first use in this function)
+    8 |   return ((int*)(&setmode))[argc];
+      |                   ^~~~~~~
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l06CgF/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setmode
+  return ((int*)(&setmode))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pow exist failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Q53wKF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_fc531 && [1/2] Building C object CMakeFiles/cmTC_fc531.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_fc531
+FAILED: cmTC_fc531 
+: && /usr/bin/cc -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -Wl,-lc  -Wl,-lc CMakeFiles/cmTC_fc531.dir/CheckSymbolExists.c.o -o cmTC_fc531   && :
+/usr/bin/ld: CMakeFiles/cmTC_fc531.dir/CheckSymbolExists.c.o: in function `main':
+CheckSymbolExists.c:(.text+0x1f): undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pow
+  return ((int*)(&pow))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshorten64to32 failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-aWWqHC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_24929 && [1/2] Building CXX object CMakeFiles/cmTC_24929.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_24929.dir/src.cxx.o 
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wshorten64to32  -std=c++11 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror -fPIE -fdiagnostics-color=always   -Wshorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_24929.dir/src.cxx.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-aWWqHC/src.cxx
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wenumconversion failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-X3ugjD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_5a5d7 && [1/2] Building CXX object CMakeFiles/cmTC_5a5d7.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_5a5d7.dir/src.cxx.o 
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wenumconversion  -std=c++11 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Werror -fPIE -fdiagnostics-color=always   -Wenum-conversion -std=c++11 -o CMakeFiles/cmTC_5a5d7.dir/src.cxx.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-X3ugjD/src.cxx
+c++: error: unrecognized command line option '-Wenum-conversion'; did you mean '-Wno-conversion'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcpp11extensions failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-50iM5C
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_39923 && [1/2] Building CXX object CMakeFiles/cmTC_39923.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_39923.dir/src.cxx.o 
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wcpp11extensions  -std=c++11 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Werror -fPIE -fdiagnostics-color=always   -Wc++11-extensions -std=c++11 -o CMakeFiles/cmTC_39923.dir/src.cxx.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-50iM5C/src.cxx
+c++: error: unrecognized command line option '-Wc++11-extensions'; did you mean '-fms-extensions'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-z8q9nG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_2aaaf && [1/2] Building CXX object CMakeFiles/cmTC_2aaaf.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_2aaaf.dir/src.cxx.o 
+/usr/bin/c++ -DCOMPILER_SUPPORT_wd981  -std=c++11 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -fPIE -fdiagnostics-color=always   -wd981 -std=c++11 -o CMakeFiles/cmTC_2aaaf.dir/src.cxx.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-z8q9nG/src.cxx
+c++: error: unrecognized command line option '-wd981'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cCDxjF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_247ce && [1/2] Building CXX object CMakeFiles/cmTC_247ce.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_247ce.dir/src.cxx.o 
+/usr/bin/c++ -DCOMPILER_SUPPORT_wd2304  -std=c++11 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -fPIE -fdiagnostics-color=always   -wd2304 -std=c++11 -o CMakeFiles/cmTC_247ce.dir/src.cxx.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cCDxjF/src.cxx
+c++: error: unrecognized command line option '-wd2304'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_STRICTANSI failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-D6Ug3E
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_7d05f && [1/2] Building CXX object CMakeFiles/cmTC_7d05f.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_7d05f.dir/src.cxx.o 
+/usr/bin/c++ -DCOMPILER_SUPPORT_STRICTANSI  -std=c++11 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -fPIE -fdiagnostics-color=always   -strict-ansi -std=c++11 -o CMakeFiles/cmTC_7d05f.dir/src.cxx.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-D6Ug3E/src.cxx
+c++: error: unrecognized command line option '-strict-ansi'; did you mean '-fstrict-enums'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Qunusedarguments failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-XGFjkG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_e9a9e && [1/2] Building CXX object CMakeFiles/cmTC_e9a9e.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_e9a9e.dir/src.cxx.o 
+/usr/bin/c++ -DCOMPILER_SUPPORT_Qunusedarguments  -std=c++11 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -fPIE -fdiagnostics-color=always   -Qunused-arguments -std=c++11 -o CMakeFiles/cmTC_e9a9e.dir/src.cxx.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-XGFjkG/src.cxx
+c++: error: unrecognized command line option '-Qunused-arguments'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+
+Determining if the include file sys/endian.h exists failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-XJOVWE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_b3a70 && [1/2] Building C object CMakeFiles/cmTC_b3a70.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_b3a70.dir/CheckIncludeFile.c.o 
+/usr/bin/cc   -fPIE -fdiagnostics-color=always -o CMakeFiles/cmTC_b3a70.dir/CheckIncludeFile.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-XJOVWE/CheckIncludeFile.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-XJOVWE/CheckIncludeFile.c:1:10: fatal error: sys/endian.h: No such file or directory
+    1 | #include <sys/endian.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the HAVE_BSWAP_16 exist failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IHSv8D
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_4a9eb && [1/2] Building C object CMakeFiles/cmTC_4a9eb.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_4a9eb.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -fPIE -fdiagnostics-color=always -o CMakeFiles/cmTC_4a9eb.dir/CheckSymbolExists.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IHSv8D/CheckSymbolExists.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IHSv8D/CheckSymbolExists.c: In function ‘main’:
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IHSv8D/CheckSymbolExists.c:8:19: error: ‘HAVE_BSWAP_16’ undeclared (first use in this function)
+    8 |   return ((int*)(&HAVE_BSWAP_16))[argc];
+      |                   ^~~~~~~~~~~~~
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IHSv8D/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File CheckSymbolExists.c:
+/* */
+#include <byteswap.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef HAVE_BSWAP_16
+  return ((int*)(&HAVE_BSWAP_16))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the HAVE_BSWAP_32 exist failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bpQbnE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_27825 && [1/2] Building C object CMakeFiles/cmTC_27825.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_27825.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -fPIE -fdiagnostics-color=always -o CMakeFiles/cmTC_27825.dir/CheckSymbolExists.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bpQbnE/CheckSymbolExists.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bpQbnE/CheckSymbolExists.c: In function ‘main’:
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bpQbnE/CheckSymbolExists.c:8:19: error: ‘HAVE_BSWAP_32’ undeclared (first use in this function)
+    8 |   return ((int*)(&HAVE_BSWAP_32))[argc];
+      |                   ^~~~~~~~~~~~~
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bpQbnE/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File CheckSymbolExists.c:
+/* */
+#include <byteswap.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef HAVE_BSWAP_32
+  return ((int*)(&HAVE_BSWAP_32))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the HAVE_BSWAP_64 exist failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3zLagD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_f9ce4 && [1/2] Building C object CMakeFiles/cmTC_f9ce4.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_f9ce4.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -fPIE -fdiagnostics-color=always -o CMakeFiles/cmTC_f9ce4.dir/CheckSymbolExists.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3zLagD/CheckSymbolExists.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3zLagD/CheckSymbolExists.c: In function ‘main’:
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3zLagD/CheckSymbolExists.c:8:19: error: ‘HAVE_BSWAP_64’ undeclared (first use in this function)
+    8 |   return ((int*)(&HAVE_BSWAP_64))[argc];
+      |                   ^~~~~~~~~~~~~
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3zLagD/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File CheckSymbolExists.c:
+/* */
+#include <byteswap.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef HAVE_BSWAP_64
+  return ((int*)(&HAVE_BSWAP_64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of __int64 failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lRqj4D
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_db1b8 && [1/2] Building C object CMakeFiles/cmTC_db1b8.dir/__INT64.c.o
+FAILED: CMakeFiles/cmTC_db1b8.dir/__INT64.c.o 
+/usr/bin/cc   -fPIE -fdiagnostics-color=always -o CMakeFiles/cmTC_db1b8.dir/__INT64.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lRqj4D/__INT64.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lRqj4D/__INT64.c:27:22: error: ‘__int64’ undeclared here (not in a function); did you mean ‘__int64_t’?
+   27 | #define SIZE (sizeof(__int64))
+      |                      ^~~~~~~
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lRqj4D/__INT64.c:29:12: note: in expansion of macro ‘SIZE’
+   29 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+ninja: build stopped: subcommand failed.
+
+
+__INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of unsigned __int64 failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9PqmwF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_80d1f && [1/2] Building C object CMakeFiles/cmTC_80d1f.dir/UNSIGNED___INT64.c.o
+FAILED: CMakeFiles/cmTC_80d1f.dir/UNSIGNED___INT64.c.o 
+/usr/bin/cc   -fPIE -fdiagnostics-color=always -o CMakeFiles/cmTC_80d1f.dir/UNSIGNED___INT64.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9PqmwF/UNSIGNED___INT64.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9PqmwF/UNSIGNED___INT64.c:27:31: error: expected ‘)’ before ‘__int64’
+   27 | #define SIZE (sizeof(unsigned __int64))
+      |                     ~         ^~~~~~~
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9PqmwF/UNSIGNED___INT64.c:29:12: note: in expansion of macro ‘SIZE’
+   29 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9PqmwF/UNSIGNED___INT64.c:27:31: error: expected ‘)’ before ‘__int64’
+   27 | #define SIZE (sizeof(unsigned __int64))
+      |                     ~         ^~~~~~~
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9PqmwF/UNSIGNED___INT64.c:30:12: note: in expansion of macro ‘SIZE’
+   30 |   ('0' + ((SIZE / 1000)%10)),
+      |            ^~~~
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9PqmwF/UNSIGNED___INT64.c:27:31: error: expected ‘)’ before ‘__int64’
+   27 | #define SIZE (sizeof(unsigned __int64))
+      |                     ~         ^~~~~~~
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9PqmwF/UNSIGNED___INT64.c:31:12: note: in expansion of macro ‘SIZE’
+   31 |   ('0' + ((SIZE / 100)%10)),
+      |            ^~~~
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9PqmwF/UNSIGNED___INT64.c:27:31: error: expected ‘)’ before ‘__int64’
+   27 | #define SIZE (sizeof(unsigned __int64))
+      |                     ~         ^~~~~~~
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9PqmwF/UNSIGNED___INT64.c:32:12: note: in expansion of macro ‘SIZE’
+   32 |   ('0' + ((SIZE / 10)%10)),
+      |            ^~~~
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9PqmwF/UNSIGNED___INT64.c:27:31: error: expected ‘)’ before ‘__int64’
+   27 | #define SIZE (sizeof(unsigned __int64))
+      |                     ~         ^~~~~~~
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9PqmwF/UNSIGNED___INT64.c:33:12: note: in expansion of macro ‘SIZE’
+   33 |   ('0' +  (SIZE    % 10)),
+      |            ^~~~
+ninja: build stopped: subcommand failed.
+
+
+UNSIGNED___INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int64))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the arc4random_buf exist failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ArE2dC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_84c51 && [1/2] Building C object CMakeFiles/cmTC_84c51.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_84c51.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -fPIE -fdiagnostics-color=always -o CMakeFiles/cmTC_84c51.dir/CheckSymbolExists.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ArE2dC/CheckSymbolExists.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ArE2dC/CheckSymbolExists.c: In function ‘main’:
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ArE2dC/CheckSymbolExists.c:8:19: error: ‘arc4random_buf’ undeclared (first use in this function)
+    8 |   return ((int*)(&arc4random_buf))[argc];
+      |                   ^~~~~~~~~~~~~~
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ArE2dC/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random_buf
+  return ((int*)(&arc4random_buf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the arc4random exist failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u9wDzC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_199f2 && [1/2] Building C object CMakeFiles/cmTC_199f2.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_199f2.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -fPIE -fdiagnostics-color=always -o CMakeFiles/cmTC_199f2.dir/CheckSymbolExists.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u9wDzC/CheckSymbolExists.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u9wDzC/CheckSymbolExists.c: In function ‘main’:
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u9wDzC/CheckSymbolExists.c:8:19: error: ‘arc4random’ undeclared (first use in this function); did you mean ‘srandom’?
+    8 |   return ((int*)(&arc4random))[argc];
+      |                   ^~~~~~~~~~
+      |                   srandom
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u9wDzC/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random
+  return ((int*)(&arc4random))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the off_t exist failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-XCGD0F
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_02a97 && [1/2] Building C object CMakeFiles/cmTC_02a97.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_02a97.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -fPIE -fdiagnostics-color=always -o CMakeFiles/cmTC_02a97.dir/CheckSymbolExists.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-XCGD0F/CheckSymbolExists.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-XCGD0F/CheckSymbolExists.c: In function ‘main’:
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-XCGD0F/CheckSymbolExists.c:8:19: error: expected expression before ‘off_t’
+    8 |   return ((int*)(&off_t))[argc];
+      |                   ^~~~~
+ninja: build stopped: subcommand failed.
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef off_t
+  return ((int*)(&off_t))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;unistd.h;pwd.h;globus/common.h exist failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TXeg4D
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_df5c8 && [1/2] Building C object CMakeFiles/cmTC_df5c8.dir/H5_HAVE_GLOBUS_COMMON_H.c.o
+FAILED: CMakeFiles/cmTC_df5c8.dir/H5_HAVE_GLOBUS_COMMON_H.c.o 
+/usr/bin/cc   -fPIE -fdiagnostics-color=always -o CMakeFiles/cmTC_df5c8.dir/H5_HAVE_GLOBUS_COMMON_H.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TXeg4D/H5_HAVE_GLOBUS_COMMON_H.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TXeg4D/H5_HAVE_GLOBUS_COMMON_H.c:13:10: fatal error: globus/common.h: No such file or directory
+   13 | #include <globus/common.h>
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <sys/file.h>
+#include <sys/ioctl.h>
+#include <sys/resource.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <features.h>
+#include <dirent.h>
+#include <unistd.h>
+#include <pwd.h>
+#include <globus/common.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/file.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;features.h;dirent.h;unistd.h;pwd.h;pdb.h exist failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-M6lPwE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_3ffdf && [1/2] Building C object CMakeFiles/cmTC_3ffdf.dir/H5_HAVE_PDB_H.c.o
+FAILED: CMakeFiles/cmTC_3ffdf.dir/H5_HAVE_PDB_H.c.o 
+/usr/bin/cc   -fPIE -fdiagnostics-color=always -o CMakeFiles/cmTC_3ffdf.dir/H5_HAVE_PDB_H.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-M6lPwE/H5_HAVE_PDB_H.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-M6lPwE/H5_HAVE_PDB_H.c:13:10: fatal error: pdb.h: No such file or directory
+   13 | #include <pdb.h>
+      |          ^~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <sys/file.h>
+#include <sys/ioctl.h>
+#include <sys/resource.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <features.h>
+#include <dirent.h>
+#include <unistd.h>
+#include <pwd.h>
+#include <pdb.h>
+
+
+int main(void){return 0;}
+
+Determining size of __int64 failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-isulxE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_bd130 && [1/2] Building C object CMakeFiles/cmTC_bd130.dir/H5_SIZEOF___INT64.c.o
+FAILED: CMakeFiles/cmTC_bd130.dir/H5_SIZEOF___INT64.c.o 
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -fPIE -fdiagnostics-color=always -o CMakeFiles/cmTC_bd130.dir/H5_SIZEOF___INT64.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-isulxE/H5_SIZEOF___INT64.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-isulxE/H5_SIZEOF___INT64.c:27:22: error: ‘__int64’ undeclared here (not in a function); did you mean ‘__int64_t’?
+   27 | #define SIZE (sizeof(__int64))
+      |                      ^~~~~~~
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-isulxE/H5_SIZEOF___INT64.c:29:12: note: in expansion of macro ‘SIZE’
+   29 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+ninja: build stopped: subcommand failed.
+
+
+H5_SIZEOF___INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C SOURCE FILE Test H5_HAVE___TM_GMTOFF failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-JjHAzC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_3219d && [1/2] Building C object CMakeFiles/cmTC_3219d.dir/src.c.o
+FAILED: CMakeFiles/cmTC_3219d.dir/src.c.o 
+/usr/bin/cc -DH5_HAVE___TM_GMTOFF -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -fPIE -fdiagnostics-color=always -o CMakeFiles/cmTC_3219d.dir/src.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-JjHAzC/src.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-JjHAzC/src.c: In function ‘main’:
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-JjHAzC/src.c:6:34: error: ‘struct tm’ has no member named ‘__tm_gmtoff’; did you mean ‘tm_gmtoff’?
+    6 |   (void)sizeof(((struct tm *)0)->__tm_gmtoff);
+      |                                  ^~~~~~~~~~~
+      |                                  tm_gmtoff
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+#include <time.h>
+
+int main()
+{
+  (void)sizeof(((struct tm *)0)->__tm_gmtoff);
+  return 0;
+}
+
+
+Performing C SOURCE FILE Test H5_HAVE_STRUCT_TIMEZONE failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-QsSJAG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_17ae0 && [1/2] Building C object CMakeFiles/cmTC_17ae0.dir/src.c.o
+FAILED: CMakeFiles/cmTC_17ae0.dir/src.c.o 
+/usr/bin/cc -DH5_HAVE_STRUCT_TIMEZONE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -fPIE -fdiagnostics-color=always -o CMakeFiles/cmTC_17ae0.dir/src.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-QsSJAG/src.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-QsSJAG/src.c: In function ‘main’:
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-QsSJAG/src.c:8:32: error: ‘struct tm’ has no member named ‘tz_minuteswest’
+    8 |   (void)sizeof(((struct tm *)0)->tz_minuteswest);
+      |                                ^~
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/time.h>
+#include <time.h>
+
+int main()
+{
+  (void)sizeof(((struct tm *)0)->tz_minuteswest);
+  return 0;
+}
+
+
+Performing Other Test HAVE_TM_ZONE failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_26eed && [1/2] Building C object CMakeFiles/cmTC_26eed.dir/HDFTests.c.o
+[2/2] Linking C executable cmTC_26eed
+FAILED: cmTC_26eed 
+: && /usr/bin/cc  -Wl,-lc  -Wl,-lc CMakeFiles/cmTC_26eed.dir/HDFTests.c.o -o cmTC_26eed  -lm && :
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x24): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+Performing Other Test HAVE_STRUCT_TM_TM_ZONE failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_a87fd && [1/2] Building C object CMakeFiles/cmTC_a87fd.dir/HDFTests.c.o
+[2/2] Linking C executable cmTC_a87fd
+FAILED: cmTC_a87fd 
+: && /usr/bin/cc  -Wl,-lc  -Wl,-lc CMakeFiles/cmTC_a87fd.dir/HDFTests.c.o -o cmTC_a87fd  -lm && :
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x24): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+Performing C SOURCE FILE Test H5_HAVE_STRUCT_VIDEOCONFIG failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YY6DUD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_307a0 && [1/2] Building C object CMakeFiles/cmTC_307a0.dir/src.c.o
+FAILED: CMakeFiles/cmTC_307a0.dir/src.c.o 
+/usr/bin/cc -DH5_HAVE_STRUCT_VIDEOCONFIG -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -fPIE -fdiagnostics-color=always -o CMakeFiles/cmTC_307a0.dir/src.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YY6DUD/src.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YY6DUD/src.c: In function ‘main’:
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YY6DUD/src.c:5:41: error: dereferencing pointer to incomplete type ‘struct videoconfig’
+    5 |   (void)sizeof(((struct videoconfig *)0)->numtextcols);
+      |                                         ^~
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+
+int main()
+{
+  (void)sizeof(((struct videoconfig *)0)->numtextcols);
+  return 0;
+}
+
+
+Performing C SOURCE FILE Test H5_HAVE_STRUCT_TEXT_INFO failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-88Q0fF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_ac10b && [1/2] Building C object CMakeFiles/cmTC_ac10b.dir/src.c.o
+FAILED: CMakeFiles/cmTC_ac10b.dir/src.c.o 
+/usr/bin/cc -DH5_HAVE_STRUCT_TEXT_INFO -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -fPIE -fdiagnostics-color=always -o CMakeFiles/cmTC_ac10b.dir/src.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-88Q0fF/src.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-88Q0fF/src.c: In function ‘main’:
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-88Q0fF/src.c:5:39: error: dereferencing pointer to incomplete type ‘struct text_info’
+    5 |   (void)sizeof(((struct text_info *)0)->screenwidth);
+      |                                       ^~
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+
+int main()
+{
+  (void)sizeof(((struct text_info *)0)->screenwidth);
+  return 0;
+}
+
+
+Determining if the function _getvideoconfig exists failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-30s79E
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_440ec && [1/2] Building C object CMakeFiles/cmTC_440ec.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_440ec
+FAILED: cmTC_440ec 
+: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=_getvideoconfig -Wl,-lc  -Wl,-lc CMakeFiles/cmTC_440ec.dir/CheckFunctionExists.c.o -o cmTC_440ec   && :
+/usr/bin/ld: CMakeFiles/cmTC_440ec.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_getvideoconfig'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function gettextinfo exists failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VfMmcF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_b5e40 && [1/2] Building C object CMakeFiles/cmTC_b5e40.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_b5e40
+FAILED: cmTC_b5e40 
+: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=gettextinfo -Wl,-lc  -Wl,-lc CMakeFiles/cmTC_b5e40.dir/CheckFunctionExists.c.o -o cmTC_b5e40   && :
+/usr/bin/ld: CMakeFiles/cmTC_b5e40.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `gettextinfo'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function _scrsize exists failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iUDp1E
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_b01ba && [1/2] Building C object CMakeFiles/cmTC_b01ba.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_b01ba
+FAILED: cmTC_b01ba 
+: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=_scrsize -Wl,-lc  -Wl,-lc CMakeFiles/cmTC_b01ba.dir/CheckFunctionExists.c.o -o cmTC_b01ba   && :
+/usr/bin/ld: CMakeFiles/cmTC_b01ba.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_scrsize'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function GetConsoleScreenBufferInfo exists failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1xIc8D
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_7fbc9 && [1/2] Building C object CMakeFiles/cmTC_7fbc9.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_7fbc9
+FAILED: cmTC_7fbc9 
+: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=GetConsoleScreenBufferInfo -Wl,-lc  -Wl,-lc CMakeFiles/cmTC_7fbc9.dir/CheckFunctionExists.c.o -o cmTC_7fbc9   && :
+/usr/bin/ld: CMakeFiles/cmTC_7fbc9.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `GetConsoleScreenBufferInfo'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function setsysinfo exists failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8L3BED
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_6c693 && [1/2] Building C object CMakeFiles/cmTC_6c693.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_6c693
+FAILED: cmTC_6c693 
+: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=setsysinfo -Wl,-lc  -Wl,-lc CMakeFiles/cmTC_6c693.dir/CheckFunctionExists.c.o -o cmTC_6c693   && :
+/usr/bin/ld: CMakeFiles/cmTC_6c693.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `setsysinfo'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function sigsetjmp exists failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-QH83VC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_c2f8c && [1/2] Building C object CMakeFiles/cmTC_c2f8c.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_c2f8c
+FAILED: cmTC_c2f8c 
+: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=sigsetjmp -Wl,-lc  -Wl,-lc CMakeFiles/cmTC_c2f8c.dir/CheckFunctionExists.c.o -o cmTC_c2f8c   && :
+/usr/bin/ld: CMakeFiles/cmTC_c2f8c.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `sigsetjmp'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function clock_gettime exists in the posix4 failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-i5KEDG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_cd745 && [1/2] Building C object CMakeFiles/cmTC_cd745.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_cd745
+FAILED: cmTC_cd745 
+: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=clock_gettime -Wl,-lc  -Wl,-lc CMakeFiles/cmTC_cd745.dir/CheckFunctionExists.c.o -o cmTC_cd745  -lposix4 && :
+/usr/bin/ld: cannot find -lposix4
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining size of _Quad failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VucjpF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_b22be && [1/2] Building C object CMakeFiles/cmTC_b22be.dir/_SIZEOF__QUAD.c.o
+FAILED: CMakeFiles/cmTC_b22be.dir/_SIZEOF__QUAD.c.o 
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -fPIE -fdiagnostics-color=always -o CMakeFiles/cmTC_b22be.dir/_SIZEOF__QUAD.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VucjpF/_SIZEOF__QUAD.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VucjpF/_SIZEOF__QUAD.c:28:22: error: ‘_Quad’ undeclared here (not in a function)
+   28 | #define SIZE (sizeof(_Quad))
+      |                      ^~~~~
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VucjpF/_SIZEOF__QUAD.c:30:12: note: in expansion of macro ‘SIZE’
+   30 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+ninja: build stopped: subcommand failed.
+
+
+_SIZEOF__QUAD.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdbool.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(_Quad))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Test H5_LDOUBLE_TO_LONG_SPECIAL Run failed with the following output and exit code:
+ Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_c5537 && [1/2] Building C object CMakeFiles/cmTC_c5537.dir/ConversionTests.c.o
+[2/2] Linking C executable cmTC_c5537
+
+
+Test H5_LONG_TO_LDOUBLE_SPECIAL Run failed with the following output and exit code:
+ Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_2eb83 && [1/2] Building C object CMakeFiles/cmTC_2eb83.dir/ConversionTests.c.o
+[2/2] Linking C executable cmTC_2eb83
+
+
+Test H5_DISABLE_SOME_LDOUBLE_CONV Run failed with the following output and exit code:
+ Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_80eef && [1/2] Building C object CMakeFiles/cmTC_80eef.dir/ConversionTests.c.o
+[2/2] Linking C executable cmTC_80eef
+
+
+Performing C SOURCE FILE Test have_flag_logical-op-parentheses failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-t3nskE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_3a1e0 && [1/2] Building C object CMakeFiles/cmTC_3a1e0.dir/src.c.o
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+cc1: warning: unrecognized command line option '-Wno-logical-op-parentheses'
+[2/2] Linking C executable cmTC_3a1e0
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test have_flag_shift-op-parentheses failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kbrerF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_e9b0d && [1/2] Building C object CMakeFiles/cmTC_e9b0d.dir/src.c.o
+<command-line>: warning: ISO C99 requires whitespace after the macro name
+cc1: warning: unrecognized command line option '-Wno-shift-op-parentheses'
+[2/2] Linking C executable cmTC_e9b0d
+
+
+Source file was:
+int main(void) { return 0; }
+
+Determining if the _filelengthi64 exist failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-EU0i9D
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_45224 && [1/2] Building C object CMakeFiles/cmTC_45224.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_45224.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -fPIE -fdiagnostics-color=always -o CMakeFiles/cmTC_45224.dir/CheckSymbolExists.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-EU0i9D/CheckSymbolExists.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-EU0i9D/CheckSymbolExists.c:2:10: fatal error: io.h: No such file or directory
+    2 | #include <io.h>
+      |          ^~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+File CheckSymbolExists.c:
+/* */
+#include <io.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _filelengthi64
+  return ((int*)(&_filelengthi64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strlcat exist failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-23teiE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_d3694 && [1/2] Building C object CMakeFiles/cmTC_d3694.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_d3694.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -fPIE -fdiagnostics-color=always -o CMakeFiles/cmTC_d3694.dir/CheckSymbolExists.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-23teiE/CheckSymbolExists.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-23teiE/CheckSymbolExists.c: In function ‘main’:
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-23teiE/CheckSymbolExists.c:8:19: error: ‘strlcat’ undeclared (first use in this function); did you mean ‘strncat’?
+    8 |   return ((int*)(&strlcat))[argc];
+      |                   ^~~~~~~
+      |                   strncat
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-23teiE/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcat
+  return ((int*)(&strlcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the st_blocksize exist failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GXcBmF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_8539c && [1/2] Building C object CMakeFiles/cmTC_8539c.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_8539c.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -fPIE -fdiagnostics-color=always -o CMakeFiles/cmTC_8539c.dir/CheckSymbolExists.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GXcBmF/CheckSymbolExists.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GXcBmF/CheckSymbolExists.c: In function ‘main’:
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GXcBmF/CheckSymbolExists.c:8:19: error: ‘st_blocksize’ undeclared (first use in this function)
+    8 |   return ((int*)(&st_blocksize))[argc];
+      |                   ^~~~~~~~~~~~
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GXcBmF/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef st_blocksize
+  return ((int*)(&st_blocksize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of longlong failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-InwVbF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_b6b69 && [1/2] Building C object CMakeFiles/cmTC_b6b69.dir/HAVE_LONGLONG.c.o
+FAILED: CMakeFiles/cmTC_b6b69.dir/HAVE_LONGLONG.c.o 
+/usr/bin/cc   -fPIE -fdiagnostics-color=always -o CMakeFiles/cmTC_b6b69.dir/HAVE_LONGLONG.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-InwVbF/HAVE_LONGLONG.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-InwVbF/HAVE_LONGLONG.c:27:22: error: ‘longlong’ undeclared here (not in a function)
+   27 | #define SIZE (sizeof(longlong))
+      |                      ^~~~~~~~
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-InwVbF/HAVE_LONGLONG.c:29:12: note: in expansion of macro ‘SIZE’
+   29 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+ninja: build stopped: subcommand failed.
+
+
+HAVE_LONGLONG.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(longlong))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uchar failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vMwwAC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_aa3e1 && [1/2] Building C object CMakeFiles/cmTC_aa3e1.dir/HAVE_UCHAR.c.o
+FAILED: CMakeFiles/cmTC_aa3e1.dir/HAVE_UCHAR.c.o 
+/usr/bin/cc   -fPIE -fdiagnostics-color=always -o CMakeFiles/cmTC_aa3e1.dir/HAVE_UCHAR.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vMwwAC/HAVE_UCHAR.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vMwwAC/HAVE_UCHAR.c:27:22: error: ‘uchar’ undeclared here (not in a function); did you mean ‘u_char’?
+   27 | #define SIZE (sizeof(uchar))
+      |                      ^~~~~
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vMwwAC/HAVE_UCHAR.c:29:12: note: in expansion of macro ‘SIZE’
+   29 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+ninja: build stopped: subcommand failed.
+
+
+HAVE_UCHAR.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(uchar))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of schar failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l2mMsF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_63a43 && [1/2] Building C object CMakeFiles/cmTC_63a43.dir/HAVE_SCHAR.c.o
+FAILED: CMakeFiles/cmTC_63a43.dir/HAVE_SCHAR.c.o 
+/usr/bin/cc   -fPIE -fdiagnostics-color=always -o CMakeFiles/cmTC_63a43.dir/HAVE_SCHAR.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l2mMsF/HAVE_SCHAR.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l2mMsF/HAVE_SCHAR.c:27:22: error: ‘schar’ undeclared here (not in a function); did you mean ‘char’?
+   27 | #define SIZE (sizeof(schar))
+      |                      ^~~~~
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l2mMsF/HAVE_SCHAR.c:29:12: note: in expansion of macro ‘SIZE’
+   29 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+ninja: build stopped: subcommand failed.
+
+
+HAVE_SCHAR.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(schar))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C SOURCE FILE Test HAVE_PTHREAD_MUTEX_RECURSIVE_DEFN failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TjdOFG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_8fb49 && [1/2] Building C object CMakeFiles/cmTC_8fb49.dir/src.c.o
+FAILED: CMakeFiles/cmTC_8fb49.dir/src.c.o 
+/usr/bin/cc -DHAVE_PTHREAD_MUTEX_RECURSIVE_DEFN  -Werror -Wall -fPIE -fdiagnostics-color=always -std=c99 -o CMakeFiles/cmTC_8fb49.dir/src.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TjdOFG/src.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TjdOFG/src.c: In function ‘main’:
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TjdOFG/src.c:5:9: error: ‘PTHREAD_MUTEX_RECURSIVE’ undeclared (first use in this function); did you mean ‘PTHREAD_MUTEX_RECURSIVE_NP’?
+    5 |   (void)PTHREAD_MUTEX_RECURSIVE;
+      |         ^~~~~~~~~~~~~~~~~~~~~~~
+      |         PTHREAD_MUTEX_RECURSIVE_NP
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TjdOFG/src.c:5:9: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+#include <pthread.h>
+
+int main(int argc, char* argv[]) {
+  (void)PTHREAD_MUTEX_RECURSIVE;
+  (void)argv;
+  return argc;
+}
+  
+
+Performing C SOURCE FILE Test HAVE_BROKEN_SS_FAMILY failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-MXxNjD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_6585d && [1/2] Building C object CMakeFiles/cmTC_6585d.dir/src.c.o
+FAILED: CMakeFiles/cmTC_6585d.dir/src.c.o 
+/usr/bin/cc -DHAVE_BROKEN_SS_FAMILY  -fPIE -fdiagnostics-color=always -o CMakeFiles/cmTC_6585d.dir/src.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-MXxNjD/src.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-MXxNjD/src.c: In function ‘main’:
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-MXxNjD/src.c:7:48: error: ‘struct sockaddr_storage’ has no member named ‘__ss_family’; did you mean ‘ss_family’?
+    7 |   (void)sizeof(((struct sockaddr_storage *)0)->__ss_family);
+      |                                                ^~~~~~~~~~~
+      |                                                ss_family
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+#include <sys/socket.h>
+#include <sys/types.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr_storage *)0)->__ss_family);
+  return 0;
+}
+
+
+Determining if the function class exists failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IVGcJE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_52816 && [1/2] Building C object CMakeFiles/cmTC_52816.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_52816
+FAILED: cmTC_52816 
+: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=class -Wl,-lc  -Wl,-lc CMakeFiles/cmTC_52816.dir/CheckFunctionExists.c.o -o cmTC_52816  -lpthread && :
+/usr/bin/ld: CMakeFiles/cmTC_52816.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `class'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if files dl.h exist failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8oJ8zC
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_371de && [1/2] Building C object CMakeFiles/cmTC_371de.dir/HAVE_DL_H.c.o
+FAILED: CMakeFiles/cmTC_371de.dir/HAVE_DL_H.c.o 
+/usr/bin/cc   -fPIE -fdiagnostics-color=always -o CMakeFiles/cmTC_371de.dir/HAVE_DL_H.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8oJ8zC/HAVE_DL_H.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8oJ8zC/HAVE_DL_H.c:2:10: fatal error: dl.h: No such file or directory
+    2 | #include <dl.h>
+      |          ^~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <dl.h>
+
+
+int main(void){return 0;}
+
+Determining if the function fpclass exists failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-K3F8IG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_585f9 && [1/2] Building C object CMakeFiles/cmTC_585f9.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_585f9
+FAILED: cmTC_585f9 
+: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=fpclass -Wl,-lc  -Wl,-lc CMakeFiles/cmTC_585f9.dir/CheckFunctionExists.c.o -o cmTC_585f9  -lpthread && :
+/usr/bin/ld: CMakeFiles/cmTC_585f9.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `fpclass'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function shl_load exists in the dld failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vRUdZD
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_46f65 && [1/2] Building C object CMakeFiles/cmTC_46f65.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_46f65
+FAILED: cmTC_46f65 
+: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=shl_load -Wl,-lc  -Wl,-lc CMakeFiles/cmTC_46f65.dir/CheckFunctionExists.c.o -o cmTC_46f65  -ldld  -lpthread && :
+/usr/bin/ld: cannot find -ldld
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function va_copy exists failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vQ8tpE
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_fb835 && [1/2] Building C object CMakeFiles/cmTC_fb835.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_fb835
+FAILED: cmTC_fb835 
+: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=va_copy -Wl,-lc  -Wl,-lc CMakeFiles/cmTC_fb835.dir/CheckFunctionExists.c.o -o cmTC_fb835  -lpthread && :
+/usr/bin/ld: CMakeFiles/cmTC_fb835.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `va_copy'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function __va_copy exists failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wDtb4D
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_9c7b7 && [1/2] Building C object CMakeFiles/cmTC_9c7b7.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_9c7b7
+FAILED: cmTC_9c7b7 
+: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=__va_copy -Wl,-lc  -Wl,-lc CMakeFiles/cmTC_9c7b7.dir/CheckFunctionExists.c.o -o cmTC_9c7b7  -lpthread && :
+/usr/bin/ld: CMakeFiles/cmTC_9c7b7.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `__va_copy'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C SOURCE FILE Test VA_LIST_IS_ARRAY_TEST failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9frwoG
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_e787f && [1/2] Building C object CMakeFiles/cmTC_e787f.dir/src.c.o
+FAILED: CMakeFiles/cmTC_e787f.dir/src.c.o 
+/usr/bin/cc -DVA_LIST_IS_ARRAY_TEST  -fPIE -fdiagnostics-color=always -o CMakeFiles/cmTC_e787f.dir/src.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9frwoG/src.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9frwoG/src.c: In function ‘main’:
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9frwoG/src.c:4:49: error: cast specifies array type
+    4 |   int main() { va_list ap1, ap2; a(&ap1); ap2 = (va_list) ap1; return 0; }
+      |                                                 ^
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+		#include <stdarg.h>
+		void a(va_list* ap) {};
+		int main() { va_list ap1, ap2; a(&ap1); ap2 = (va_list) ap1; return 0; }
+	
+
+Determining if the HDF5 Multi_Dataset exists failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_df0a7 && [1/2] Building C object CMakeFiles/cmTC_df0a7.dir/test_HDF.c.o
+FAILED: CMakeFiles/cmTC_df0a7.dir/test_HDF.c.o 
+/usr/bin/cc   -fPIE -fdiagnostics-color=always -std=gnu99 -o CMakeFiles/cmTC_df0a7.dir/test_HDF.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeTmp/test_HDF.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeTmp/test_HDF.c:2:11: fatal error: hdf5.h: No such file or directory
+    2 |  #include "hdf5.h"
+      |           ^~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the HDF5 Collective_metadata exists failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_4bd10 && [1/2] Building C object CMakeFiles/cmTC_4bd10.dir/test_HDF.c.o
+FAILED: CMakeFiles/cmTC_4bd10.dir/test_HDF.c.o 
+/usr/bin/cc   -fPIE -fdiagnostics-color=always -std=gnu99 -o CMakeFiles/cmTC_4bd10.dir/test_HDF.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeTmp/test_HDF.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeTmp/test_HDF.c:2:11: fatal error: hdf5.h: No such file or directory
+    2 |  #include "hdf5.h"
+      |           ^~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the HDF5 H5Pset_file_space_strategy exists failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_b6627 && [1/2] Building C object CMakeFiles/cmTC_b6627.dir/test_HDF.c.o
+FAILED: CMakeFiles/cmTC_b6627.dir/test_HDF.c.o 
+/usr/bin/cc   -fPIE -fdiagnostics-color=always -std=gnu99 -o CMakeFiles/cmTC_b6627.dir/test_HDF.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeTmp/test_HDF.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeTmp/test_HDF.c:2:11: fatal error: hdf5.h: No such file or directory
+    2 |  #include "hdf5.h"
+      |           ^~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C SOURCE FILE Test CHECK_HAVE_STAT64_STRUCT failed with the following output:
+Change Dir: /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ceaZnF
+
+Run Build Command(s):/snap/clion/237/bin/ninja/linux/x64/ninja cmTC_06731 && [1/2] Building C object CMakeFiles/cmTC_06731.dir/src.c.o
+FAILED: CMakeFiles/cmTC_06731.dir/src.c.o 
+/usr/bin/cc -DCHECK_HAVE_STAT64_STRUCT  -fPIE -fdiagnostics-color=always -std=gnu99 -o CMakeFiles/cmTC_06731.dir/src.c.o -c /home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ceaZnF/src.c
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ceaZnF/src.c: In function ‘main’:
+/home/danil/vtk_new/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ceaZnF/src.c:6:36: error: dereferencing pointer to incomplete type ‘struct stat64’
+    6 |   (void)sizeof(((struct stat64 *)0)->st_atime);
+      |                                    ^~
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat64 *)0)->st_atime);
+  return 0;
+}
+
+

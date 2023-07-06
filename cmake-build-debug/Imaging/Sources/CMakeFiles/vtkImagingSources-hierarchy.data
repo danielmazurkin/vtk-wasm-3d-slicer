@@ -1,0 +1,8 @@
+/home/danil/vtk_new/Imaging/Sources/vtkImageCanvasSource2D.h;vtkImagingSources
+/home/danil/vtk_new/Imaging/Sources/vtkImageEllipsoidSource.h;vtkImagingSources
+/home/danil/vtk_new/Imaging/Sources/vtkImageGaussianSource.h;vtkImagingSources
+/home/danil/vtk_new/Imaging/Sources/vtkImageGridSource.h;vtkImagingSources
+/home/danil/vtk_new/Imaging/Sources/vtkImageMandelbrotSource.h;vtkImagingSources
+/home/danil/vtk_new/Imaging/Sources/vtkImageNoiseSource.h;vtkImagingSources
+/home/danil/vtk_new/Imaging/Sources/vtkImageSinusoidSource.h;vtkImagingSources
+/home/danil/vtk_new/cmake-build-debug/Imaging/Sources/vtkImagingSourcesModule.h;vtkImagingSources

@@ -1,0 +1,122 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Utilities/DICOMParser/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4156,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Utilities/DICOMParser/DICOMAppHelper.h",
+				"Utilities/DICOMParser/DICOMCallback.h",
+				"Utilities/DICOMParser/DICOMConfig.h",
+				"Utilities/DICOMParser/DICOMFile.h",
+				"Utilities/DICOMParser/DICOMParser.h",
+				"Utilities/DICOMParser/DICOMParserMap.h",
+				"Utilities/DICOMParser/DICOMTypes.h",
+				"cmake-build-debug/Utilities/DICOMParser/DICOMCMakeConfig.h",
+				"cmake-build-debug/Utilities/DICOMParser/vtkDICOMParserModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkDICOMParser-9.2.so.9.2",
+				"lib/libvtkDICOMParser-9.2.so.1"
+			],
+			"targetId" : "DICOMParser::@72571f107e09a45302e8",
+			"targetIndex" : 11,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkDICOMParser-9.2.so"
+			],
+			"targetId" : "DICOMParser::@72571f107e09a45302e8",
+			"targetIndex" : 11,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "licenses",
+			"destination" : "share/licenses/VTK/vtkDICOMParser",
+			"paths" : 
+			[
+				"Utilities/DICOMParser/Copyright.txt"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Utilities/DICOMParser",
+		"source" : "Utilities/DICOMParser"
+	}
+}

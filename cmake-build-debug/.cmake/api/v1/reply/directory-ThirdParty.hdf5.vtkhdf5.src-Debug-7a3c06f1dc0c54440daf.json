@@ -1,0 +1,148 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"ThirdParty/hdf5/vtkhdf5/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1235,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1250,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 3
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtkhdf5/src",
+			"paths" : 
+			[
+				"ThirdParty/hdf5/vtkhdf5/src/hdf5.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5api_adpt.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5public.h",
+				"ThirdParty/hdf5/vtkhdf5/src/vtk_hdf5_mangle.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5Apublic.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5ACpublic.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5Cpublic.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5Dpublic.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5Epublic.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5ESdevelop.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5ESpublic.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5Fpublic.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5FDcore.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5FDdevelop.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5FDdirect.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5FDfamily.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5FDhdfs.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5FDlog.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5FDmirror.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5FDmpi.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5FDmpio.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5FDmulti.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5FDpublic.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5FDros3.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5FDs3comms.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5FDsec2.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5FDsplitter.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5FDstdio.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5FDwindows.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5Gpublic.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5Idevelop.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5Ipublic.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5Ldevelop.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5Lpublic.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5Mpublic.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5MMpublic.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5Opublic.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5Ppublic.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5PLextern.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5PLpublic.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5Rpublic.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5Spublic.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5Tdevelop.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5Tpublic.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5TSdevelop.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5VLconnector.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5VLconnector_passthru.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5VLnative.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5VLpassthru.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5VLpublic.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5Zdevelop.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5Zpublic.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5Edefin.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5Einit.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5Epubgen.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5Eterm.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5version.h",
+				"ThirdParty/hdf5/vtkhdf5/src/H5overflow.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkhdf5-9.2.so.9.2",
+				"lib/libvtkhdf5-9.2.so.1"
+			],
+			"targetId" : "vtkhdf5_src::@ccfa84d3cdf9596c143f",
+			"targetIndex" : 275,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkhdf5-9.2.so"
+			],
+			"targetId" : "vtkhdf5_src::@ccfa84d3cdf9596c143f",
+			"targetIndex" : 275,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ThirdParty/hdf5/vtkhdf5/src",
+		"source" : "ThirdParty/hdf5/vtkhdf5/src"
+	}
+}

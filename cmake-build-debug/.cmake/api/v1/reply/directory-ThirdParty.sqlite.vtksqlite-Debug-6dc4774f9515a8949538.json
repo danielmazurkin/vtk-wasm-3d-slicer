@@ -1,0 +1,100 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"ThirdParty/sqlite/vtksqlite/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 4
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtksqlite",
+			"paths" : 
+			[
+				"ThirdParty/sqlite/vtksqlite/sqlite3.h",
+				"ThirdParty/sqlite/vtksqlite/vtk_sqlite_mangle.h",
+				"cmake-build-debug/ThirdParty/sqlite/vtksqlite/vtksqlite_export.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtksqlite-9.2.so.9.2",
+				"lib/libvtksqlite-9.2.so.1"
+			],
+			"targetId" : "sqlite::@ca4ebb293d026d430492",
+			"targetIndex" : 151,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtksqlite-9.2.so"
+			],
+			"targetId" : "sqlite::@ca4ebb293d026d430492",
+			"targetIndex" : 151,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ThirdParty/sqlite/vtksqlite",
+		"source" : "ThirdParty/sqlite/vtksqlite"
+	}
+}

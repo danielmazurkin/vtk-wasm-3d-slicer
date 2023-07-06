@@ -1,0 +1,143 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"ThirdParty/libxml2/vtklibxml2/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 440,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 4
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtklibxml2/include/libxml",
+			"paths" : 
+			[
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/c14n.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/catalog.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/chvalid.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/debugXML.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/dict.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/encoding.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/entities.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/globals.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/hash.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/HTMLparser.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/HTMLtree.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/list.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/nanoftp.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/nanohttp.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/parser.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/parserInternals.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/pattern.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/relaxng.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/SAX.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/SAX2.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/schemasInternals.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/schematron.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/threads.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/tree.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/uri.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/valid.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/vtk_libxml2_mangle.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/xinclude.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/xlink.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/xmlIO.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/xmlautomata.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/xmlerror.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/xmlexports.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/xmlmemory.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/xmlmodule.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/xmlreader.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/xmlregexp.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/xmlsave.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/xmlschemas.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/xmlschemastypes.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/xmlstring.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/xmlunicode.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/xmlwriter.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/xpath.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/xpathInternals.h",
+				"ThirdParty/libxml2/vtklibxml2/include/libxml/xpointer.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtklibxml2-9.2.so.9.2",
+				"lib/libvtklibxml2-9.2.so.1"
+			],
+			"targetId" : "libxml2::@b5dc3bbe57e26c9d8170",
+			"targetIndex" : 142,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtklibxml2-9.2.so"
+			],
+			"targetId" : "libxml2::@b5dc3bbe57e26c9d8170",
+			"targetIndex" : 142,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ThirdParty/libxml2/vtklibxml2",
+		"source" : "ThirdParty/libxml2/vtklibxml2"
+	}
+}

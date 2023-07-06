@@ -1,0 +1,1278 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libvtklzma-9.2.so"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"vtk_module_add_module",
+			"install",
+			"_vtk_module_install",
+			"target_link_libraries",
+			"add_definitions",
+			"include_directories",
+			"target_include_directories",
+			"_vtk_module_standard_includes",
+			"vtk_module_third_party_internal",
+			"vtk_module_third_party",
+			"set_target_properties"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"ThirdParty/lzma/vtklzma/CMakeLists.txt",
+			"ThirdParty/lzma/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3817,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 306,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 125,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 127,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 3989,
+				"parent" : 1
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 3110,
+				"parent" : 8
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 10
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 5258,
+				"parent" : 11
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 5664,
+				"parent" : 12
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 3110,
+				"parent" : 13
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 296,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC -fdiagnostics-color=always"
+				},
+				{
+					"fragment" : "-std=gnu99"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "DLL_EXPORT"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "HAVE_CONFIG_H"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/lzma/vtklzma"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/danil/vtk_new/ThirdParty/lzma/vtklzma/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/danil/vtk_new/ThirdParty/lzma/vtklzma/src/liblzma/api"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/danil/vtk_new/ThirdParty/lzma/vtklzma/src/liblzma"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/danil/vtk_new/ThirdParty/lzma/vtklzma/src/common"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/danil/vtk_new/ThirdParty/lzma/vtklzma/src/liblzma/check"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/danil/vtk_new/ThirdParty/lzma/vtklzma/src/liblzma/common"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/danil/vtk_new/ThirdParty/lzma/vtklzma/src/liblzma/lzma"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/danil/vtk_new/ThirdParty/lzma/vtklzma/src/liblzma/lz"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/danil/vtk_new/ThirdParty/lzma/vtklzma/src/liblzma/simple"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/danil/vtk_new/ThirdParty/lzma/vtklzma/src/liblzma/delta"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/danil/vtk_new/ThirdParty/lzma/vtklzma/src/liblzma/rangecoder"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/danil/vtk_new/ThirdParty/lzma/vtklzma"
+				},
+				{
+					"backtrace" : 14,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/lzma"
+				},
+				{
+					"backtrace" : 14,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/ThirdParty/lzma"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					15
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72
+			]
+		}
+	],
+	"id" : "lzma::@bdc03b1fa1c9c78c9042",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,-lc",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,:::::::",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "lzma",
+	"nameOnDisk" : "libvtklzma-9.2.so",
+	"paths" : 
+	{
+		"build" : "ThirdParty/lzma/vtklzma",
+		"source" : "ThirdParty/lzma/vtklzma"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/common/tuklib_cpucores.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/common/tuklib_physmem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/check/check.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/check/crc32_fast.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/check/crc32_table.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/check/crc64_fast.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/check/crc64_table.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/check/sha256.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/alone_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/alone_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/auto_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/block_buffer_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/block_buffer_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/block_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/block_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/block_header_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/block_header_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/block_util.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/easy_buffer_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/easy_decoder_memusage.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/easy_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/easy_encoder_memusage.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/easy_preset.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/filter_buffer_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/filter_buffer_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/filter_common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/filter_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/filter_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/filter_flags_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/filter_flags_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/hardware_cputhreads.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/hardware_physmem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/index.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/index_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/index_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/index_hash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/outqueue.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/stream_buffer_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/stream_buffer_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/stream_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/stream_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/stream_encoder_mt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/stream_flags_common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/stream_flags_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/stream_flags_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/vli_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/vli_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/vli_size.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/delta/delta_common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/delta/delta_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/delta/delta_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/lzma/fastpos_table.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/lzma/lzma2_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/lzma/lzma2_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/lzma/lzma_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/lzma/lzma_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/lzma/lzma_encoder_optimum_fast.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/lzma/lzma_encoder_optimum_normal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/lzma/lzma_encoder_presets.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/lz/lz_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/lz/lz_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/lz/lz_encoder_mf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/rangecoder/price_table.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/simple/arm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/simple/armthumb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/simple/ia64.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/simple/powerpc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/simple/simple_coder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/simple/simple_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/simple/simple_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/simple/sparc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/simple/x86.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/api/lzma.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/api/lzma/base.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/api/lzma/bcj.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/api/lzma/block.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/api/lzma/check.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/api/lzma/container.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/api/lzma/delta.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/api/lzma/filter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/api/lzma/hardware.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/api/lzma/index.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/api/lzma/index_hash.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/api/lzma/lzma12.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/api/lzma/stream_flags.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/api/lzma/version.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/api/lzma/vli.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/api/vtk_lzma_mangle.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/common/mythread.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/common/sysdefs.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/common/tuklib_common.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/common/tuklib_config.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/common/tuklib_cpucores.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/common/tuklib_integer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/common/tuklib_physmem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/check/check.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/check/crc32_table_be.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/check/crc32_table_le.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/check/crc64_table_be.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/check/crc64_table_le.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/check/crc_macros.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/alone_decoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/block_buffer_encoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/block_decoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/block_encoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/common.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/easy_preset.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/filter_common.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/filter_decoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/filter_encoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/index.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/index_encoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/memcmplen.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/outqueue.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/stream_decoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/common/stream_flags_common.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/delta/delta_common.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/delta/delta_decoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/delta/delta_encoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/delta/delta_private.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/lzma/fastpos.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/lzma/lzma2_decoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/lzma/lzma2_encoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/lzma/lzma_common.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/lzma/lzma_decoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/lzma/lzma_encoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/lzma/lzma_encoder_private.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/lz/lz_decoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/lz/lz_encoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/lz/lz_encoder_hash.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/lz/lz_encoder_hash_table.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/rangecoder/price.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/rangecoder/range_common.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/rangecoder/range_decoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/rangecoder/range_encoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/simple/simple_coder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/simple/simple_decoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/simple/simple_encoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/lzma/vtklzma/src/liblzma/simple/simple_private.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

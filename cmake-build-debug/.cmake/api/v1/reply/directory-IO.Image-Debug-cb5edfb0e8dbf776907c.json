@@ -1,0 +1,160 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"IO/Image/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"IO/Image/vtkBMPReader.h",
+				"IO/Image/vtkBMPWriter.h",
+				"IO/Image/vtkDEMReader.h",
+				"IO/Image/vtkDICOMImageReader.h",
+				"IO/Image/vtkGESignaReader.h",
+				"IO/Image/vtkHDRReader.h",
+				"IO/Image/vtkImageExport.h",
+				"IO/Image/vtkImageImport.h",
+				"IO/Image/vtkImageImportExecutive.h",
+				"IO/Image/vtkImageReader.h",
+				"IO/Image/vtkImageReader2.h",
+				"IO/Image/vtkImageReader2Collection.h",
+				"IO/Image/vtkImageReader2Factory.h",
+				"IO/Image/vtkImageWriter.h",
+				"IO/Image/vtkJPEGReader.h",
+				"IO/Image/vtkJPEGWriter.h",
+				"IO/Image/vtkJSONImageWriter.h",
+				"IO/Image/vtkMedicalImageProperties.h",
+				"IO/Image/vtkMedicalImageReader2.h",
+				"IO/Image/vtkMetaImageReader.h",
+				"IO/Image/vtkMetaImageWriter.h",
+				"IO/Image/vtkMRCReader.h",
+				"IO/Image/vtkNIFTIImageHeader.h",
+				"IO/Image/vtkNIFTIImageReader.h",
+				"IO/Image/vtkNIFTIImageWriter.h",
+				"IO/Image/vtkNrrdReader.h",
+				"IO/Image/vtkOMETIFFReader.h",
+				"IO/Image/vtkPNGReader.h",
+				"IO/Image/vtkPNGWriter.h",
+				"IO/Image/vtkPNMReader.h",
+				"IO/Image/vtkPNMWriter.h",
+				"IO/Image/vtkPostScriptWriter.h",
+				"IO/Image/vtkSEPReader.h",
+				"IO/Image/vtkSLCReader.h",
+				"IO/Image/vtkTGAReader.h",
+				"IO/Image/vtkTIFFReader.h",
+				"IO/Image/vtkTIFFWriter.h",
+				"IO/Image/vtkVolume16Reader.h",
+				"IO/Image/vtkVolumeReader.h",
+				"cmake-build-debug/IO/Image/vtkIOImageModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkIOImage-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkIOImage-9.2.so.9.2",
+				"lib/libvtkIOImage-9.2.so.1"
+			],
+			"targetId" : "IOImage::@55e0fe11de236dfc9cd7",
+			"targetIndex" : 61,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkIOImage-9.2.so"
+			],
+			"targetId" : "IOImage::@55e0fe11de236dfc9cd7",
+			"targetIndex" : 61,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "IO/Image",
+		"source" : "IO/Image"
+	}
+}

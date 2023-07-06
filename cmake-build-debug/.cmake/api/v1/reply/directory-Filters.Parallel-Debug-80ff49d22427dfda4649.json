@@ -1,0 +1,173 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Filters/Parallel/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 68,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Filters/Parallel/vtkBlockDistribution.h",
+				"Filters/Parallel/vtkAdaptiveTemporalInterpolator.h",
+				"Filters/Parallel/vtkAggregateDataSetFilter.h",
+				"Filters/Parallel/vtkAlignImageDataSetFilter.h",
+				"Filters/Parallel/vtkAngularPeriodicFilter.h",
+				"Filters/Parallel/vtkCollectGraph.h",
+				"Filters/Parallel/vtkCollectPolyData.h",
+				"Filters/Parallel/vtkCollectTable.h",
+				"Filters/Parallel/vtkCutMaterial.h",
+				"Filters/Parallel/vtkDistributedDataFilter.h",
+				"Filters/Parallel/vtkDuplicatePolyData.h",
+				"Filters/Parallel/vtkExtractCTHPart.h",
+				"Filters/Parallel/vtkExtractPolyDataPiece.h",
+				"Filters/Parallel/vtkExtractUnstructuredGridPiece.h",
+				"Filters/Parallel/vtkExtractUserDefinedPiece.h",
+				"Filters/Parallel/vtkGenerateProcessIds.h",
+				"Filters/Parallel/vtkHyperTreeGridGhostCellsGenerator.h",
+				"Filters/Parallel/vtkPHyperTreeGridProbeFilter.h",
+				"Filters/Parallel/vtkIntegrateAttributes.h",
+				"Filters/Parallel/vtkPeriodicFilter.h",
+				"Filters/Parallel/vtkPCellDataToPointData.h",
+				"Filters/Parallel/vtkPConvertToMultiBlockDataSet.h",
+				"Filters/Parallel/vtkPExtractDataArraysOverTime.h",
+				"Filters/Parallel/vtkPExtractExodusGlobalTemporalVariables.h",
+				"Filters/Parallel/vtkPExtractSelectedArraysOverTime.h",
+				"Filters/Parallel/vtkPieceRequestFilter.h",
+				"Filters/Parallel/vtkPieceScalars.h",
+				"Filters/Parallel/vtkPipelineSize.h",
+				"Filters/Parallel/vtkPKdTree.h",
+				"Filters/Parallel/vtkPLinearExtrusionFilter.h",
+				"Filters/Parallel/vtkPMaskPoints.h",
+				"Filters/Parallel/vtkPMergeArrays.h",
+				"Filters/Parallel/vtkPOutlineCornerFilter.h",
+				"Filters/Parallel/vtkPOutlineFilter.h",
+				"Filters/Parallel/vtkPOutlineFilterInternals.h",
+				"Filters/Parallel/vtkPPolyDataNormals.h",
+				"Filters/Parallel/vtkPProbeFilter.h",
+				"Filters/Parallel/vtkPProjectSphereFilter.h",
+				"Filters/Parallel/vtkPReflectionFilter.h",
+				"Filters/Parallel/vtkPResampleFilter.h",
+				"Filters/Parallel/vtkPartitionBalancer.h",
+				"Filters/Parallel/vtkProcessIdScalars.h",
+				"Filters/Parallel/vtkPSphereSource.h",
+				"Filters/Parallel/vtkPTextureMapToSphere.h",
+				"Filters/Parallel/vtkPYoungsMaterialInterface.h",
+				"Filters/Parallel/vtkRectilinearGridOutlineFilter.h",
+				"Filters/Parallel/vtkRemoveGhosts.h",
+				"Filters/Parallel/vtkTransmitPolyDataPiece.h",
+				"Filters/Parallel/vtkTransmitRectilinearGridPiece.h",
+				"Filters/Parallel/vtkTransmitStructuredDataPiece.h",
+				"Filters/Parallel/vtkTransmitStructuredGridPiece.h",
+				"Filters/Parallel/vtkTransmitUnstructuredGridPiece.h",
+				"cmake-build-debug/Filters/Parallel/vtkFiltersParallelModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkFiltersParallel-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkFiltersParallel-9.2.so.9.2",
+				"lib/libvtkFiltersParallel-9.2.so.1"
+			],
+			"targetId" : "FiltersParallel::@4c3089bfec27b75f5409",
+			"targetIndex" : 28,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkFiltersParallel-9.2.so"
+			],
+			"targetId" : "FiltersParallel::@4c3089bfec27b75f5409",
+			"targetIndex" : 28,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Filters/Parallel",
+		"source" : "Filters/Parallel"
+	}
+}

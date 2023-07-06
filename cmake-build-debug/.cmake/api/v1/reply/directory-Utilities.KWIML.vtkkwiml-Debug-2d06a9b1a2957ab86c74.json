@@ -1,0 +1,44 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"Utilities/KWIML/vtkkwiml/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtkkwiml",
+			"paths" : 
+			[
+				"Utilities/KWIML/vtkkwiml/include/kwiml/abi.h",
+				"Utilities/KWIML/vtkkwiml/include/kwiml/int.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Utilities/KWIML/vtkkwiml",
+		"source" : "Utilities/KWIML/vtkkwiml"
+	}
+}

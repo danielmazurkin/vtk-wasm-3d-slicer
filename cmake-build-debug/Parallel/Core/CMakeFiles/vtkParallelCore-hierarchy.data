@@ -1,0 +1,17 @@
+/home/danil/vtk_new/Parallel/Core/vtkCommunicator.h;vtkParallelCore
+/home/danil/vtk_new/Parallel/Core/vtkDummyCommunicator.h;vtkParallelCore
+/home/danil/vtk_new/Parallel/Core/vtkDummyController.h;vtkParallelCore
+/home/danil/vtk_new/Parallel/Core/vtkFieldDataSerializer.h;vtkParallelCore
+/home/danil/vtk_new/Parallel/Core/vtkMultiProcessController.h;vtkParallelCore
+/home/danil/vtk_new/Parallel/Core/vtkMultiProcessStream.h;vtkParallelCore
+/home/danil/vtk_new/Parallel/Core/vtkPDirectory.h;vtkParallelCore
+/home/danil/vtk_new/Parallel/Core/vtkProcess.h;vtkParallelCore
+/home/danil/vtk_new/Parallel/Core/vtkProcessGroup.h;vtkParallelCore
+/home/danil/vtk_new/Parallel/Core/vtkPSystemTools.h;vtkParallelCore
+/home/danil/vtk_new/Parallel/Core/vtkSocketCommunicator.h;vtkParallelCore
+/home/danil/vtk_new/Parallel/Core/vtkSocketController.h;vtkParallelCore
+/home/danil/vtk_new/Parallel/Core/vtkSubCommunicator.h;vtkParallelCore
+/home/danil/vtk_new/Parallel/Core/vtkSubGroup.h;vtkParallelCore
+/home/danil/vtk_new/Parallel/Core/vtkThreadedCallbackQueue.h;vtkParallelCore
+/home/danil/vtk_new/Parallel/Core/vtkThreadedTaskQueue.h;vtkParallelCore
+/home/danil/vtk_new/cmake-build-debug/Parallel/Core/vtkParallelCoreModule.h;vtkParallelCore

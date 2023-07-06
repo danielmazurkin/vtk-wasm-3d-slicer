@@ -1,0 +1,698 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"ThirdParty/nlohmannjson/vtknlohmannjson/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4318,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/adl_serializer.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/byte_container_with_subtype.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/json.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/json_fwd.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/ordered_map.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail/conversions",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/conversions/from_json.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail/conversions",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/conversions/to_chars.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail/conversions",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/conversions/to_json.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/exceptions.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/hash.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail/input",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/input/binary_reader.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail/input",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/input/input_adapters.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail/input",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/input/json_sax.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail/input",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/input/lexer.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail/input",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/input/parser.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail/input",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/input/position_t.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail/iterators",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/iterators/internal_iterator.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail/iterators",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/iterators/iter_impl.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail/iterators",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/iterators/iteration_proxy.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail/iterators",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/iterators/iterator_traits.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail/iterators",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/iterators/json_reverse_iterator.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail/iterators",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/iterators/primitive_iterator.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/json_pointer.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/json_ref.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/macro_scope.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/macro_unscope.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail/meta/call_std",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/meta/call_std/begin.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail/meta/call_std",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/meta/call_std/end.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail/meta",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/meta/cpp_future.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail/meta",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/meta/detected.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail/meta",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/meta/identity_tag.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail/meta",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/meta/is_sax.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail/meta",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/meta/type_traits.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail/meta",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/meta/void_t.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail/output",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/output/binary_writer.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail/output",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/output/output_adapters.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 39,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail/output",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/output/serializer.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/string_escape.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 41,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/detail",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/detail/value_t.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/thirdparty/hedley",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/thirdparty/hedley/hedley.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 43,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtknlohmannjson/include/vtknlohmann/thirdparty/hedley",
+			"paths" : 
+			[
+				"ThirdParty/nlohmannjson/vtknlohmannjson/include/vtknlohmann/thirdparty/hedley/hedley_undef.hpp"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ThirdParty/nlohmannjson/vtknlohmannjson",
+		"source" : "ThirdParty/nlohmannjson/vtknlohmannjson"
+	}
+}

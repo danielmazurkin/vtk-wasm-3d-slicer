@@ -1,0 +1,115 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"include",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"ThirdParty/libproj/vtklibproj/src/lib_proj.cmake",
+			"ThirdParty/libproj/vtklibproj/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 363,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtklibproj/src",
+			"paths" : 
+			[
+				"ThirdParty/libproj/vtklibproj/src/proj.h",
+				"ThirdParty/libproj/vtklibproj/src/proj_experimental.h",
+				"ThirdParty/libproj/vtklibproj/src/proj_constants.h",
+				"ThirdParty/libproj/vtklibproj/src/geodesic.h",
+				"ThirdParty/libproj/vtklibproj/src/vtk_libproj_mangle.h",
+				"cmake-build-debug/ThirdParty/libproj/vtklibproj/src/vtklibproj_export.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtklibproj-9.2.so.9.2",
+				"lib/libvtklibproj-9.2.so.1"
+			],
+			"targetId" : "libproj::@1f50006ffccb10497678",
+			"targetIndex" : 141,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtklibproj-9.2.so"
+			],
+			"targetId" : "libproj::@1f50006ffccb10497678",
+			"targetIndex" : 141,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ThirdParty/libproj/vtklibproj/src",
+		"source" : "ThirdParty/libproj/vtklibproj/src"
+	}
+}

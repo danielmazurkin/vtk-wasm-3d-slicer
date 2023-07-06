@@ -1,0 +1,720 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libvtktiff-9.2.so"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"vtk_module_add_module",
+			"install",
+			"_vtk_module_install",
+			"target_link_libraries",
+			"add_definitions",
+			"include",
+			"target_include_directories",
+			"_vtk_module_standard_includes",
+			"vtk_module_third_party_internal",
+			"vtk_module_third_party"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"ThirdParty/tiff/vtktiff/libtiff/CMakeLists.txt",
+			"ThirdParty/tiff/vtktiff/CMakeLists.txt",
+			"ThirdParty/tiff/vtktiff/cmake/LargeFileSupport.cmake",
+			"ThirdParty/tiff/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 162,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3817,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 62,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"file" : 3,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 30,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 3989,
+				"parent" : 1
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 3110,
+				"parent" : 11
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 10,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 13
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 5258,
+				"parent" : 14
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 5664,
+				"parent" : 15
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 3110,
+				"parent" : 16
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "  -Wall -Winline -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -fstrict-aliasing -g -fPIC -fdiagnostics-color=always"
+				},
+				{
+					"fragment" : "-std=gnu99"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "TIFF_DISABLE_DEPRECATED"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"define" : "tiff_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 12,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/tiff/vtktiff/libtiff"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/danil/vtk_new/ThirdParty/tiff/vtktiff/libtiff"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/jpeg/vtkjpeg"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/ThirdParty/jpeg/vtkjpeg"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/zlib/vtkzlib"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/danil/vtk_new/ThirdParty/zlib/vtkzlib"
+				},
+				{
+					"backtrace" : 17,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/tiff"
+				},
+				{
+					"backtrace" : 17,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/ThirdParty/tiff"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/jpeg"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/ThirdParty/jpeg"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/zlib"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/ThirdParty/zlib"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "zlib::@cfcd0695dc1ae6d94881"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "jpeg::@49061317f897e96b602a"
+		}
+	],
+	"id" : "tiff::@5b83323274c7b528e318",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,-lc    -Wl,--version-script=/home/danil/vtk_new/ThirdParty/tiff/vtktiff/libtiff/libtiff.map",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,\"\\$$ORIGIN:\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkjpeg-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libvtkzlib-9.2.so.9.2",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "tiff",
+	"nameOnDisk" : "libvtktiff-9.2.so",
+	"paths" : 
+	{
+		"build" : "ThirdParty/tiff/vtktiff/libtiff",
+		"source" : "ThirdParty/tiff/vtktiff/libtiff"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_aux.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_close.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_codec.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_color.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_compress.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_dir.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_dirinfo.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_dirread.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_dirwrite.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_dumpmode.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_error.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_extension.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_fax3.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_fax3sm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_flush.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_getimage.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_jbig.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_jpeg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_jpeg_12.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_lerc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_luv.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_lzma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_lzw.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_next.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_ojpeg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_open.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_packbits.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_pixarlog.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_predict.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_print.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_read.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_strip.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_swab.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_thunder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_tile.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_version.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_warning.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_webp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_write.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_zip.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_zstd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_unix.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/libtiff.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tiff.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tiffio.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tiffvers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/vtk_tiff_mangle.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "cmake-build-debug/ThirdParty/tiff/vtktiff/libtiff/tiffconf.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/t4.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_dir.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tif_predict.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/tiffiop.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/tiff/vtktiff/libtiff/uvcode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "cmake-build-debug/ThirdParty/tiff/vtktiff/libtiff/tif_config.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

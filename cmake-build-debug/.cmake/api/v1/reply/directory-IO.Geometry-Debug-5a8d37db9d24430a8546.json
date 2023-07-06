@@ -1,0 +1,146 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"IO/Geometry/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"IO/Geometry/vtkAVSucdReader.h",
+				"IO/Geometry/vtkBYUReader.h",
+				"IO/Geometry/vtkBYUWriter.h",
+				"IO/Geometry/vtkChacoReader.h",
+				"IO/Geometry/vtkFacetWriter.h",
+				"IO/Geometry/vtkFLUENTReader.h",
+				"IO/Geometry/vtkGAMBITReader.h",
+				"IO/Geometry/vtkGLTFDocumentLoader.h",
+				"IO/Geometry/vtkGLTFReader.h",
+				"IO/Geometry/vtkGLTFWriter.h",
+				"IO/Geometry/vtkHoudiniPolyDataWriter.h",
+				"IO/Geometry/vtkIVWriter.h",
+				"IO/Geometry/vtkMCubesReader.h",
+				"IO/Geometry/vtkMCubesWriter.h",
+				"IO/Geometry/vtkMFIXReader.h",
+				"IO/Geometry/vtkOBJReader.h",
+				"IO/Geometry/vtkOBJWriter.h",
+				"IO/Geometry/vtkOpenFOAMReader.h",
+				"IO/Geometry/vtkParticleReader.h",
+				"IO/Geometry/vtkProStarReader.h",
+				"IO/Geometry/vtkPTSReader.h",
+				"IO/Geometry/vtkSTLReader.h",
+				"IO/Geometry/vtkSTLWriter.h",
+				"IO/Geometry/vtkTecplotReader.h",
+				"IO/Geometry/vtkWindBladeReader.h",
+				"cmake-build-debug/IO/Geometry/vtkIOGeometryModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkIOGeometry-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkIOGeometry-9.2.so.9.2",
+				"lib/libvtkIOGeometry-9.2.so.1"
+			],
+			"targetId" : "IOGeometry::@8f83b28556b6f6d54546",
+			"targetIndex" : 58,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkIOGeometry-9.2.so"
+			],
+			"targetId" : "IOGeometry::@8f83b28556b6f6d54546",
+			"targetIndex" : 58,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "IO/Geometry",
+		"source" : "IO/Geometry"
+	}
+}

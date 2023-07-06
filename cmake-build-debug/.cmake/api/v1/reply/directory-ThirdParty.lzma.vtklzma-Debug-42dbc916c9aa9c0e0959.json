@@ -1,0 +1,135 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"ThirdParty/lzma/vtklzma/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 293,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4341,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtklzma/src/liblzma/api",
+			"paths" : 
+			[
+				"ThirdParty/lzma/vtklzma/src/liblzma/api/lzma.h",
+				"ThirdParty/lzma/vtklzma/src/liblzma/api/lzma/base.h",
+				"ThirdParty/lzma/vtklzma/src/liblzma/api/lzma/bcj.h",
+				"ThirdParty/lzma/vtklzma/src/liblzma/api/lzma/block.h",
+				"ThirdParty/lzma/vtklzma/src/liblzma/api/lzma/check.h",
+				"ThirdParty/lzma/vtklzma/src/liblzma/api/lzma/container.h",
+				"ThirdParty/lzma/vtklzma/src/liblzma/api/lzma/delta.h",
+				"ThirdParty/lzma/vtklzma/src/liblzma/api/lzma/filter.h",
+				"ThirdParty/lzma/vtklzma/src/liblzma/api/lzma/hardware.h",
+				"ThirdParty/lzma/vtklzma/src/liblzma/api/lzma/index.h",
+				"ThirdParty/lzma/vtklzma/src/liblzma/api/lzma/index_hash.h",
+				"ThirdParty/lzma/vtklzma/src/liblzma/api/lzma/lzma12.h",
+				"ThirdParty/lzma/vtklzma/src/liblzma/api/lzma/stream_flags.h",
+				"ThirdParty/lzma/vtklzma/src/liblzma/api/lzma/version.h",
+				"ThirdParty/lzma/vtklzma/src/liblzma/api/lzma/vli.h",
+				"ThirdParty/lzma/vtklzma/src/liblzma/api/vtk_lzma_mangle.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtklzma-9.2.so.9.2",
+				"lib/libvtklzma-9.2.so.1"
+			],
+			"targetId" : "lzma::@bdc03b1fa1c9c78c9042",
+			"targetIndex" : 145,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtklzma-9.2.so"
+			],
+			"targetId" : "lzma::@bdc03b1fa1c9c78c9042",
+			"targetIndex" : 145,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtklzma/src/liblzma/api/",
+			"paths" : 
+			[
+				"ThirdParty/lzma/vtklzma/src/liblzma/api/lzma"
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ThirdParty/lzma/vtklzma",
+		"source" : "ThirdParty/lzma/vtklzma"
+	}
+}

@@ -1,0 +1,163 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Filters/Points/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Filters/Points/vtkBoundedPointSource.h",
+				"Filters/Points/vtkConnectedPointsFilter.h",
+				"Filters/Points/vtkConvertToPointCloud.h",
+				"Filters/Points/vtkDensifyPointCloudFilter.h",
+				"Filters/Points/vtkEllipsoidalGaussianKernel.h",
+				"Filters/Points/vtkEuclideanClusterExtraction.h",
+				"Filters/Points/vtkExtractEnclosedPoints.h",
+				"Filters/Points/vtkExtractHierarchicalBins.h",
+				"Filters/Points/vtkExtractPointCloudPiece.h",
+				"Filters/Points/vtkExtractPoints.h",
+				"Filters/Points/vtkExtractSurface.h",
+				"Filters/Points/vtkFitImplicitFunction.h",
+				"Filters/Points/vtkGaussianKernel.h",
+				"Filters/Points/vtkGeneralizedKernel.h",
+				"Filters/Points/vtkHierarchicalBinningFilter.h",
+				"Filters/Points/vtkInterpolationKernel.h",
+				"Filters/Points/vtkLinearKernel.h",
+				"Filters/Points/vtkMaskPointsFilter.h",
+				"Filters/Points/vtkPCACurvatureEstimation.h",
+				"Filters/Points/vtkPCANormalEstimation.h",
+				"Filters/Points/vtkPointCloudFilter.h",
+				"Filters/Points/vtkPointDensityFilter.h",
+				"Filters/Points/vtkPointInterpolator.h",
+				"Filters/Points/vtkPointInterpolator2D.h",
+				"Filters/Points/vtkPointOccupancyFilter.h",
+				"Filters/Points/vtkPointSmoothingFilter.h",
+				"Filters/Points/vtkPoissonDiskSampler.h",
+				"Filters/Points/vtkProbabilisticVoronoiKernel.h",
+				"Filters/Points/vtkProjectPointsToPlane.h",
+				"Filters/Points/vtkRadiusOutlierRemoval.h",
+				"Filters/Points/vtkSPHCubicKernel.h",
+				"Filters/Points/vtkSPHInterpolator.h",
+				"Filters/Points/vtkSPHKernel.h",
+				"Filters/Points/vtkSPHQuarticKernel.h",
+				"Filters/Points/vtkSPHQuinticKernel.h",
+				"Filters/Points/vtkShepardKernel.h",
+				"Filters/Points/vtkSignedDistance.h",
+				"Filters/Points/vtkStatisticalOutlierRemoval.h",
+				"Filters/Points/vtkUnsignedDistance.h",
+				"Filters/Points/vtkVoronoiKernel.h",
+				"Filters/Points/vtkVoxelGrid.h",
+				"Filters/Points/vtkWendlandQuinticKernel.h",
+				"cmake-build-debug/Filters/Points/vtkFiltersPointsModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkFiltersPoints-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkFiltersPoints-9.2.so.9.2",
+				"lib/libvtkFiltersPoints-9.2.so.1"
+			],
+			"targetId" : "FiltersPoints::@a9444c6ec2ad7c39fea4",
+			"targetIndex" : 30,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkFiltersPoints-9.2.so"
+			],
+			"targetId" : "FiltersPoints::@a9444c6ec2ad7c39fea4",
+			"targetIndex" : 30,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Filters/Points",
+		"source" : "Filters/Points"
+	}
+}

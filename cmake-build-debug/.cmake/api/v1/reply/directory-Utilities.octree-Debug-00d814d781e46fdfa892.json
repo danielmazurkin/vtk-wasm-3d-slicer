@@ -1,0 +1,68 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Utilities/octree/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/octree",
+			"paths" : 
+			[
+				"Utilities/octree/octree/octree",
+				"Utilities/octree/octree/octree.h",
+				"Utilities/octree/octree/octree_cursor.h",
+				"Utilities/octree/octree/octree_iterator.h",
+				"Utilities/octree/octree/octree_node.h",
+				"Utilities/octree/octree/octree_path.h",
+				"Utilities/octree/octree/octree.txx",
+				"Utilities/octree/octree/octree_cursor.txx",
+				"Utilities/octree/octree/octree_iterator.txx",
+				"Utilities/octree/octree/octree_node.txx",
+				"Utilities/octree/octree/octree_path.txx"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Utilities/octree",
+		"source" : "Utilities/octree"
+	}
+}

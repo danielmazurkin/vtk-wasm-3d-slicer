@@ -1,0 +1,141 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"IO/ParallelXML/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"IO/ParallelXML/vtkXMLCompositeDataSetWriterHelper.h",
+				"IO/ParallelXML/vtkXMLDataWriterHelper.h",
+				"IO/ParallelXML/vtkXMLPartitionedDataSetCollectionWriter.h",
+				"IO/ParallelXML/vtkXMLPartitionedDataSetWriter.h",
+				"IO/ParallelXML/vtkXMLWriter2.h",
+				"IO/ParallelXML/vtkXMLPDataObjectWriter.h",
+				"IO/ParallelXML/vtkXMLPDataSetWriter.h",
+				"IO/ParallelXML/vtkXMLPDataWriter.h",
+				"IO/ParallelXML/vtkXMLPHierarchicalBoxDataWriter.h",
+				"IO/ParallelXML/vtkXMLPHyperTreeGridWriter.h",
+				"IO/ParallelXML/vtkXMLPImageDataWriter.h",
+				"IO/ParallelXML/vtkXMLPMultiBlockDataWriter.h",
+				"IO/ParallelXML/vtkXMLPPolyDataWriter.h",
+				"IO/ParallelXML/vtkXMLPRectilinearGridWriter.h",
+				"IO/ParallelXML/vtkXMLPStructuredDataWriter.h",
+				"IO/ParallelXML/vtkXMLPStructuredGridWriter.h",
+				"IO/ParallelXML/vtkXMLPTableWriter.h",
+				"IO/ParallelXML/vtkXMLPUniformGridAMRWriter.h",
+				"IO/ParallelXML/vtkXMLPUnstructuredDataWriter.h",
+				"IO/ParallelXML/vtkXMLPUnstructuredGridWriter.h",
+				"cmake-build-debug/IO/ParallelXML/vtkIOParallelXMLModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkIOParallelXML-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkIOParallelXML-9.2.so.9.2",
+				"lib/libvtkIOParallelXML-9.2.so.1"
+			],
+			"targetId" : "IOParallelXML::@cfe8e36ca1b48f1da34f",
+			"targetIndex" : 73,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkIOParallelXML-9.2.so"
+			],
+			"targetId" : "IOParallelXML::@cfe8e36ca1b48f1da34f",
+			"targetIndex" : 73,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "IO/ParallelXML",
+		"source" : "IO/ParallelXML"
+	}
+}

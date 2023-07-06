@@ -1,0 +1,286 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Interaction/Widgets/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 169,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Interaction/Widgets/vtk3DCursorRepresentation.h",
+				"Interaction/Widgets/vtk3DCursorWidget.h",
+				"Interaction/Widgets/vtk3DWidget.h",
+				"Interaction/Widgets/vtkAbstractPolygonalHandleRepresentation3D.h",
+				"Interaction/Widgets/vtkAbstractSplineRepresentation.h",
+				"Interaction/Widgets/vtkAbstractWidget.h",
+				"Interaction/Widgets/vtkAffineRepresentation.h",
+				"Interaction/Widgets/vtkAffineRepresentation2D.h",
+				"Interaction/Widgets/vtkAffineWidget.h",
+				"Interaction/Widgets/vtkAngleRepresentation.h",
+				"Interaction/Widgets/vtkAngleRepresentation2D.h",
+				"Interaction/Widgets/vtkAngleRepresentation3D.h",
+				"Interaction/Widgets/vtkAngleWidget.h",
+				"Interaction/Widgets/vtkAxesTransformRepresentation.h",
+				"Interaction/Widgets/vtkAxesTransformWidget.h",
+				"Interaction/Widgets/vtkBalloonRepresentation.h",
+				"Interaction/Widgets/vtkBalloonWidget.h",
+				"Interaction/Widgets/vtkBezierContourLineInterpolator.h",
+				"Interaction/Widgets/vtkBiDimensionalRepresentation.h",
+				"Interaction/Widgets/vtkBiDimensionalRepresentation2D.h",
+				"Interaction/Widgets/vtkBiDimensionalWidget.h",
+				"Interaction/Widgets/vtkBorderRepresentation.h",
+				"Interaction/Widgets/vtkBorderWidget.h",
+				"Interaction/Widgets/vtkBoundedPlanePointPlacer.h",
+				"Interaction/Widgets/vtkBoxRepresentation.h",
+				"Interaction/Widgets/vtkBoxWidget.h",
+				"Interaction/Widgets/vtkBoxWidget2.h",
+				"Interaction/Widgets/vtkBrokenLineWidget.h",
+				"Interaction/Widgets/vtkButtonRepresentation.h",
+				"Interaction/Widgets/vtkButtonWidget.h",
+				"Interaction/Widgets/vtkCamera3DRepresentation.h",
+				"Interaction/Widgets/vtkCamera3DWidget.h",
+				"Interaction/Widgets/vtkCameraHandleSource.h",
+				"Interaction/Widgets/vtkCameraOrientationWidget.h",
+				"Interaction/Widgets/vtkCameraOrientationRepresentation.h",
+				"Interaction/Widgets/vtkCameraPathRepresentation.h",
+				"Interaction/Widgets/vtkCameraPathWidget.h",
+				"Interaction/Widgets/vtkCameraRepresentation.h",
+				"Interaction/Widgets/vtkCameraWidget.h",
+				"Interaction/Widgets/vtkCaptionRepresentation.h",
+				"Interaction/Widgets/vtkCaptionWidget.h",
+				"Interaction/Widgets/vtkCellCentersPointPlacer.h",
+				"Interaction/Widgets/vtkCenteredSliderRepresentation.h",
+				"Interaction/Widgets/vtkCenteredSliderWidget.h",
+				"Interaction/Widgets/vtkCheckerboardRepresentation.h",
+				"Interaction/Widgets/vtkCheckerboardWidget.h",
+				"Interaction/Widgets/vtkClosedSurfacePointPlacer.h",
+				"Interaction/Widgets/vtkCompassRepresentation.h",
+				"Interaction/Widgets/vtkCompassWidget.h",
+				"Interaction/Widgets/vtkConstrainedPointHandleRepresentation.h",
+				"Interaction/Widgets/vtkContinuousValueWidget.h",
+				"Interaction/Widgets/vtkContinuousValueWidgetRepresentation.h",
+				"Interaction/Widgets/vtkContourLineInterpolator.h",
+				"Interaction/Widgets/vtkContourRepresentation.h",
+				"Interaction/Widgets/vtkContourWidget.h",
+				"Interaction/Widgets/vtkCoordinateFrameRepresentation.h",
+				"Interaction/Widgets/vtkCoordinateFrameWidget.h",
+				"Interaction/Widgets/vtkCurveRepresentation.h",
+				"Interaction/Widgets/vtkDijkstraImageContourLineInterpolator.h",
+				"Interaction/Widgets/vtkDisplaySizedImplicitPlaneWidget.h",
+				"Interaction/Widgets/vtkDisplaySizedImplicitPlaneRepresentation.h",
+				"Interaction/Widgets/vtkDistanceRepresentation.h",
+				"Interaction/Widgets/vtkDistanceRepresentation2D.h",
+				"Interaction/Widgets/vtkDistanceRepresentation3D.h",
+				"Interaction/Widgets/vtkDistanceWidget.h",
+				"Interaction/Widgets/vtkEllipsoidTensorProbeRepresentation.h",
+				"Interaction/Widgets/vtkEqualizerContextItem.h",
+				"Interaction/Widgets/vtkEvent.h",
+				"Interaction/Widgets/vtkFinitePlaneRepresentation.h",
+				"Interaction/Widgets/vtkFinitePlaneWidget.h",
+				"Interaction/Widgets/vtkFixedSizeHandleRepresentation3D.h",
+				"Interaction/Widgets/vtkFocalPlaneContourRepresentation.h",
+				"Interaction/Widgets/vtkFocalPlanePointPlacer.h",
+				"Interaction/Widgets/vtkHandleRepresentation.h",
+				"Interaction/Widgets/vtkHandleWidget.h",
+				"Interaction/Widgets/vtkHoverWidget.h",
+				"Interaction/Widgets/vtkImageActorPointPlacer.h",
+				"Interaction/Widgets/vtkImageCroppingRegionsWidget.h",
+				"Interaction/Widgets/vtkImageOrthoPlanes.h",
+				"Interaction/Widgets/vtkImagePlaneWidget.h",
+				"Interaction/Widgets/vtkImageTracerWidget.h",
+				"Interaction/Widgets/vtkImplicitCylinderRepresentation.h",
+				"Interaction/Widgets/vtkImplicitCylinderWidget.h",
+				"Interaction/Widgets/vtkImplicitImageRepresentation.h",
+				"Interaction/Widgets/vtkImplicitPlaneRepresentation.h",
+				"Interaction/Widgets/vtkImplicitPlaneWidget.h",
+				"Interaction/Widgets/vtkImplicitPlaneWidget2.h",
+				"Interaction/Widgets/vtkLightRepresentation.h",
+				"Interaction/Widgets/vtkLightWidget.h",
+				"Interaction/Widgets/vtkLinearContourLineInterpolator.h",
+				"Interaction/Widgets/vtkLineRepresentation.h",
+				"Interaction/Widgets/vtkLineWidget.h",
+				"Interaction/Widgets/vtkLineWidget2.h",
+				"Interaction/Widgets/vtkLogoRepresentation.h",
+				"Interaction/Widgets/vtkLogoWidget.h",
+				"Interaction/Widgets/vtkMagnifierRepresentation.h",
+				"Interaction/Widgets/vtkMagnifierWidget.h",
+				"Interaction/Widgets/vtkMeasurementCubeHandleRepresentation3D.h",
+				"Interaction/Widgets/vtkOrientationMarkerWidget.h",
+				"Interaction/Widgets/vtkOrientedGlyphContourRepresentation.h",
+				"Interaction/Widgets/vtkOrientedGlyphFocalPlaneContourRepresentation.h",
+				"Interaction/Widgets/vtkOrientedPolygonalHandleRepresentation3D.h",
+				"Interaction/Widgets/vtkParallelopipedRepresentation.h",
+				"Interaction/Widgets/vtkParallelopipedWidget.h",
+				"Interaction/Widgets/vtkPlaneWidget.h",
+				"Interaction/Widgets/vtkPlaybackRepresentation.h",
+				"Interaction/Widgets/vtkPlaybackWidget.h",
+				"Interaction/Widgets/vtkPointCloudRepresentation.h",
+				"Interaction/Widgets/vtkPointCloudWidget.h",
+				"Interaction/Widgets/vtkPointHandleRepresentation2D.h",
+				"Interaction/Widgets/vtkPointHandleRepresentation3D.h",
+				"Interaction/Widgets/vtkPointPlacer.h",
+				"Interaction/Widgets/vtkPointWidget.h",
+				"Interaction/Widgets/vtkPolyDataContourLineInterpolator.h",
+				"Interaction/Widgets/vtkPolyDataPointPlacer.h",
+				"Interaction/Widgets/vtkPolyDataSourceWidget.h",
+				"Interaction/Widgets/vtkPolygonalHandleRepresentation3D.h",
+				"Interaction/Widgets/vtkPolygonalSurfaceContourLineInterpolator.h",
+				"Interaction/Widgets/vtkPolygonalSurfacePointPlacer.h",
+				"Interaction/Widgets/vtkPolyLineRepresentation.h",
+				"Interaction/Widgets/vtkPolyLineWidget.h",
+				"Interaction/Widgets/vtkProgressBarRepresentation.h",
+				"Interaction/Widgets/vtkProgressBarWidget.h",
+				"Interaction/Widgets/vtkProp3DButtonRepresentation.h",
+				"Interaction/Widgets/vtkRectilinearWipeRepresentation.h",
+				"Interaction/Widgets/vtkRectilinearWipeWidget.h",
+				"Interaction/Widgets/vtkResliceCursor.h",
+				"Interaction/Widgets/vtkResliceCursorActor.h",
+				"Interaction/Widgets/vtkResliceCursorLineRepresentation.h",
+				"Interaction/Widgets/vtkResliceCursorPicker.h",
+				"Interaction/Widgets/vtkResliceCursorPolyDataAlgorithm.h",
+				"Interaction/Widgets/vtkResliceCursorRepresentation.h",
+				"Interaction/Widgets/vtkResliceCursorThickLineRepresentation.h",
+				"Interaction/Widgets/vtkResliceCursorWidget.h",
+				"Interaction/Widgets/vtkScalarBarRepresentation.h",
+				"Interaction/Widgets/vtkScalarBarWidget.h",
+				"Interaction/Widgets/vtkSeedRepresentation.h",
+				"Interaction/Widgets/vtkSeedWidget.h",
+				"Interaction/Widgets/vtkSliderRepresentation.h",
+				"Interaction/Widgets/vtkSliderRepresentation2D.h",
+				"Interaction/Widgets/vtkSliderRepresentation3D.h",
+				"Interaction/Widgets/vtkSliderWidget.h",
+				"Interaction/Widgets/vtkSphereHandleRepresentation.h",
+				"Interaction/Widgets/vtkSphereRepresentation.h",
+				"Interaction/Widgets/vtkSphereWidget.h",
+				"Interaction/Widgets/vtkSphereWidget2.h",
+				"Interaction/Widgets/vtkSplineRepresentation.h",
+				"Interaction/Widgets/vtkSplineWidget.h",
+				"Interaction/Widgets/vtkSplineWidget2.h",
+				"Interaction/Widgets/vtkTensorProbeRepresentation.h",
+				"Interaction/Widgets/vtkTensorProbeWidget.h",
+				"Interaction/Widgets/vtkTensorRepresentation.h",
+				"Interaction/Widgets/vtkTensorWidget.h",
+				"Interaction/Widgets/vtkTerrainContourLineInterpolator.h",
+				"Interaction/Widgets/vtkTerrainDataPointPlacer.h",
+				"Interaction/Widgets/vtkTextRepresentation.h",
+				"Interaction/Widgets/vtkTexturedButtonRepresentation.h",
+				"Interaction/Widgets/vtkTexturedButtonRepresentation2D.h",
+				"Interaction/Widgets/vtkTextWidget.h",
+				"Interaction/Widgets/vtkWidgetCallbackMapper.h",
+				"Interaction/Widgets/vtkWidgetEvent.h",
+				"Interaction/Widgets/vtkWidgetEventTranslator.h",
+				"Interaction/Widgets/vtkWidgetRepresentation.h",
+				"Interaction/Widgets/vtkWidgetSet.h",
+				"Interaction/Widgets/vtkXYPlotWidget.h",
+				"cmake-build-debug/Interaction/Widgets/vtkInteractionWidgetsModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkInteractionWidgets-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkInteractionWidgets-9.2.so.9.2",
+				"lib/libvtkInteractionWidgets-9.2.so.1"
+			],
+			"targetId" : "InteractionWidgets::@8cfb3beaeb57bab07b23",
+			"targetIndex" : 95,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkInteractionWidgets-9.2.so"
+			],
+			"targetId" : "InteractionWidgets::@8cfb3beaeb57bab07b23",
+			"targetIndex" : 95,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Interaction/Widgets",
+		"source" : "Interaction/Widgets"
+	}
+}

@@ -1,0 +1,10 @@
+/home/danil/vtk_new/IO/Chemistry/vtkCMLMoleculeReader.h;vtkIOChemistry
+/home/danil/vtk_new/IO/Chemistry/vtkGaussianCubeReader.h;vtkIOChemistry
+/home/danil/vtk_new/IO/Chemistry/vtkGaussianCubeReader2.h;vtkIOChemistry
+/home/danil/vtk_new/IO/Chemistry/vtkMoleculeReaderBase.h;vtkIOChemistry
+/home/danil/vtk_new/IO/Chemistry/vtkPDBReader.h;vtkIOChemistry
+/home/danil/vtk_new/IO/Chemistry/vtkVASPAnimationReader.h;vtkIOChemistry
+/home/danil/vtk_new/IO/Chemistry/vtkVASPTessellationReader.h;vtkIOChemistry
+/home/danil/vtk_new/IO/Chemistry/vtkXYZMolReader.h;vtkIOChemistry
+/home/danil/vtk_new/IO/Chemistry/vtkXYZMolReader2.h;vtkIOChemistry
+/home/danil/vtk_new/cmake-build-debug/IO/Chemistry/vtkIOChemistryModule.h;vtkIOChemistry

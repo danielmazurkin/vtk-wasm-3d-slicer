@@ -1,0 +1,1100 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libvtknetcdf-9.2.so"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"vtk_module_add_module",
+			"install",
+			"_vtk_module_install",
+			"target_link_libraries",
+			"target_compile_definitions",
+			"target_include_directories",
+			"_vtk_module_standard_includes",
+			"vtk_module_third_party_internal",
+			"vtk_module_third_party"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"ThirdParty/netcdf/vtknetcdf/CMakeLists.txt",
+			"ThirdParty/hdf5/vtkhdf5/CMakeLists.txt",
+			"ThirdParty/netcdf/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 287,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3817,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 320,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 1348,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3933,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 291,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 3974,
+				"parent" : 1
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 3989,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 3110,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 300,
+				"parent" : 0
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 1,
+				"parent" : 14
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 5258,
+				"parent" : 15
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 5664,
+				"parent" : 16
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 3110,
+				"parent" : 17
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "H5_BUILT_AS_DYNAMIC_LIB"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "VTK_MODULE_ENABLE_VTK_mpi=0"
+				},
+				{
+					"define" : "netcdf_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 12,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/netcdf/vtknetcdf"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/danil/vtk_new/ThirdParty/netcdf/vtknetcdf"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/danil/vtk_new/ThirdParty/netcdf/vtknetcdf/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/danil/vtk_new/ThirdParty/netcdf/vtknetcdf/libdispatch"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/danil/vtk_new/ThirdParty/netcdf/vtknetcdf/libsrc"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/danil/vtk_new/ThirdParty/netcdf/vtknetcdf/libsrc4"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/netcdf/vtknetcdf/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/hdf5/vtkhdf5"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/danil/vtk_new/ThirdParty/hdf5/vtkhdf5"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/hdf5/vtkhdf5/src"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/danil/vtk_new/ThirdParty/hdf5/vtkhdf5/src"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/hdf5/vtkhdf5/hl/src"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/danil/vtk_new/ThirdParty/hdf5/vtkhdf5/hl/src"
+				},
+				{
+					"backtrace" : 18,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/netcdf"
+				},
+				{
+					"backtrace" : 18,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/ThirdParty/netcdf"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/cmake-build-debug/ThirdParty/hdf5"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/home/danil/vtk_new/ThirdParty/hdf5"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 8,
+			"id" : "vtkhdf5_src::@ccfa84d3cdf9596c143f"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "vtkhdf5_hl_src::@7c17aa6e3e82bed92990"
+		}
+	],
+	"id" : "netcdf::@03fc1e76810207c55ad8",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,-lc",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,\"\\$$ORIGIN:\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "lib/libvtkhdf5_hl-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "lib/libvtkhdf5-9.2.so.9.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/home/danil/vtk_new/cmake-build-debug/lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "netcdf",
+	"nameOnDisk" : "libvtknetcdf-9.2.so",
+	"paths" : 
+	{
+		"build" : "ThirdParty/netcdf/vtknetcdf",
+		"source" : "ThirdParty/netcdf/vtknetcdf"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				50,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/datt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/dattget.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/dattinq.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/dattput.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/dauth.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/daux.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/dcompound.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/dcopy.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/dcrc32.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/dcrc64.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/ddim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/ddispatch.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/denum.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/derror.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/dfile.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/dfilter.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/dgroup.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/dinfermodel.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/dinstance.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/dinternal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/dnotnc3.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/dnotnc4.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/doffsets.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/dopaque.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/dparallel.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/dpathmgr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/drc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/dreadonly.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/ds3util.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/dstring.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/dtype.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/dutf8.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/dutil.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/dvar.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/dvarget.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/dvarinq.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/dvarput.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/dvlen.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/nc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/ncbytes.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/ncexhash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/nchashmap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/ncjson.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/nclist.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/nclistmgr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/nclog.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/nctime.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/ncuri.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/ncxcache.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/utf8proc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libdispatch/utf8proc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/liblib/nc_initialize.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libsrc/attr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libsrc/dim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libsrc/lookup3.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libsrc/memio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libsrc/nc3dispatch.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libsrc/nc3internal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libsrc/ncio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libsrc/ncx.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libsrc/posixio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libsrc/putget.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libsrc/v1hpg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libsrc/var.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libsrc4/nc4attr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libsrc4/nc4cache.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libsrc4/nc4dim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libsrc4/nc4dispatch.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libsrc4/nc4grp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libsrc4/nc4internal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libsrc4/nc4type.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libsrc4/nc4var.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libsrc4/ncfunc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libsrc4/ncindex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libhdf5/nc4hdf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libhdf5/nc4info.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libhdf5/hdf5attr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libhdf5/hdf5debug.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libhdf5/hdf5dim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libhdf5/hdf5file.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libhdf5/hdf5filter.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libhdf5/hdf5grp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libhdf5/hdf5type.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libhdf5/hdf5internal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libhdf5/hdf5create.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libhdf5/hdf5open.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libhdf5/hdf5var.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libhdf5/nc4mem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libhdf5/nc4memcb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libhdf5/hdf5dispatch.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/netcdf/vtknetcdf/libhdf5/hdf5set_format_compatibility.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/netcdf/vtknetcdf/include/netcdf.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/netcdf/vtknetcdf/include/netcdf_filter_build.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "ThirdParty/netcdf/vtknetcdf/include/vtk_netcdf_mangle.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "cmake-build-debug/ThirdParty/netcdf/vtknetcdf/include/netcdf_dispatch.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "cmake-build-debug/ThirdParty/netcdf/vtknetcdf/include/netcdf_meta.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "cmake-build-debug/ThirdParty/netcdf/vtknetcdf/vtk_netcdf_config.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

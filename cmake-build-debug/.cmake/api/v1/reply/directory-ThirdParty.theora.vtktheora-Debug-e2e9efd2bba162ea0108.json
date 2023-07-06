@@ -1,0 +1,103 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"ThirdParty/theora/vtktheora/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 4
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtktheora/include/theora",
+			"paths" : 
+			[
+				"ThirdParty/theora/vtktheora/include/theora/codec.h",
+				"ThirdParty/theora/vtktheora/include/theora/theora.h",
+				"ThirdParty/theora/vtktheora/include/theora/theoradec.h",
+				"ThirdParty/theora/vtktheora/include/theora/theoraenc.h",
+				"ThirdParty/theora/vtktheora/include/theora/vtk_theora_mangle.h",
+				"cmake-build-debug/ThirdParty/theora/vtktheora/vtktheora_export.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtktheora-9.2.so.9.2",
+				"lib/libvtktheora-9.2.so.1"
+			],
+			"targetId" : "theora::@c1bd55b85f7d6fa66e7e",
+			"targetIndex" : 153,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtktheora-9.2.so"
+			],
+			"targetId" : "theora::@c1bd55b85f7d6fa66e7e",
+			"targetIndex" : 153,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ThirdParty/theora/vtktheora",
+		"source" : "ThirdParty/theora/vtktheora"
+	}
+}

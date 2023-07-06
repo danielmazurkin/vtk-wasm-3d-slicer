@@ -1,0 +1,12 @@
+/home/danil/vtk_new/Rendering/SceneGraph/vtkActorNode.h;vtkRenderingSceneGraph
+/home/danil/vtk_new/Rendering/SceneGraph/vtkCameraNode.h;vtkRenderingSceneGraph
+/home/danil/vtk_new/Rendering/SceneGraph/vtkLightNode.h;vtkRenderingSceneGraph
+/home/danil/vtk_new/Rendering/SceneGraph/vtkMapperNode.h;vtkRenderingSceneGraph
+/home/danil/vtk_new/Rendering/SceneGraph/vtkPolyDataMapperNode.h;vtkRenderingSceneGraph
+/home/danil/vtk_new/Rendering/SceneGraph/vtkRendererNode.h;vtkRenderingSceneGraph
+/home/danil/vtk_new/Rendering/SceneGraph/vtkViewNode.h;vtkRenderingSceneGraph
+/home/danil/vtk_new/Rendering/SceneGraph/vtkViewNodeFactory.h;vtkRenderingSceneGraph
+/home/danil/vtk_new/Rendering/SceneGraph/vtkVolumeMapperNode.h;vtkRenderingSceneGraph
+/home/danil/vtk_new/Rendering/SceneGraph/vtkVolumeNode.h;vtkRenderingSceneGraph
+/home/danil/vtk_new/Rendering/SceneGraph/vtkWindowNode.h;vtkRenderingSceneGraph
+/home/danil/vtk_new/cmake-build-debug/Rendering/SceneGraph/vtkRenderingSceneGraphModule.h;vtkRenderingSceneGraph

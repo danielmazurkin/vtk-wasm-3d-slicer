@@ -1,0 +1,145 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Filters/FlowPaths/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Filters/FlowPaths/vtkAbstractInterpolatedVelocityField.h",
+				"Filters/FlowPaths/vtkAMRInterpolatedVelocityField.h",
+				"Filters/FlowPaths/vtkCachingInterpolatedVelocityField.h",
+				"Filters/FlowPaths/vtkCellLocatorInterpolatedVelocityField.h",
+				"Filters/FlowPaths/vtkCompositeInterpolatedVelocityField.h",
+				"Filters/FlowPaths/vtkEvenlySpacedStreamlines2D.h",
+				"Filters/FlowPaths/vtkInterpolatedVelocityField.h",
+				"Filters/FlowPaths/vtkLagrangianBasicIntegrationModel.h",
+				"Filters/FlowPaths/vtkLagrangianMatidaIntegrationModel.h",
+				"Filters/FlowPaths/vtkLagrangianParticle.h",
+				"Filters/FlowPaths/vtkLagrangianParticleTracker.h",
+				"Filters/FlowPaths/vtkLinearTransformCellLocator.h",
+				"Filters/FlowPaths/vtkModifiedBSPTree.h",
+				"Filters/FlowPaths/vtkParallelVectors.h",
+				"Filters/FlowPaths/vtkParticlePathFilter.h",
+				"Filters/FlowPaths/vtkParticleTracer.h",
+				"Filters/FlowPaths/vtkParticleTracerBase.h",
+				"Filters/FlowPaths/vtkStreaklineFilter.h",
+				"Filters/FlowPaths/vtkStreamSurface.h",
+				"Filters/FlowPaths/vtkStreamTracer.h",
+				"Filters/FlowPaths/vtkTemporalInterpolatedVelocityField.h",
+				"Filters/FlowPaths/vtkVectorFieldTopology.h",
+				"Filters/FlowPaths/vtkVortexCore.h",
+				"cmake-build-debug/Filters/FlowPaths/vtkFiltersFlowPathsModule.h",
+				"Filters/FlowPaths/vtkLagrangianThreadedData.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkFiltersFlowPaths-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkFiltersFlowPaths-9.2.so.9.2",
+				"lib/libvtkFiltersFlowPaths-9.2.so.1"
+			],
+			"targetId" : "FiltersFlowPaths::@34da860952b80e971b79",
+			"targetIndex" : 19,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkFiltersFlowPaths-9.2.so"
+			],
+			"targetId" : "FiltersFlowPaths::@34da860952b80e971b79",
+			"targetIndex" : 19,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Filters/FlowPaths",
+		"source" : "Filters/FlowPaths"
+	}
+}

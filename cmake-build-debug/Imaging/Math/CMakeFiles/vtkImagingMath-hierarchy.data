@@ -1,0 +1,9 @@
+/home/danil/vtk_new/Imaging/Math/vtkImageDivergence.h;vtkImagingMath
+/home/danil/vtk_new/Imaging/Math/vtkImageDotProduct.h;vtkImagingMath
+/home/danil/vtk_new/Imaging/Math/vtkImageLogarithmicScale.h;vtkImagingMath
+/home/danil/vtk_new/Imaging/Math/vtkImageLogic.h;vtkImagingMath
+/home/danil/vtk_new/Imaging/Math/vtkImageMagnitude.h;vtkImagingMath
+/home/danil/vtk_new/Imaging/Math/vtkImageMaskBits.h;vtkImagingMath
+/home/danil/vtk_new/Imaging/Math/vtkImageMathematics.h;vtkImagingMath
+/home/danil/vtk_new/Imaging/Math/vtkImageWeightedSum.h;vtkImagingMath
+/home/danil/vtk_new/cmake-build-debug/Imaging/Math/vtkImagingMathModule.h;vtkImagingMath

@@ -1,0 +1,10 @@
+/home/danil/vtk_new/IO/NetCDF/vtkMPASReader.h;vtkIONetCDF
+/home/danil/vtk_new/IO/NetCDF/vtkNetCDFCAMReader.h;vtkIONetCDF
+/home/danil/vtk_new/IO/NetCDF/vtkNetCDFCFReader.h;vtkIONetCDF
+/home/danil/vtk_new/IO/NetCDF/vtkNetCDFCFWriter.h;vtkIONetCDF
+/home/danil/vtk_new/IO/NetCDF/vtkNetCDFPOPReader.h;vtkIONetCDF
+/home/danil/vtk_new/IO/NetCDF/vtkNetCDFReader.h;vtkIONetCDF
+/home/danil/vtk_new/IO/NetCDF/vtkNetCDFUGRIDReader.h;vtkIONetCDF
+/home/danil/vtk_new/IO/NetCDF/vtkSLACParticleReader.h;vtkIONetCDF
+/home/danil/vtk_new/IO/NetCDF/vtkSLACReader.h;vtkIONetCDF
+/home/danil/vtk_new/cmake-build-debug/IO/NetCDF/vtkIONetCDFModule.h;vtkIONetCDF

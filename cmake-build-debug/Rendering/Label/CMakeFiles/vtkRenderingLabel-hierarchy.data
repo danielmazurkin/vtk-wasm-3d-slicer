@@ -1,0 +1,14 @@
+/home/danil/vtk_new/Rendering/Label/vtkDynamic2DLabelMapper.h;vtkRenderingLabel
+/home/danil/vtk_new/Rendering/Label/vtkFreeTypeLabelRenderStrategy.h;vtkRenderingLabel
+/home/danil/vtk_new/Rendering/Label/vtkLabeledDataMapper.h;vtkRenderingLabel
+/home/danil/vtk_new/Rendering/Label/vtkLabeledTreeMapDataMapper.h;vtkRenderingLabel
+/home/danil/vtk_new/Rendering/Label/vtkLabelHierarchy.h;vtkRenderingLabel
+/home/danil/vtk_new/Rendering/Label/vtkLabelHierarchyAlgorithm.h;vtkRenderingLabel
+/home/danil/vtk_new/Rendering/Label/vtkLabelHierarchyCompositeIterator.h;vtkRenderingLabel
+/home/danil/vtk_new/Rendering/Label/vtkLabelHierarchyIterator.h;vtkRenderingLabel
+/home/danil/vtk_new/Rendering/Label/vtkLabelPlacementMapper.h;vtkRenderingLabel
+/home/danil/vtk_new/Rendering/Label/vtkLabelPlacer.h;vtkRenderingLabel
+/home/danil/vtk_new/Rendering/Label/vtkLabelRenderStrategy.h;vtkRenderingLabel
+/home/danil/vtk_new/Rendering/Label/vtkLabelSizeCalculator.h;vtkRenderingLabel
+/home/danil/vtk_new/Rendering/Label/vtkPointSetToLabelHierarchy.h;vtkRenderingLabel
+/home/danil/vtk_new/cmake-build-debug/Rendering/Label/vtkRenderingLabelModule.h;vtkRenderingLabel

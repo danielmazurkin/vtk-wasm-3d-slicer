@@ -1,0 +1,8 @@
+/home/danil/vtk_new/Rendering/FreeType/vtkFreeTypeStringToImage.h;vtkRenderingFreeType
+/home/danil/vtk_new/Rendering/FreeType/vtkFreeTypeTools.h;vtkRenderingFreeType
+/home/danil/vtk_new/Rendering/FreeType/vtkMathTextFreeTypeTextRenderer.h;vtkRenderingFreeType
+/home/danil/vtk_new/Rendering/FreeType/vtkMathTextUtilities.h;vtkRenderingFreeType
+/home/danil/vtk_new/Rendering/FreeType/vtkScaledTextActor.h;vtkRenderingFreeType
+/home/danil/vtk_new/Rendering/FreeType/vtkTextRendererStringToImage.h;vtkRenderingFreeType
+/home/danil/vtk_new/Rendering/FreeType/vtkVectorText.h;vtkRenderingFreeType
+/home/danil/vtk_new/cmake-build-debug/Rendering/FreeType/vtkRenderingFreeTypeModule.h;vtkRenderingFreeType

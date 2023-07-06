@@ -1,0 +1,193 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"_vtk_module_install",
+			"vtk_module_add_module",
+			"vtk_module_install_headers"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"ThirdParty/freetype/vtkfreetype/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 85,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 89,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 135,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 8
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkfreetype-9.2.so.9.2",
+				"lib/libvtkfreetype-9.2.so.1"
+			],
+			"targetId" : "freetype::@8eb1707ba208b31751af",
+			"targetIndex" : 131,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkfreetype-9.2.so"
+			],
+			"targetId" : "freetype::@8eb1707ba208b31751af",
+			"targetIndex" : 131,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtkfreetype/include",
+			"paths" : 
+			[
+				"ThirdParty/freetype/vtkfreetype/include/ft2build.h",
+				"ThirdParty/freetype/vtkfreetype/include/vtk_freetype_mangle.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtkfreetype/include/freetype",
+			"paths" : 
+			[
+				"ThirdParty/freetype/vtkfreetype/include/freetype/freetype.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftadvanc.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftbbox.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftbdf.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftbitmap.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftbzip2.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftcache.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftcid.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftcolor.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftdriver.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/fterrdef.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/fterrors.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftfntfmt.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftgasp.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftglyph.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftgxval.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftgzip.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftimage.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftincrem.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftlcdfil.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftlist.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftlogging.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftlzw.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftmac.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftmm.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftmodapi.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftmoderr.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftotval.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftoutln.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftparams.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftpfr.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftrender.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftsizes.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftsnames.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftstroke.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftsynth.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftsystem.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/fttrigon.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/fttypes.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ftwinfnt.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/t1tables.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/ttnameid.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/tttables.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/tttags.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtkfreetype/include/freetype/config",
+			"paths" : 
+			[
+				"ThirdParty/freetype/vtkfreetype/include/freetype/config/ftconfig.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/config/ftheader.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/config/ftmodule.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/config/ftoption.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/config/ftstdlib.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/config/integer-types.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/config/mac-support.h",
+				"ThirdParty/freetype/vtkfreetype/include/freetype/config/public-macros.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ThirdParty/freetype/vtkfreetype",
+		"source" : "ThirdParty/freetype/vtkfreetype"
+	}
+}

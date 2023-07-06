@@ -1,0 +1,156 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Rendering/Volume/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Rendering/Volume/vtkBlockSortHelper.h",
+				"Rendering/Volume/vtkDirectionEncoder.h",
+				"Rendering/Volume/vtkEncodedGradientEstimator.h",
+				"Rendering/Volume/vtkEncodedGradientShader.h",
+				"Rendering/Volume/vtkFiniteDifferenceGradientEstimator.h",
+				"Rendering/Volume/vtkFixedPointRayCastImage.h",
+				"Rendering/Volume/vtkFixedPointVolumeRayCastCompositeGOHelper.h",
+				"Rendering/Volume/vtkFixedPointVolumeRayCastCompositeGOShadeHelper.h",
+				"Rendering/Volume/vtkFixedPointVolumeRayCastCompositeHelper.h",
+				"Rendering/Volume/vtkFixedPointVolumeRayCastCompositeShadeHelper.h",
+				"Rendering/Volume/vtkFixedPointVolumeRayCastHelper.h",
+				"Rendering/Volume/vtkFixedPointVolumeRayCastMapper.h",
+				"Rendering/Volume/vtkFixedPointVolumeRayCastMIPHelper.h",
+				"Rendering/Volume/vtkGPUVolumeRayCastMapper.h",
+				"Rendering/Volume/vtkMultiVolume.h",
+				"Rendering/Volume/vtkOSPRayVolumeInterface.h",
+				"Rendering/Volume/vtkProjectedTetrahedraMapper.h",
+				"Rendering/Volume/vtkRayCastImageDisplayHelper.h",
+				"Rendering/Volume/vtkRecursiveSphereDirectionEncoder.h",
+				"Rendering/Volume/vtkSphericalDirectionEncoder.h",
+				"Rendering/Volume/vtkUnstructuredGridBunykRayCastFunction.h",
+				"Rendering/Volume/vtkUnstructuredGridHomogeneousRayIntegrator.h",
+				"Rendering/Volume/vtkUnstructuredGridLinearRayIntegrator.h",
+				"Rendering/Volume/vtkUnstructuredGridPartialPreIntegration.h",
+				"Rendering/Volume/vtkUnstructuredGridPreIntegration.h",
+				"Rendering/Volume/vtkUnstructuredGridVolumeMapper.h",
+				"Rendering/Volume/vtkUnstructuredGridVolumeRayCastFunction.h",
+				"Rendering/Volume/vtkUnstructuredGridVolumeRayCastIterator.h",
+				"Rendering/Volume/vtkUnstructuredGridVolumeRayCastMapper.h",
+				"Rendering/Volume/vtkUnstructuredGridVolumeRayIntegrator.h",
+				"Rendering/Volume/vtkUnstructuredGridVolumeZSweepMapper.h",
+				"Rendering/Volume/vtkVolumeMapper.h",
+				"Rendering/Volume/vtkVolumeOutlineSource.h",
+				"Rendering/Volume/vtkVolumePicker.h",
+				"Rendering/Volume/vtkVolumeRayCastSpaceLeapingImageFilter.h",
+				"cmake-build-debug/Rendering/Volume/vtkRenderingVolumeModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkRenderingVolume-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkRenderingVolume-9.2.so.9.2",
+				"lib/libvtkRenderingVolume-9.2.so.1"
+			],
+			"targetId" : "RenderingVolume::@0fe144fea3641808c066",
+			"targetIndex" : 114,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkRenderingVolume-9.2.so"
+			],
+			"targetId" : "RenderingVolume::@0fe144fea3641808c066",
+			"targetIndex" : 114,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Rendering/Volume",
+		"source" : "Rendering/Volume"
+	}
+}

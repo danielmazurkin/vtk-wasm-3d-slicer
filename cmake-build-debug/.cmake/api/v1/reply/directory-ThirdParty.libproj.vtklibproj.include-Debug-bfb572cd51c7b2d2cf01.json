@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ThirdParty/libproj/vtklibproj/include",
+		"source" : "ThirdParty/libproj/vtklibproj/include"
+	}
+}

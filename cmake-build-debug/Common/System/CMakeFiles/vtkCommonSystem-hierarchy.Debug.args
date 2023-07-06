@@ -1,0 +1,12 @@
+
+
+
+-I'/home/danil/vtk_new/cmake-build-debug/Common/System'
+-I'/home/danil/vtk_new/Common/System'
+-I'/home/danil/vtk_new/cmake-build-debug/Common/Core'
+-I'/home/danil/vtk_new/Common/Core'
+-I'/home/danil/vtk_new/cmake-build-debug/Utilities/KWIML'
+-I'/home/danil/vtk_new/Utilities/KWIML'
+-I'/home/danil/vtk_new/cmake-build-debug/Utilities/KWSys'
+-I'/home/danil/vtk_new/cmake-build-debug/Utilities/KWSys'
+-I'/home/danil/vtk_new/Utilities/KWSys'

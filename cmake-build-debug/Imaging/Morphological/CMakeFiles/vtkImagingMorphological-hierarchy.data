@@ -1,0 +1,12 @@
+/home/danil/vtk_new/Imaging/Morphological/vtkImageConnectivityFilter.h;vtkImagingMorphological
+/home/danil/vtk_new/Imaging/Morphological/vtkImageConnector.h;vtkImagingMorphological
+/home/danil/vtk_new/Imaging/Morphological/vtkImageContinuousDilate3D.h;vtkImagingMorphological
+/home/danil/vtk_new/Imaging/Morphological/vtkImageContinuousErode3D.h;vtkImagingMorphological
+/home/danil/vtk_new/Imaging/Morphological/vtkImageDilateErode3D.h;vtkImagingMorphological
+/home/danil/vtk_new/Imaging/Morphological/vtkImageIslandRemoval2D.h;vtkImagingMorphological
+/home/danil/vtk_new/Imaging/Morphological/vtkImageNonMaximumSuppression.h;vtkImagingMorphological
+/home/danil/vtk_new/Imaging/Morphological/vtkImageOpenClose3D.h;vtkImagingMorphological
+/home/danil/vtk_new/Imaging/Morphological/vtkImageSeedConnectivity.h;vtkImagingMorphological
+/home/danil/vtk_new/Imaging/Morphological/vtkImageSkeleton2D.h;vtkImagingMorphological
+/home/danil/vtk_new/Imaging/Morphological/vtkImageThresholdConnectivity.h;vtkImagingMorphological
+/home/danil/vtk_new/cmake-build-debug/Imaging/Morphological/vtkImagingMorphologicalModule.h;vtkImagingMorphological

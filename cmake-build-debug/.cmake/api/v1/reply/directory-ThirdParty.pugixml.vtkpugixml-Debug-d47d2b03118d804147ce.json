@@ -1,0 +1,100 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"ThirdParty/pugixml/vtkpugixml/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 4
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtkpugixml/src",
+			"paths" : 
+			[
+				"ThirdParty/pugixml/vtkpugixml/src/pugixml.hpp",
+				"cmake-build-debug/ThirdParty/pugixml/vtkpugixml/pugiconfig.hpp",
+				"ThirdParty/pugixml/vtkpugixml/src/vtk_pugixml_mangle.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkpugixml-9.2.so.9.2",
+				"lib/libvtkpugixml-9.2.so.1"
+			],
+			"targetId" : "pugixml::@45676c15e96079ae725b",
+			"targetIndex" : 150,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkpugixml-9.2.so"
+			],
+			"targetId" : "pugixml::@45676c15e96079ae725b",
+			"targetIndex" : 150,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ThirdParty/pugixml/vtkpugixml",
+		"source" : "ThirdParty/pugixml/vtkpugixml"
+	}
+}

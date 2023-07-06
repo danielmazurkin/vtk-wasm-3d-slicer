@@ -1,0 +1,9 @@
+/home/danil/vtk_new/Filters/Texture/vtkImplicitTextureCoords.h;vtkFiltersTexture
+/home/danil/vtk_new/Filters/Texture/vtkScalarsToTextureFilter.h;vtkFiltersTexture
+/home/danil/vtk_new/Filters/Texture/vtkTextureMapToCylinder.h;vtkFiltersTexture
+/home/danil/vtk_new/Filters/Texture/vtkTextureMapToPlane.h;vtkFiltersTexture
+/home/danil/vtk_new/Filters/Texture/vtkTextureMapToSphere.h;vtkFiltersTexture
+/home/danil/vtk_new/Filters/Texture/vtkThresholdTextureCoords.h;vtkFiltersTexture
+/home/danil/vtk_new/Filters/Texture/vtkTransformTextureCoords.h;vtkFiltersTexture
+/home/danil/vtk_new/Filters/Texture/vtkTriangularTCoords.h;vtkFiltersTexture
+/home/danil/vtk_new/cmake-build-debug/Filters/Texture/vtkFiltersTextureModule.h;vtkFiltersTexture

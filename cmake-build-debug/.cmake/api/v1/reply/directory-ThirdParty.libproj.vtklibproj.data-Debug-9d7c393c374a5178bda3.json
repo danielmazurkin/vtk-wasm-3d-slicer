@@ -1,0 +1,57 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"ThirdParty/libproj/vtklibproj/data/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 114,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "libproj-data",
+			"destination" : "share/vtk-9.2/proj",
+			"paths" : 
+			[
+				"ThirdParty/libproj/vtklibproj/data/proj.ini",
+				"ThirdParty/libproj/vtklibproj/data/world",
+				"ThirdParty/libproj/vtklibproj/data/other.extra",
+				"ThirdParty/libproj/vtklibproj/data/nad27",
+				"ThirdParty/libproj/vtklibproj/data/GL27",
+				"ThirdParty/libproj/vtklibproj/data/nad83",
+				"ThirdParty/libproj/vtklibproj/data/nad.lst",
+				"ThirdParty/libproj/vtklibproj/data/CH",
+				"ThirdParty/libproj/vtklibproj/data/ITRF2000",
+				"ThirdParty/libproj/vtklibproj/data/ITRF2008",
+				"ThirdParty/libproj/vtklibproj/data/ITRF2014",
+				"cmake-build-debug/lib/../share/vtk-9.2/proj/proj.db",
+				"ThirdParty/libproj/vtklibproj/data/deformation_model.schema.json",
+				"ThirdParty/libproj/vtklibproj/data/projjson.schema.json",
+				"ThirdParty/libproj/vtklibproj/data/triangulation.schema.json"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ThirdParty/libproj/vtklibproj/data",
+		"source" : "ThirdParty/libproj/vtklibproj/data"
+	}
+}

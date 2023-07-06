@@ -1,0 +1,148 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Views/Infovis/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Views/Infovis/vtkApplyColors.h",
+				"Views/Infovis/vtkApplyIcons.h",
+				"Views/Infovis/vtkDendrogramItem.h",
+				"Views/Infovis/vtkGraphItem.h",
+				"Views/Infovis/vtkGraphLayoutView.h",
+				"Views/Infovis/vtkHeatmapItem.h",
+				"Views/Infovis/vtkHierarchicalGraphPipeline.h",
+				"Views/Infovis/vtkHierarchicalGraphView.h",
+				"Views/Infovis/vtkIcicleView.h",
+				"Views/Infovis/vtkInteractorStyleAreaSelectHover.h",
+				"Views/Infovis/vtkInteractorStyleTreeMapHover.h",
+				"Views/Infovis/vtkParallelCoordinatesHistogramRepresentation.h",
+				"Views/Infovis/vtkParallelCoordinatesRepresentation.h",
+				"Views/Infovis/vtkParallelCoordinatesView.h",
+				"Views/Infovis/vtkRenderedGraphRepresentation.h",
+				"Views/Infovis/vtkRenderedHierarchyRepresentation.h",
+				"Views/Infovis/vtkRenderedRepresentation.h",
+				"Views/Infovis/vtkRenderedSurfaceRepresentation.h",
+				"Views/Infovis/vtkRenderedTreeAreaRepresentation.h",
+				"Views/Infovis/vtkRenderView.h",
+				"Views/Infovis/vtkSCurveSpline.h",
+				"Views/Infovis/vtkTanglegramItem.h",
+				"Views/Infovis/vtkTreeAreaView.h",
+				"Views/Infovis/vtkTreeHeatmapItem.h",
+				"Views/Infovis/vtkTreeMapView.h",
+				"Views/Infovis/vtkTreeRingView.h",
+				"Views/Infovis/vtkViewUpdater.h",
+				"cmake-build-debug/Views/Infovis/vtkViewsInfovisModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkViewsInfovis-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkViewsInfovis-9.2.so.9.2",
+				"lib/libvtkViewsInfovis-9.2.so.1"
+			],
+			"targetId" : "ViewsInfovis::@fbf2aa67f84b0fcfc9b4",
+			"targetIndex" : 120,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkViewsInfovis-9.2.so"
+			],
+			"targetId" : "ViewsInfovis::@fbf2aa67f84b0fcfc9b4",
+			"targetIndex" : 120,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Views/Infovis",
+		"source" : "Views/Infovis"
+	}
+}

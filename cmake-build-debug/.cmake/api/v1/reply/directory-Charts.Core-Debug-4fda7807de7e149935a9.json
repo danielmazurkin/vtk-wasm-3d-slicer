@@ -1,0 +1,168 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Charts/Core/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Charts/Core/vtkAxis.h",
+				"Charts/Core/vtkAxisExtended.h",
+				"Charts/Core/vtkCategoryLegend.h",
+				"Charts/Core/vtkChart.h",
+				"Charts/Core/vtkChartBox.h",
+				"Charts/Core/vtkChartHistogram2D.h",
+				"Charts/Core/vtkChartLegend.h",
+				"Charts/Core/vtkChartMatrix.h",
+				"Charts/Core/vtkChartParallelCoordinates.h",
+				"Charts/Core/vtkChartPie.h",
+				"Charts/Core/vtkChartXY.h",
+				"Charts/Core/vtkChartXYZ.h",
+				"Charts/Core/vtkColorLegend.h",
+				"Charts/Core/vtkColorTransferControlPointsItem.h",
+				"Charts/Core/vtkColorTransferFunctionItem.h",
+				"Charts/Core/vtkCompositeControlPointsItem.h",
+				"Charts/Core/vtkCompositeTransferFunctionItem.h",
+				"Charts/Core/vtkContextArea.h",
+				"Charts/Core/vtkContextPolygon.h",
+				"Charts/Core/vtkControlPointsItem.h",
+				"Charts/Core/vtkInteractiveArea.h",
+				"Charts/Core/vtkLookupTableItem.h",
+				"Charts/Core/vtkPiecewiseControlPointsItem.h",
+				"Charts/Core/vtkPiecewiseFunctionItem.h",
+				"Charts/Core/vtkPiecewisePointHandleItem.h",
+				"Charts/Core/vtkPlot.h",
+				"Charts/Core/vtkPlot3D.h",
+				"Charts/Core/vtkPlotArea.h",
+				"Charts/Core/vtkPlotBag.h",
+				"Charts/Core/vtkPlotBar.h",
+				"Charts/Core/vtkPlotBarRangeHandlesItem.h",
+				"Charts/Core/vtkPlotBox.h",
+				"Charts/Core/vtkPlotFunctionalBag.h",
+				"Charts/Core/vtkPlotGrid.h",
+				"Charts/Core/vtkPlotHistogram2D.h",
+				"Charts/Core/vtkPlotLine.h",
+				"Charts/Core/vtkPlotLine3D.h",
+				"Charts/Core/vtkPlotParallelCoordinates.h",
+				"Charts/Core/vtkPlotPie.h",
+				"Charts/Core/vtkPlotPoints.h",
+				"Charts/Core/vtkPlotPoints3D.h",
+				"Charts/Core/vtkPlotRangeHandlesItem.h",
+				"Charts/Core/vtkPlotStacked.h",
+				"Charts/Core/vtkPlotSurface.h",
+				"Charts/Core/vtkRangeHandlesItem.h",
+				"Charts/Core/vtkScalarsToColorsItem.h",
+				"Charts/Core/vtkScatterPlotMatrix.h",
+				"cmake-build-debug/Charts/Core/vtkChartsCoreModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkChartsCore-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkChartsCore-9.2.so.9.2",
+				"lib/libvtkChartsCore-9.2.so.1"
+			],
+			"targetId" : "ChartsCore::@69a6d0e66afb15a74f3a",
+			"targetIndex" : 0,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkChartsCore-9.2.so"
+			],
+			"targetId" : "ChartsCore::@69a6d0e66afb15a74f3a",
+			"targetIndex" : 0,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Charts/Core",
+		"source" : "Charts/Core"
+	}
+}

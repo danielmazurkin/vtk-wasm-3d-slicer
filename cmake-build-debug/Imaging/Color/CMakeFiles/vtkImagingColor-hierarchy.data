@@ -1,0 +1,11 @@
+/home/danil/vtk_new/Imaging/Color/vtkImageHSIToRGB.h;vtkImagingColor
+/home/danil/vtk_new/Imaging/Color/vtkImageHSVToRGB.h;vtkImagingColor
+/home/danil/vtk_new/Imaging/Color/vtkImageLuminance.h;vtkImagingColor
+/home/danil/vtk_new/Imaging/Color/vtkImageMapToRGBA.h;vtkImagingColor
+/home/danil/vtk_new/Imaging/Color/vtkImageMapToWindowLevelColors.h;vtkImagingColor
+/home/danil/vtk_new/Imaging/Color/vtkImageQuantizeRGBToIndex.h;vtkImagingColor
+/home/danil/vtk_new/Imaging/Color/vtkImageRGBToHSI.h;vtkImagingColor
+/home/danil/vtk_new/Imaging/Color/vtkImageRGBToHSV.h;vtkImagingColor
+/home/danil/vtk_new/Imaging/Color/vtkImageRGBToYIQ.h;vtkImagingColor
+/home/danil/vtk_new/Imaging/Color/vtkImageYIQToRGB.h;vtkImagingColor
+/home/danil/vtk_new/cmake-build-debug/Imaging/Color/vtkImagingColorModule.h;vtkImagingColor

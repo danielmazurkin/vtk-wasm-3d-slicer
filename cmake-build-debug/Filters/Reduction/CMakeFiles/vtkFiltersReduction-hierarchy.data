@@ -1,0 +1,7 @@
+/home/danil/vtk_new/Filters/Reduction/vtkToAffineArrayStrategy.h;vtkFiltersReduction
+/home/danil/vtk_new/Filters/Reduction/vtkToConstantArrayStrategy.h;vtkFiltersReduction
+/home/danil/vtk_new/Filters/Reduction/vtkToImplicitArrayFilter.h;vtkFiltersReduction
+/home/danil/vtk_new/Filters/Reduction/vtkToImplicitRamerDouglasPeuckerStrategy.h;vtkFiltersReduction
+/home/danil/vtk_new/Filters/Reduction/vtkToImplicitStrategy.h;vtkFiltersReduction
+/home/danil/vtk_new/Filters/Reduction/vtkToImplicitTypeErasureStrategy.h;vtkFiltersReduction
+/home/danil/vtk_new/cmake-build-debug/Filters/Reduction/vtkFiltersReductionModule.h;vtkFiltersReduction

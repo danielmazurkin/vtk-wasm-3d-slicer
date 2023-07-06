@@ -1,0 +1,266 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Rendering/Core/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 186,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Rendering/Core/vtkGPUInfoListArray.h",
+				"Rendering/Core/vtkPythagoreanQuadruples.h",
+				"Rendering/Core/vtkRayCastStructures.h",
+				"Rendering/Core/vtkRenderingCoreEnums.h",
+				"Rendering/Core/vtkStateStorage.h",
+				"cmake-build-debug/Rendering/Core/vtkTDxConfigure.h",
+				"Rendering/Core/vtkTDxMotionEventInfo.h",
+				"Rendering/Core/vtkAbstractHyperTreeGridMapper.h",
+				"Rendering/Core/vtkAbstractMapper.h",
+				"Rendering/Core/vtkAbstractMapper3D.h",
+				"Rendering/Core/vtkAbstractPicker.h",
+				"Rendering/Core/vtkAbstractVolumeMapper.h",
+				"Rendering/Core/vtkActor.h",
+				"Rendering/Core/vtkActor2D.h",
+				"Rendering/Core/vtkActor2DCollection.h",
+				"Rendering/Core/vtkActorCollection.h",
+				"Rendering/Core/vtkAssembly.h",
+				"Rendering/Core/vtkAvatar.h",
+				"Rendering/Core/vtkBackgroundColorMonitor.h",
+				"Rendering/Core/vtkBillboardTextActor3D.h",
+				"Rendering/Core/vtkCamera.h",
+				"Rendering/Core/vtkCameraActor.h",
+				"Rendering/Core/vtkCameraInterpolator.h",
+				"Rendering/Core/vtkCellCenterDepthSort.h",
+				"Rendering/Core/vtkCellGridMapper.h",
+				"Rendering/Core/vtkColorTransferFunction.h",
+				"Rendering/Core/vtkCompositeDataDisplayAttributes.h",
+				"Rendering/Core/vtkCompositeDataDisplayAttributesLegacy.h",
+				"Rendering/Core/vtkCompositePolyDataMapper.h",
+				"Rendering/Core/vtkCompositePolyDataMapperDelegator.h",
+				"Rendering/Core/vtkCoordinate.h",
+				"Rendering/Core/vtkCuller.h",
+				"Rendering/Core/vtkCullerCollection.h",
+				"Rendering/Core/vtkDataSetMapper.h",
+				"Rendering/Core/vtkDiscretizableColorTransferFunction.h",
+				"Rendering/Core/vtkDistanceToCamera.h",
+				"Rendering/Core/vtkFXAAOptions.h",
+				"Rendering/Core/vtkFlagpoleLabel.h",
+				"Rendering/Core/vtkFollower.h",
+				"Rendering/Core/vtkFrameBufferObjectBase.h",
+				"Rendering/Core/vtkFrustumCoverageCuller.h",
+				"Rendering/Core/vtkGPUInfo.h",
+				"Rendering/Core/vtkGPUInfoList.h",
+				"Rendering/Core/vtkGenericVertexAttributeMapping.h",
+				"Rendering/Core/vtkGlyph3DMapper.h",
+				"Rendering/Core/vtkGraphMapper.h",
+				"Rendering/Core/vtkGraphToGlyphs.h",
+				"Rendering/Core/vtkGraphicsFactory.h",
+				"Rendering/Core/vtkHardwarePicker.h",
+				"Rendering/Core/vtkHardwareSelector.h",
+				"Rendering/Core/vtkHardwareWindow.h",
+				"Rendering/Core/vtkHierarchicalPolyDataMapper.h",
+				"Rendering/Core/vtkImageActor.h",
+				"Rendering/Core/vtkImageMapper.h",
+				"Rendering/Core/vtkImageMapper3D.h",
+				"Rendering/Core/vtkImageProperty.h",
+				"Rendering/Core/vtkImageSlice.h",
+				"Rendering/Core/vtkImageSliceMapper.h",
+				"Rendering/Core/vtkInteractorEventRecorder.h",
+				"Rendering/Core/vtkInteractorObserver.h",
+				"Rendering/Core/vtkLabeledContourMapper.h",
+				"Rendering/Core/vtkLight.h",
+				"Rendering/Core/vtkLightActor.h",
+				"Rendering/Core/vtkLightCollection.h",
+				"Rendering/Core/vtkLightKit.h",
+				"Rendering/Core/vtkLogLookupTable.h",
+				"Rendering/Core/vtkLookupTableWithEnabling.h",
+				"Rendering/Core/vtkMapArrayValues.h",
+				"Rendering/Core/vtkMapper.h",
+				"Rendering/Core/vtkMapper2D.h",
+				"Rendering/Core/vtkMapperCollection.h",
+				"Rendering/Core/vtkObserverMediator.h",
+				"Rendering/Core/vtkPointGaussianMapper.h",
+				"Rendering/Core/vtkPolyDataMapper.h",
+				"Rendering/Core/vtkPolyDataMapper2D.h",
+				"Rendering/Core/vtkProp.h",
+				"Rendering/Core/vtkProp3D.h",
+				"Rendering/Core/vtkProp3DCollection.h",
+				"Rendering/Core/vtkProp3DFollower.h",
+				"Rendering/Core/vtkPropAssembly.h",
+				"Rendering/Core/vtkPropCollection.h",
+				"Rendering/Core/vtkProperty.h",
+				"Rendering/Core/vtkProperty2D.h",
+				"Rendering/Core/vtkRenderPass.h",
+				"Rendering/Core/vtkRenderState.h",
+				"Rendering/Core/vtkRenderTimerLog.h",
+				"Rendering/Core/vtkRenderWindow.h",
+				"Rendering/Core/vtkRenderWindowCollection.h",
+				"Rendering/Core/vtkRenderWindowInteractor.h",
+				"Rendering/Core/vtkRenderWindowInteractor3D.h",
+				"Rendering/Core/vtkRenderer.h",
+				"Rendering/Core/vtkRendererCollection.h",
+				"Rendering/Core/vtkRendererDelegate.h",
+				"Rendering/Core/vtkRendererSource.h",
+				"Rendering/Core/vtkResizingWindowToImageFilter.h",
+				"Rendering/Core/vtkSelectVisiblePoints.h",
+				"Rendering/Core/vtkShaderProperty.h",
+				"Rendering/Core/vtkSkybox.h",
+				"Rendering/Core/vtkStereoCompositor.h",
+				"Rendering/Core/vtkTextActor.h",
+				"Rendering/Core/vtkTextActor3D.h",
+				"Rendering/Core/vtkTexture.h",
+				"Rendering/Core/vtkTexturedActor2D.h",
+				"Rendering/Core/vtkTransformCoordinateSystems.h",
+				"Rendering/Core/vtkTransformInterpolator.h",
+				"Rendering/Core/vtkTupleInterpolator.h",
+				"Rendering/Core/vtkUniforms.h",
+				"Rendering/Core/vtkViewDependentErrorMetric.h",
+				"Rendering/Core/vtkViewport.h",
+				"Rendering/Core/vtkVisibilitySort.h",
+				"Rendering/Core/vtkVolume.h",
+				"Rendering/Core/vtkVolumeCollection.h",
+				"Rendering/Core/vtkVolumeProperty.h",
+				"Rendering/Core/vtkWindowLevelLookupTable.h",
+				"Rendering/Core/vtkWindowToImageFilter.h",
+				"Rendering/Core/vtkAssemblyNode.h",
+				"Rendering/Core/vtkAssemblyPath.h",
+				"Rendering/Core/vtkAssemblyPaths.h",
+				"Rendering/Core/vtkAreaPicker.h",
+				"Rendering/Core/vtkPicker.h",
+				"Rendering/Core/vtkAbstractPropPicker.h",
+				"Rendering/Core/vtkLODProp3D.h",
+				"Rendering/Core/vtkPropPicker.h",
+				"Rendering/Core/vtkPickingManager.h",
+				"Rendering/Core/vtkWorldPointPicker.h",
+				"Rendering/Core/vtkCellPicker.h",
+				"Rendering/Core/vtkPointPicker.h",
+				"Rendering/Core/vtkRenderedAreaPicker.h",
+				"Rendering/Core/vtkScenePicker.h",
+				"Rendering/Core/vtkInteractorStyle.h",
+				"Rendering/Core/vtkInteractorStyle3D.h",
+				"Rendering/Core/vtkInteractorStyleSwitchBase.h",
+				"Rendering/Core/vtkTDxInteractorStyle.h",
+				"Rendering/Core/vtkTDxInteractorStyleCamera.h",
+				"Rendering/Core/vtkTDxInteractorStyleSettings.h",
+				"Rendering/Core/vtkStringToImage.h",
+				"Rendering/Core/vtkTextMapper.h",
+				"Rendering/Core/vtkTextProperty.h",
+				"Rendering/Core/vtkTextPropertyCollection.h",
+				"Rendering/Core/vtkTextRenderer.h",
+				"Rendering/Core/vtkAbstractInteractionDevice.h",
+				"Rendering/Core/vtkAbstractRenderDevice.h",
+				"Rendering/Core/vtkRenderWidget.h",
+				"cmake-build-debug/Rendering/Core/vtkRenderingCoreModule.h",
+				"Rendering/Core/vtkNoise200x200.h",
+				"Rendering/Core/vtkCIEDE2000.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkRenderingCore-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkRenderingCore-9.2.so.9.2",
+				"lib/libvtkRenderingCore-9.2.so.1"
+			],
+			"targetId" : "RenderingCore::@134ef1a629c84040591f",
+			"targetIndex" : 103,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkRenderingCore-9.2.so"
+			],
+			"targetId" : "RenderingCore::@134ef1a629c84040591f",
+			"targetIndex" : 103,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Rendering/Core",
+		"source" : "Rendering/Core"
+	}
+}

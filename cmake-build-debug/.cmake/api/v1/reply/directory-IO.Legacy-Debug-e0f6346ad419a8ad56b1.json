@@ -1,0 +1,150 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"IO/Legacy/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"IO/Legacy/vtkCompositeDataReader.h",
+				"IO/Legacy/vtkCompositeDataWriter.h",
+				"IO/Legacy/vtkDataObjectReader.h",
+				"IO/Legacy/vtkDataObjectWriter.h",
+				"IO/Legacy/vtkDataReader.h",
+				"IO/Legacy/vtkDataSetReader.h",
+				"IO/Legacy/vtkDataSetWriter.h",
+				"IO/Legacy/vtkDataWriter.h",
+				"IO/Legacy/vtkGenericDataObjectReader.h",
+				"IO/Legacy/vtkGenericDataObjectWriter.h",
+				"IO/Legacy/vtkGraphReader.h",
+				"IO/Legacy/vtkGraphWriter.h",
+				"IO/Legacy/vtkPixelExtentIO.h",
+				"IO/Legacy/vtkPolyDataReader.h",
+				"IO/Legacy/vtkPolyDataWriter.h",
+				"IO/Legacy/vtkRectilinearGridReader.h",
+				"IO/Legacy/vtkRectilinearGridWriter.h",
+				"IO/Legacy/vtkSimplePointsReader.h",
+				"IO/Legacy/vtkSimplePointsWriter.h",
+				"IO/Legacy/vtkStructuredGridReader.h",
+				"IO/Legacy/vtkStructuredGridWriter.h",
+				"IO/Legacy/vtkStructuredPointsReader.h",
+				"IO/Legacy/vtkStructuredPointsWriter.h",
+				"IO/Legacy/vtkTableReader.h",
+				"IO/Legacy/vtkTableWriter.h",
+				"IO/Legacy/vtkTreeReader.h",
+				"IO/Legacy/vtkTreeWriter.h",
+				"IO/Legacy/vtkUnstructuredGridReader.h",
+				"IO/Legacy/vtkUnstructuredGridWriter.h",
+				"cmake-build-debug/IO/Legacy/vtkIOLegacyModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkIOLegacy-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkIOLegacy-9.2.so.9.2",
+				"lib/libvtkIOLegacy-9.2.so.1"
+			],
+			"targetId" : "IOLegacy::@f8a5b1edd7aa2240ad54",
+			"targetIndex" : 65,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkIOLegacy-9.2.so"
+			],
+			"targetId" : "IOLegacy::@f8a5b1edd7aa2240ad54",
+			"targetIndex" : 65,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "IO/Legacy",
+		"source" : "IO/Legacy"
+	}
+}

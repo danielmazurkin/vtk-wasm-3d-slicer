@@ -1,0 +1,8 @@
+/home/danil/vtk_new/Filters/AMR/vtkAMRCutPlane.h;vtkFiltersAMR
+/home/danil/vtk_new/Filters/AMR/vtkAMRGaussianPulseSource.h;vtkFiltersAMR
+/home/danil/vtk_new/Filters/AMR/vtkAMRResampleFilter.h;vtkFiltersAMR
+/home/danil/vtk_new/Filters/AMR/vtkAMRSliceFilter.h;vtkFiltersAMR
+/home/danil/vtk_new/Filters/AMR/vtkAMRToMultiBlockFilter.h;vtkFiltersAMR
+/home/danil/vtk_new/Filters/AMR/vtkImageToAMR.h;vtkFiltersAMR
+/home/danil/vtk_new/Filters/AMR/vtkParallelAMRUtilities.h;vtkFiltersAMR
+/home/danil/vtk_new/cmake-build-debug/Filters/AMR/vtkFiltersAMRModule.h;vtkFiltersAMR

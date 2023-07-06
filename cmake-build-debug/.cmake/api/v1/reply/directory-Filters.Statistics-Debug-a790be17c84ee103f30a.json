@@ -1,0 +1,142 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Filters/Statistics/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Filters/Statistics/vtkAutoCorrelativeStatistics.h",
+				"Filters/Statistics/vtkBivariateLinearTableThreshold.h",
+				"Filters/Statistics/vtkComputeQuantiles.h",
+				"Filters/Statistics/vtkComputeQuartiles.h",
+				"Filters/Statistics/vtkContingencyStatistics.h",
+				"Filters/Statistics/vtkCorrelativeStatistics.h",
+				"Filters/Statistics/vtkDescriptiveStatistics.h",
+				"Filters/Statistics/vtkExtractFunctionalBagPlot.h",
+				"Filters/Statistics/vtkExtractHistogram.h",
+				"Filters/Statistics/vtkHighestDensityRegionsStatistics.h",
+				"Filters/Statistics/vtkKMeansDistanceFunctor.h",
+				"Filters/Statistics/vtkKMeansDistanceFunctorCalculator.h",
+				"Filters/Statistics/vtkKMeansStatistics.h",
+				"Filters/Statistics/vtkLengthDistribution.h",
+				"Filters/Statistics/vtkMultiCorrelativeStatistics.h",
+				"Filters/Statistics/vtkOrderStatistics.h",
+				"Filters/Statistics/vtkPCAStatistics.h",
+				"Filters/Statistics/vtkStatisticsAlgorithm.h",
+				"Filters/Statistics/vtkStrahlerMetric.h",
+				"Filters/Statistics/vtkStreamingStatistics.h",
+				"cmake-build-debug/Filters/Statistics/vtkFiltersStatisticsModule.h",
+				"Filters/Statistics/vtkStatisticsAlgorithmPrivate.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkFiltersStatistics-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkFiltersStatistics-9.2.so.9.2",
+				"lib/libvtkFiltersStatistics-9.2.so.1"
+			],
+			"targetId" : "FiltersStatistics::@ef311b072ddc8197c897",
+			"targetIndex" : 36,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkFiltersStatistics-9.2.so"
+			],
+			"targetId" : "FiltersStatistics::@ef311b072ddc8197c897",
+			"targetIndex" : 36,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Filters/Statistics",
+		"source" : "Filters/Statistics"
+	}
+}

@@ -1,0 +1,152 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"IO/Core/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"IO/Core/vtkUpdateCellsV8toV9.h",
+				"IO/Core/vtkAbstractParticleWriter.h",
+				"IO/Core/vtkAbstractPolyDataReader.h",
+				"IO/Core/vtkArrayDataReader.h",
+				"IO/Core/vtkArrayDataWriter.h",
+				"IO/Core/vtkArrayReader.h",
+				"IO/Core/vtkArrayWriter.h",
+				"IO/Core/vtkASCIITextCodec.h",
+				"IO/Core/vtkBase64InputStream.h",
+				"IO/Core/vtkBase64OutputStream.h",
+				"IO/Core/vtkBase64Utilities.h",
+				"IO/Core/vtkDataCompressor.h",
+				"IO/Core/vtkDelimitedTextWriter.h",
+				"IO/Core/vtkFileResourceStream.h",
+				"IO/Core/vtkGlobFileNames.h",
+				"IO/Core/vtkInputStream.h",
+				"IO/Core/vtkJavaScriptDataWriter.h",
+				"IO/Core/vtkLZ4DataCompressor.h",
+				"IO/Core/vtkLZMADataCompressor.h",
+				"IO/Core/vtkMemoryResourceStream.h",
+				"IO/Core/vtkNumberToString.h",
+				"IO/Core/vtkOutputStream.h",
+				"IO/Core/vtkResourceParser.h",
+				"IO/Core/vtkResourceStream.h",
+				"IO/Core/vtkSortFileNames.h",
+				"IO/Core/vtkTextCodec.h",
+				"IO/Core/vtkTextCodecFactory.h",
+				"IO/Core/vtkUTF16TextCodec.h",
+				"IO/Core/vtkUTF8TextCodec.h",
+				"IO/Core/vtkWriter.h",
+				"IO/Core/vtkZLibDataCompressor.h",
+				"cmake-build-debug/IO/Core/vtkIOCoreModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkIOCore-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkIOCore-9.2.so.9.2",
+				"lib/libvtkIOCore-9.2.so.1"
+			],
+			"targetId" : "IOCore::@e631fdf919261cb164ec",
+			"targetIndex" : 51,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkIOCore-9.2.so"
+			],
+			"targetId" : "IOCore::@e631fdf919261cb164ec",
+			"targetIndex" : 51,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "IO/Core",
+		"source" : "IO/Core"
+	}
+}

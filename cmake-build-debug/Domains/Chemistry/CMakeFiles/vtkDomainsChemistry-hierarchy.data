@@ -1,0 +1,13 @@
+/home/danil/vtk_new/Domains/Chemistry/vtkBlueObeliskData.h;vtkDomainsChemistry
+/home/danil/vtk_new/Domains/Chemistry/vtkBlueObeliskDataParser.h;vtkDomainsChemistry
+/home/danil/vtk_new/Domains/Chemistry/vtkMoleculeMapper.h;vtkDomainsChemistry
+/home/danil/vtk_new/Domains/Chemistry/vtkMoleculeToAtomBallFilter.h;vtkDomainsChemistry
+/home/danil/vtk_new/Domains/Chemistry/vtkMoleculeToBondStickFilter.h;vtkDomainsChemistry
+/home/danil/vtk_new/Domains/Chemistry/vtkMoleculeToLinesFilter.h;vtkDomainsChemistry
+/home/danil/vtk_new/Domains/Chemistry/vtkMoleculeToPolyDataFilter.h;vtkDomainsChemistry
+/home/danil/vtk_new/Domains/Chemistry/vtkPeriodicTable.h;vtkDomainsChemistry
+/home/danil/vtk_new/Domains/Chemistry/vtkPointSetToMoleculeFilter.h;vtkDomainsChemistry
+/home/danil/vtk_new/Domains/Chemistry/vtkProgrammableElectronicData.h;vtkDomainsChemistry
+/home/danil/vtk_new/Domains/Chemistry/vtkProteinRibbonFilter.h;vtkDomainsChemistry
+/home/danil/vtk_new/Domains/Chemistry/vtkSimpleBondPerceiver.h;vtkDomainsChemistry
+/home/danil/vtk_new/cmake-build-debug/Domains/Chemistry/vtkDomainsChemistryModule.h;vtkDomainsChemistry

@@ -1,0 +1,145 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Rendering/Annotation/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Rendering/Annotation/vtkAnnotatedCubeActor.h",
+				"Rendering/Annotation/vtkArcPlotter.h",
+				"Rendering/Annotation/vtkAxesActor.h",
+				"Rendering/Annotation/vtkAxisActor.h",
+				"Rendering/Annotation/vtkAxisActor2D.h",
+				"Rendering/Annotation/vtkAxisFollower.h",
+				"Rendering/Annotation/vtkBarChartActor.h",
+				"Rendering/Annotation/vtkCaptionActor2D.h",
+				"Rendering/Annotation/vtkConvexHull2D.h",
+				"Rendering/Annotation/vtkCornerAnnotation.h",
+				"Rendering/Annotation/vtkCubeAxesActor.h",
+				"Rendering/Annotation/vtkCubeAxesActor2D.h",
+				"Rendering/Annotation/vtkGraphAnnotationLayersFilter.h",
+				"Rendering/Annotation/vtkLeaderActor2D.h",
+				"Rendering/Annotation/vtkLegendBoxActor.h",
+				"Rendering/Annotation/vtkLegendScaleActor.h",
+				"Rendering/Annotation/vtkParallelCoordinatesActor.h",
+				"Rendering/Annotation/vtkPieChartActor.h",
+				"Rendering/Annotation/vtkPolarAxesActor.h",
+				"Rendering/Annotation/vtkProp3DAxisFollower.h",
+				"Rendering/Annotation/vtkScalarBarActor.h",
+				"Rendering/Annotation/vtkSpiderPlotActor.h",
+				"Rendering/Annotation/vtkXYPlotActor.h",
+				"cmake-build-debug/Rendering/Annotation/vtkRenderingAnnotationModule.h",
+				"Rendering/Annotation/vtkScalarBarActorInternal.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkRenderingAnnotation-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkRenderingAnnotation-9.2.so.9.2",
+				"lib/libvtkRenderingAnnotation-9.2.so.1"
+			],
+			"targetId" : "RenderingAnnotation::@edda86ddf87a56bd2ea9",
+			"targetIndex" : 99,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkRenderingAnnotation-9.2.so"
+			],
+			"targetId" : "RenderingAnnotation::@edda86ddf87a56bd2ea9",
+			"targetIndex" : 99,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Rendering/Annotation",
+		"source" : "Rendering/Annotation"
+	}
+}

@@ -1,0 +1,126 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Utilities/MetaIO/vtkmetaio/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 116,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 4
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtkmetaio",
+			"paths" : 
+			[
+				"Utilities/MetaIO/vtkmetaio/localMetaConfiguration.h",
+				"Utilities/MetaIO/vtkmetaio/metaArray.h",
+				"Utilities/MetaIO/vtkmetaio/metaArrow.h",
+				"Utilities/MetaIO/vtkmetaio/metaBlob.h",
+				"Utilities/MetaIO/vtkmetaio/metaCommand.h",
+				"Utilities/MetaIO/vtkmetaio/metaContour.h",
+				"Utilities/MetaIO/vtkmetaio/metaDTITube.h",
+				"Utilities/MetaIO/vtkmetaio/metaEllipse.h",
+				"Utilities/MetaIO/vtkmetaio/metaEvent.h",
+				"Utilities/MetaIO/vtkmetaio/metaFEMObject.h",
+				"Utilities/MetaIO/vtkmetaio/metaForm.h",
+				"Utilities/MetaIO/vtkmetaio/metaGaussian.h",
+				"Utilities/MetaIO/vtkmetaio/metaGroup.h",
+				"Utilities/MetaIO/vtkmetaio/metaImage.h",
+				"Utilities/MetaIO/vtkmetaio/metaImageTypes.h",
+				"Utilities/MetaIO/vtkmetaio/metaImageUtils.h",
+				"Utilities/MetaIO/vtkmetaio/metaLandmark.h",
+				"Utilities/MetaIO/vtkmetaio/metaLine.h",
+				"Utilities/MetaIO/vtkmetaio/metaMesh.h",
+				"Utilities/MetaIO/vtkmetaio/metaObject.h",
+				"Utilities/MetaIO/vtkmetaio/metaScene.h",
+				"Utilities/MetaIO/vtkmetaio/metaSurface.h",
+				"Utilities/MetaIO/vtkmetaio/metaTube.h",
+				"Utilities/MetaIO/vtkmetaio/metaTransform.h",
+				"Utilities/MetaIO/vtkmetaio/metaTubeGraph.h",
+				"Utilities/MetaIO/vtkmetaio/metaTypes.h",
+				"Utilities/MetaIO/vtkmetaio/metaUtils.h",
+				"Utilities/MetaIO/vtkmetaio/metaVesselTube.h",
+				"cmake-build-debug/Utilities/MetaIO/vtkmetaio/metaIOConfig.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkmetaio-9.2.so.9.2",
+				"lib/libvtkmetaio-9.2.so.1"
+			],
+			"targetId" : "metaio::@0ba31d0d6061e80dc55c",
+			"targetIndex" : 146,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkmetaio-9.2.so"
+			],
+			"targetId" : "metaio::@0ba31d0d6061e80dc55c",
+			"targetIndex" : 146,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Utilities/MetaIO/vtkmetaio",
+		"source" : "Utilities/MetaIO/vtkmetaio"
+	}
+}

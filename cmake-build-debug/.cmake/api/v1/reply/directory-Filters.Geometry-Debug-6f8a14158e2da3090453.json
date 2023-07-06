@@ -1,0 +1,145 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Filters/Geometry/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Filters/Geometry/vtkAbstractGridConnectivity.h",
+				"Filters/Geometry/vtkAttributeSmoothingFilter.h",
+				"Filters/Geometry/vtkCompositeDataGeometryFilter.h",
+				"Filters/Geometry/vtkDataSetRegionSurfaceFilter.h",
+				"Filters/Geometry/vtkDataSetSurfaceFilter.h",
+				"Filters/Geometry/vtkExplicitStructuredGridSurfaceFilter.h",
+				"Filters/Geometry/vtkGeometryFilter.h",
+				"Filters/Geometry/vtkHierarchicalDataSetGeometryFilter.h",
+				"Filters/Geometry/vtkImageDataGeometryFilter.h",
+				"Filters/Geometry/vtkImageDataToUniformGrid.h",
+				"Filters/Geometry/vtkLinearToQuadraticCellsFilter.h",
+				"Filters/Geometry/vtkMarkBoundaryFilter.h",
+				"Filters/Geometry/vtkProjectSphereFilter.h",
+				"Filters/Geometry/vtkRecoverGeometryWireframe.h",
+				"Filters/Geometry/vtkRectilinearGridGeometryFilter.h",
+				"Filters/Geometry/vtkRectilinearGridPartitioner.h",
+				"Filters/Geometry/vtkStructuredAMRGridConnectivity.h",
+				"Filters/Geometry/vtkStructuredAMRNeighbor.h",
+				"Filters/Geometry/vtkStructuredGridConnectivity.h",
+				"Filters/Geometry/vtkStructuredGridGeometryFilter.h",
+				"Filters/Geometry/vtkStructuredGridPartitioner.h",
+				"Filters/Geometry/vtkStructuredNeighbor.h",
+				"Filters/Geometry/vtkStructuredPointsGeometryFilter.h",
+				"Filters/Geometry/vtkUnstructuredGridGeometryFilter.h",
+				"cmake-build-debug/Filters/Geometry/vtkFiltersGeometryModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkFiltersGeometry-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkFiltersGeometry-9.2.so.9.2",
+				"lib/libvtkFiltersGeometry-9.2.so.1"
+			],
+			"targetId" : "FiltersGeometry::@cf9c3060c91ed0b03613",
+			"targetIndex" : 22,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkFiltersGeometry-9.2.so"
+			],
+			"targetId" : "FiltersGeometry::@cf9c3060c91ed0b03613",
+			"targetIndex" : 22,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Filters/Geometry",
+		"source" : "Filters/Geometry"
+	}
+}

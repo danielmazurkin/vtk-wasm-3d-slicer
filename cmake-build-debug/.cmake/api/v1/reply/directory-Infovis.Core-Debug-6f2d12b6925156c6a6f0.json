@@ -1,0 +1,166 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Infovis/Core/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Infovis/Core/vtkAddMembershipArray.h",
+				"Infovis/Core/vtkAdjacencyMatrixToEdgeTable.h",
+				"Infovis/Core/vtkArrayNorm.h",
+				"Infovis/Core/vtkArrayToTable.h",
+				"Infovis/Core/vtkCollapseGraph.h",
+				"Infovis/Core/vtkCollapseVerticesByArray.h",
+				"Infovis/Core/vtkContinuousScatterplot.h",
+				"Infovis/Core/vtkDataObjectToTable.h",
+				"Infovis/Core/vtkDotProductSimilarity.h",
+				"Infovis/Core/vtkEdgeCenters.h",
+				"Infovis/Core/vtkExpandSelectedGraph.h",
+				"Infovis/Core/vtkExtractSelectedGraph.h",
+				"Infovis/Core/vtkExtractSelectedTree.h",
+				"Infovis/Core/vtkGenerateIndexArray.h",
+				"Infovis/Core/vtkGraphHierarchicalBundleEdges.h",
+				"Infovis/Core/vtkGroupLeafVertices.h",
+				"Infovis/Core/vtkKCoreDecomposition.h",
+				"Infovis/Core/vtkMergeColumns.h",
+				"Infovis/Core/vtkMergeGraphs.h",
+				"Infovis/Core/vtkMergeTables.h",
+				"Infovis/Core/vtkMutableGraphHelper.h",
+				"Infovis/Core/vtkNetworkHierarchy.h",
+				"Infovis/Core/vtkPipelineGraphSource.h",
+				"Infovis/Core/vtkPruneTreeFilter.h",
+				"Infovis/Core/vtkRandomGraphSource.h",
+				"Infovis/Core/vtkReduceTable.h",
+				"Infovis/Core/vtkRemoveHiddenData.h",
+				"Infovis/Core/vtkRemoveIsolatedVertices.h",
+				"Infovis/Core/vtkSparseArrayToTable.h",
+				"Infovis/Core/vtkStreamGraph.h",
+				"Infovis/Core/vtkStringToCategory.h",
+				"Infovis/Core/vtkStringToNumeric.h",
+				"Infovis/Core/vtkTableToArray.h",
+				"Infovis/Core/vtkTableToGraph.h",
+				"Infovis/Core/vtkTableToSparseArray.h",
+				"Infovis/Core/vtkTableToTreeFilter.h",
+				"Infovis/Core/vtkThresholdGraph.h",
+				"Infovis/Core/vtkThresholdTable.h",
+				"Infovis/Core/vtkTransferAttributes.h",
+				"Infovis/Core/vtkTransposeMatrix.h",
+				"Infovis/Core/vtkTreeDifferenceFilter.h",
+				"Infovis/Core/vtkTreeFieldAggregator.h",
+				"Infovis/Core/vtkTreeLevelsFilter.h",
+				"Infovis/Core/vtkVertexDegree.h",
+				"Infovis/Core/vtkWordCloud.h",
+				"cmake-build-debug/Infovis/Core/vtkInfovisCoreModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkInfovisCore-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkInfovisCore-9.2.so.9.2",
+				"lib/libvtkInfovisCore-9.2.so.1"
+			],
+			"targetId" : "InfovisCore::@4af051e7133b49a16381",
+			"targetIndex" : 91,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkInfovisCore-9.2.so"
+			],
+			"targetId" : "InfovisCore::@4af051e7133b49a16381",
+			"targetIndex" : 91,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Infovis/Core",
+		"source" : "Infovis/Core"
+	}
+}

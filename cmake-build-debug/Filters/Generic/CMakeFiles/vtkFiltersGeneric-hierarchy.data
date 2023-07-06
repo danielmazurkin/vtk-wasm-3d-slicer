@@ -1,0 +1,10 @@
+/home/danil/vtk_new/Filters/Generic/vtkGenericClip.h;vtkFiltersGeneric
+/home/danil/vtk_new/Filters/Generic/vtkGenericContourFilter.h;vtkFiltersGeneric
+/home/danil/vtk_new/Filters/Generic/vtkGenericCutter.h;vtkFiltersGeneric
+/home/danil/vtk_new/Filters/Generic/vtkGenericDataSetTessellator.h;vtkFiltersGeneric
+/home/danil/vtk_new/Filters/Generic/vtkGenericGeometryFilter.h;vtkFiltersGeneric
+/home/danil/vtk_new/Filters/Generic/vtkGenericGlyph3DFilter.h;vtkFiltersGeneric
+/home/danil/vtk_new/Filters/Generic/vtkGenericOutlineFilter.h;vtkFiltersGeneric
+/home/danil/vtk_new/Filters/Generic/vtkGenericProbeFilter.h;vtkFiltersGeneric
+/home/danil/vtk_new/Filters/Generic/vtkGenericStreamTracer.h;vtkFiltersGeneric
+/home/danil/vtk_new/cmake-build-debug/Filters/Generic/vtkFiltersGenericModule.h;vtkFiltersGeneric

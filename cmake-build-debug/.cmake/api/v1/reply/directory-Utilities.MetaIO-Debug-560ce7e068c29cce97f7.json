@@ -1,0 +1,51 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_third_party_internal"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Utilities/MetaIO/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 5682,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "license",
+			"destination" : "share/licenses/VTK/vtkmetaio",
+			"paths" : 
+			[
+				"Utilities/MetaIO/vtkmetaio/License.txt"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Utilities/MetaIO",
+		"source" : "Utilities/MetaIO"
+	}
+}

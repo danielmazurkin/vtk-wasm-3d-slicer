@@ -1,0 +1,147 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Common/ComputationalGeometry/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Common/ComputationalGeometry/vtkBilinearQuadIntersection.h",
+				"Common/ComputationalGeometry/vtkCardinalSpline.h",
+				"Common/ComputationalGeometry/vtkKochanekSpline.h",
+				"Common/ComputationalGeometry/vtkParametricBohemianDome.h",
+				"Common/ComputationalGeometry/vtkParametricBour.h",
+				"Common/ComputationalGeometry/vtkParametricBoy.h",
+				"Common/ComputationalGeometry/vtkParametricCatalanMinimal.h",
+				"Common/ComputationalGeometry/vtkParametricConicSpiral.h",
+				"Common/ComputationalGeometry/vtkParametricCrossCap.h",
+				"Common/ComputationalGeometry/vtkParametricDini.h",
+				"Common/ComputationalGeometry/vtkParametricEllipsoid.h",
+				"Common/ComputationalGeometry/vtkParametricEnneper.h",
+				"Common/ComputationalGeometry/vtkParametricFigure8Klein.h",
+				"Common/ComputationalGeometry/vtkParametricFunction.h",
+				"Common/ComputationalGeometry/vtkParametricHenneberg.h",
+				"Common/ComputationalGeometry/vtkParametricKlein.h",
+				"Common/ComputationalGeometry/vtkParametricKuen.h",
+				"Common/ComputationalGeometry/vtkParametricMobius.h",
+				"Common/ComputationalGeometry/vtkParametricPluckerConoid.h",
+				"Common/ComputationalGeometry/vtkParametricPseudosphere.h",
+				"Common/ComputationalGeometry/vtkParametricRandomHills.h",
+				"Common/ComputationalGeometry/vtkParametricRoman.h",
+				"Common/ComputationalGeometry/vtkParametricSpline.h",
+				"Common/ComputationalGeometry/vtkParametricSuperEllipsoid.h",
+				"Common/ComputationalGeometry/vtkParametricSuperToroid.h",
+				"Common/ComputationalGeometry/vtkParametricTorus.h",
+				"cmake-build-debug/Common/ComputationalGeometry/vtkCommonComputationalGeometryModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkCommonComputationalGeometry-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkCommonComputationalGeometry-9.2.so.9.2",
+				"lib/libvtkCommonComputationalGeometry-9.2.so.1"
+			],
+			"targetId" : "CommonComputationalGeometry::@86617a968d68c93163e9",
+			"targetIndex" : 2,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkCommonComputationalGeometry-9.2.so"
+			],
+			"targetId" : "CommonComputationalGeometry::@86617a968d68c93163e9",
+			"targetIndex" : 2,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Common/ComputationalGeometry",
+		"source" : "Common/ComputationalGeometry"
+	}
+}

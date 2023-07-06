@@ -1,0 +1,51 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"ThirdParty/libproj/vtklibproj/include/proj/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtklibproj/include/proj",
+			"paths" : 
+			[
+				"ThirdParty/libproj/vtklibproj/include/proj/util.hpp",
+				"ThirdParty/libproj/vtklibproj/include/proj/metadata.hpp",
+				"ThirdParty/libproj/vtklibproj/include/proj/common.hpp",
+				"ThirdParty/libproj/vtklibproj/include/proj/crs.hpp",
+				"ThirdParty/libproj/vtklibproj/include/proj/datum.hpp",
+				"ThirdParty/libproj/vtklibproj/include/proj/coordinatesystem.hpp",
+				"ThirdParty/libproj/vtklibproj/include/proj/coordinateoperation.hpp",
+				"ThirdParty/libproj/vtklibproj/include/proj/io.hpp",
+				"ThirdParty/libproj/vtklibproj/include/proj/nn.hpp"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ThirdParty/libproj/vtklibproj/include/proj",
+		"source" : "ThirdParty/libproj/vtklibproj/include/proj"
+	}
+}

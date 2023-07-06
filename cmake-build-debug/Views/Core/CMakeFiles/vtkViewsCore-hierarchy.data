@@ -1,0 +1,7 @@
+/home/danil/vtk_new/Views/Core/vtkConvertSelectionDomain.h;vtkViewsCore
+/home/danil/vtk_new/Views/Core/vtkDataRepresentation.h;vtkViewsCore
+/home/danil/vtk_new/Views/Core/vtkEmptyRepresentation.h;vtkViewsCore
+/home/danil/vtk_new/Views/Core/vtkRenderViewBase.h;vtkViewsCore
+/home/danil/vtk_new/Views/Core/vtkView.h;vtkViewsCore
+/home/danil/vtk_new/Views/Core/vtkViewTheme.h;vtkViewsCore
+/home/danil/vtk_new/cmake-build-debug/Views/Core/vtkViewsCoreModule.h;vtkViewsCore

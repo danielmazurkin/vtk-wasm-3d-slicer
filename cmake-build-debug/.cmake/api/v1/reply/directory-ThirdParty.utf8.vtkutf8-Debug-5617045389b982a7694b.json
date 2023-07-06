@@ -1,0 +1,75 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"ThirdParty/utf8/vtkutf8/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 3
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtkutf8",
+			"paths" : 
+			[
+				"ThirdParty/utf8/vtkutf8/utf8.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtkutf8/utf8",
+			"paths" : 
+			[
+				"ThirdParty/utf8/vtkutf8/utf8/checked.h",
+				"ThirdParty/utf8/vtkutf8/utf8/core.h",
+				"ThirdParty/utf8/vtkutf8/utf8/unchecked.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ThirdParty/utf8/vtkutf8",
+		"source" : "ThirdParty/utf8/vtkutf8"
+	}
+}

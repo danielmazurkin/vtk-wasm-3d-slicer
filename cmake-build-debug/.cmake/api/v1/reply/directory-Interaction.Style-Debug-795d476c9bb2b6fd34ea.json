@@ -1,0 +1,139 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Interaction/Style/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Interaction/Style/vtkInteractorStyleDrawPolygon.h",
+				"Interaction/Style/vtkInteractorStyleFlight.h",
+				"Interaction/Style/vtkInteractorStyleImage.h",
+				"Interaction/Style/vtkInteractorStyleJoystickActor.h",
+				"Interaction/Style/vtkInteractorStyleJoystickCamera.h",
+				"Interaction/Style/vtkInteractorStyleMultiTouchCamera.h",
+				"Interaction/Style/vtkInteractorStyleRubberBand2D.h",
+				"Interaction/Style/vtkInteractorStyleRubberBand3D.h",
+				"Interaction/Style/vtkInteractorStyleRubberBandPick.h",
+				"Interaction/Style/vtkInteractorStyleRubberBandZoom.h",
+				"Interaction/Style/vtkInteractorStyleTerrain.h",
+				"Interaction/Style/vtkInteractorStyleTrackball.h",
+				"Interaction/Style/vtkInteractorStyleTrackballActor.h",
+				"Interaction/Style/vtkInteractorStyleTrackballCamera.h",
+				"Interaction/Style/vtkInteractorStyleUnicam.h",
+				"Interaction/Style/vtkInteractorStyleUser.h",
+				"Interaction/Style/vtkInteractorStyleSwitch.h",
+				"Interaction/Style/vtkParallelCoordinatesInteractorStyle.h",
+				"cmake-build-debug/Interaction/Style/vtkInteractionStyleModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkInteractionStyle-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkInteractionStyle-9.2.so.9.2",
+				"lib/libvtkInteractionStyle-9.2.so.1"
+			],
+			"targetId" : "InteractionStyle::@4ba2164e2565f2115edd",
+			"targetIndex" : 94,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkInteractionStyle-9.2.so"
+			],
+			"targetId" : "InteractionStyle::@4ba2164e2565f2115edd",
+			"targetIndex" : 94,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Interaction/Style",
+		"source" : "Interaction/Style"
+	}
+}

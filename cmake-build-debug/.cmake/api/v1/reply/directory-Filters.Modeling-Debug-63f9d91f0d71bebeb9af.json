@@ -1,0 +1,156 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Filters/Modeling/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"Filters/Modeling/vtkAdaptiveSubdivisionFilter.h",
+				"Filters/Modeling/vtkBandedPolyDataContourFilter.h",
+				"Filters/Modeling/vtkButterflySubdivisionFilter.h",
+				"Filters/Modeling/vtkCollisionDetectionFilter.h",
+				"Filters/Modeling/vtkContourLoopExtraction.h",
+				"Filters/Modeling/vtkCookieCutter.h",
+				"Filters/Modeling/vtkDijkstraGraphGeodesicPath.h",
+				"Filters/Modeling/vtkDijkstraImageGeodesicPath.h",
+				"Filters/Modeling/vtkFillHolesFilter.h",
+				"Filters/Modeling/vtkFitToHeightMapFilter.h",
+				"Filters/Modeling/vtkGeodesicPath.h",
+				"Filters/Modeling/vtkGraphGeodesicPath.h",
+				"Filters/Modeling/vtkHausdorffDistancePointSetFilter.h",
+				"Filters/Modeling/vtkHyperTreeGridOutlineFilter.h",
+				"Filters/Modeling/vtkImageDataOutlineFilter.h",
+				"Filters/Modeling/vtkImprintFilter.h",
+				"Filters/Modeling/vtkLinearCellExtrusionFilter.h",
+				"Filters/Modeling/vtkLinearExtrusionFilter.h",
+				"Filters/Modeling/vtkLinearSubdivisionFilter.h",
+				"Filters/Modeling/vtkLoopSubdivisionFilter.h",
+				"Filters/Modeling/vtkOutlineFilter.h",
+				"Filters/Modeling/vtkPolyDataPointSampler.h",
+				"Filters/Modeling/vtkProjectedTexture.h",
+				"Filters/Modeling/vtkQuadRotationalExtrusionFilter.h",
+				"Filters/Modeling/vtkRibbonFilter.h",
+				"Filters/Modeling/vtkRotationalExtrusionFilter.h",
+				"Filters/Modeling/vtkRuledSurfaceFilter.h",
+				"Filters/Modeling/vtkSectorSource.h",
+				"Filters/Modeling/vtkSelectEnclosedPoints.h",
+				"Filters/Modeling/vtkSelectPolyData.h",
+				"Filters/Modeling/vtkSpherePuzzle.h",
+				"Filters/Modeling/vtkSpherePuzzleArrows.h",
+				"Filters/Modeling/vtkSubdivideTetra.h",
+				"Filters/Modeling/vtkTrimmedExtrusionFilter.h",
+				"Filters/Modeling/vtkVolumeOfRevolutionFilter.h",
+				"cmake-build-debug/Filters/Modeling/vtkFiltersModelingModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkFiltersModeling-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkFiltersModeling-9.2.so.9.2",
+				"lib/libvtkFiltersModeling-9.2.so.1"
+			],
+			"targetId" : "FiltersModeling::@fa9ddc65f29869ad6956",
+			"targetIndex" : 27,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkFiltersModeling-9.2.so"
+			],
+			"targetId" : "FiltersModeling::@fa9ddc65f29869ad6956",
+			"targetIndex" : 27,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Filters/Modeling",
+		"source" : "Filters/Modeling"
+	}
+}

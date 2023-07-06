@@ -1,0 +1,137 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"Common/ImplicitArrays/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 79,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3735,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4033,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3555,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4143,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4496,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "development",
+			"destination" : "include/vtk-9.2",
+			"paths" : 
+			[
+				"cmake-build-debug/Common/ImplicitArrays/vtkCommonImplicitArraysModule.h",
+				"Common/ImplicitArrays/vtkAffineArray.h",
+				"Common/ImplicitArrays/vtkAffineImplicitBackend.h",
+				"Common/ImplicitArrays/vtkCompositeArray.h",
+				"Common/ImplicitArrays/vtkConstantArray.h",
+				"Common/ImplicitArrays/vtkConstantImplicitBackend.h",
+				"Common/ImplicitArrays/vtkImplicitArrayTraits.h",
+				"Common/ImplicitArrays/vtkIndexedArray.h",
+				"Common/ImplicitArrays/vtkStdFunctionArray.h",
+				"cmake-build-debug/Common/ImplicitArrays/vtkVTK_DISPATCH_IMPLICIT_ARRAYS.h",
+				"cmake-build-debug/Common/ImplicitArrays/vtkArrayDispatchImplicitArrayList.h",
+				"Common/ImplicitArrays/vtkImplicitArray.h",
+				"Common/ImplicitArrays/vtkCompositeImplicitBackend.h",
+				"Common/ImplicitArrays/vtkIndexedImplicitBackend.h",
+				"Common/ImplicitArrays/vtkImplicitArray.txx",
+				"Common/ImplicitArrays/vtkCompositeImplicitBackend.txx",
+				"Common/ImplicitArrays/vtkIndexedImplicitBackend.txx"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "development",
+			"destination" : "lib/vtk-9.2/hierarchy/VTK",
+			"paths" : 
+			[
+				"cmake-build-debug/lib/vtk-9.2/hierarchy/VTK/vtkCommonImplicitArrays-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkCommonImplicitArrays-9.2.so.9.2",
+				"lib/libvtkCommonImplicitArrays-9.2.so.1"
+			],
+			"targetId" : "CommonImplicitArrays::@5aea4d612f7ac66f5504",
+			"targetIndex" : 6,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkCommonImplicitArrays-9.2.so"
+			],
+			"targetId" : "CommonImplicitArrays::@5aea4d612f7ac66f5504",
+			"targetIndex" : 6,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Common/ImplicitArrays",
+		"source" : "Common/ImplicitArrays"
+	}
+}

@@ -1,0 +1,83 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers"
+		],
+		"files" : 
+		[
+			"CMake/vtkModule.cmake",
+			"ThirdParty/libharu/vtklibharu/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 158,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4324,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "development",
+			"destination" : "include/vtk-9.2/vtklibharu/include",
+			"paths" : 
+			[
+				"ThirdParty/libharu/vtklibharu/include/hpdf.h",
+				"ThirdParty/libharu/vtklibharu/include/hpdf_types.h",
+				"ThirdParty/libharu/vtklibharu/include/hpdf_consts.h",
+				"ThirdParty/libharu/vtklibharu/include/hpdf_version.h",
+				"ThirdParty/libharu/vtklibharu/include/hpdf_annotation.h",
+				"ThirdParty/libharu/vtklibharu/include/hpdf_catalog.h",
+				"ThirdParty/libharu/vtklibharu/include/hpdf_conf.h",
+				"ThirdParty/libharu/vtklibharu/include/hpdf_destination.h",
+				"ThirdParty/libharu/vtklibharu/include/hpdf_doc.h",
+				"ThirdParty/libharu/vtklibharu/include/hpdf_encoder.h",
+				"ThirdParty/libharu/vtklibharu/include/hpdf_encrypt.h",
+				"ThirdParty/libharu/vtklibharu/include/hpdf_encryptdict.h",
+				"ThirdParty/libharu/vtklibharu/include/hpdf_error.h",
+				"ThirdParty/libharu/vtklibharu/include/hpdf_ext_gstate.h",
+				"ThirdParty/libharu/vtklibharu/include/hpdf_font.h",
+				"ThirdParty/libharu/vtklibharu/include/hpdf_fontdef.h",
+				"ThirdParty/libharu/vtklibharu/include/hpdf_gstate.h",
+				"ThirdParty/libharu/vtklibharu/include/hpdf_image.h",
+				"ThirdParty/libharu/vtklibharu/include/hpdf_info.h",
+				"ThirdParty/libharu/vtklibharu/include/hpdf_list.h",
+				"ThirdParty/libharu/vtklibharu/include/hpdf_mmgr.h",
+				"ThirdParty/libharu/vtklibharu/include/hpdf_objects.h",
+				"ThirdParty/libharu/vtklibharu/include/hpdf_outline.h",
+				"ThirdParty/libharu/vtklibharu/include/hpdf_pages.h",
+				"ThirdParty/libharu/vtklibharu/include/hpdf_page_label.h",
+				"ThirdParty/libharu/vtklibharu/include/hpdf_streams.h",
+				"ThirdParty/libharu/vtklibharu/include/hpdf_u3d.h",
+				"ThirdParty/libharu/vtklibharu/include/hpdf_utils.h",
+				"ThirdParty/libharu/vtklibharu/include/hpdf_pdfa.h",
+				"ThirdParty/libharu/vtklibharu/include/hpdf_3dmeasure.h",
+				"ThirdParty/libharu/vtklibharu/include/hpdf_exdata.h",
+				"ThirdParty/libharu/vtklibharu/include/vtk_haru_mangle.h",
+				"cmake-build-debug/ThirdParty/libharu/vtklibharu/include/hpdf_config.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ThirdParty/libharu/vtklibharu",
+		"source" : "ThirdParty/libharu/vtklibharu"
+	}
+}
